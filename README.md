@@ -1,5 +1,7 @@
 # Multi-gear bandits
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23230777.svg)](https://doi.org/10.5281/zenodo.23230777)
+
 Algorithms and replication material for José Niño-Mora, *Fast parametric solution of structured Markov decision processes: Multi-gear bandits*.
 
 This repository provides explicit implementations of the adaptive-greedy downshift algorithms for finite-state, finite-action bandits, including positive-work candidate selection and in-loop MPI monotonicity checks. A supplied policy family controls the feasible active-set changes. Discounted and average criteria are supported under the conditions described in the paper. Completion of a numerical path is not a general proof of indexability outside those conditions.
@@ -43,6 +45,8 @@ The unblocked implementations remain useful as correctness references and as the
 
 ## Citation
 
-This is replication package **v1.0.0**. Cite the version-specific Zenodo record associated with the GitHub release. `CITATION.cff` records the author, version, and repository. See [release procedure](docs/RELEASE.md).
+Cite the archived replication package: José Niño-Mora (2026), *Multi-gear bandits: algorithms and replication material*, version 1.0.0, Zenodo, [doi:10.5281/zenodo.23230777](https://doi.org/10.5281/zenodo.23230777).
+
+The DOI identifies the exact [v1.0.0 release](https://github.com/jnimora/multigear-bandits-replication/releases/tag/v1.0.0) used for the manuscript. The release tag remains fixed; this branch may receive later documentation updates. `CITATION.cff` supplies machine-readable citation metadata. See [release procedure](docs/RELEASE.md).
 
 Code is distributed under the [MIT license](LICENSE). The GGK comparator retains its original [license](vendor/markovianbandit/LICENSE) and [attribution](THIRD_PARTY_NOTICES.md).

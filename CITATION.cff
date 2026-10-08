@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite the version-specific Zenodo record associated with this release."
 version: "1.0.0"
+doi: "10.5281/zenodo.23230777"
 date-released: "2026-10-08"
 abstract: >-
   Julia algorithms and compact replication evidence accompanying Fast parametric
