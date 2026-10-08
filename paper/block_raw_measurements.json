@@ -1,0 +1,3830 @@
+[
+  {
+    "accepted_assignments": 1024,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59626064,
+    "generation_and_input_seconds": 0.260114542,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 754778112,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 7.401486830834377e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 6.666546387115874e-17,
+        "passed": true,
+        "step": 511
+      },
+      {
+        "maximum_scaled_error": 7.415971149485716e-17,
+        "passed": true,
+        "step": 1023
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 1024,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 1024,
+      "audit_solves": 0,
+      "block_visits": 2048,
+      "candidate_evaluations": 1024,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 1023,
+      "interval_selections": 1024,
+      "monotonicity_checks": 1023,
+      "periodic_stat_rebuilds": 30,
+      "shrink_updates": 1023,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 298
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 1,
+      "N": 1025,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "binary"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 591208,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.001535792,
+        "cpu_seconds": 0.001545,
+        "cpu_wall_ratio": 1.0061325242595156,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.001478416,
+        "initialization_seconds": 4.9709e-05,
+        "output_seconds": 6.417e-06,
+        "repetition": 1,
+        "seconds": 0.001535042
+      },
+      {
+        "allocated_bytes": 591208,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.001538333,
+        "cpu_seconds": 0.001543,
+        "cpu_wall_ratio": 1.0035230618444664,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.00147775,
+        "initialization_seconds": 5.275e-05,
+        "output_seconds": 6.041e-06,
+        "repetition": 2,
+        "seconds": 0.001536958
+      }
+    ],
+    "model": {
+      "A": 1,
+      "H": 1024,
+      "c": [
+        "0//1",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "5//8"
+      ],
+      "primitive_sha256": "742b8c1b8a7924439ba8fa0336bba60df5176124b1d9cca96800f7d5e972b41a",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 1024.0,
+      "C_leading_loop_work": 736595277132.0,
+      "FP_leading_loop_work": 714779648.0,
+      "FP_materialization_elements": 0,
+      "FP_new_comparisons": 0,
+      "FP_reference_dot_elements": 0,
+      "FP_retained_comparisons": 0,
+      "M_leading_loop_work": 4311744492.0,
+      "R_leading_loop_work": 4311744492.0,
+      "new_pairs": 1023,
+      "post_update_frontier_pairs": 1023,
+      "retained_pairs": 0,
+      "updates": 1023
+    }
+  },
+  {
+    "accepted_assignments": 1024,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59626360,
+    "generation_and_input_seconds": 0.259189542,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 757284864,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 3.3657949104179e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 4.955203042407796e-17,
+        "passed": true,
+        "step": 511
+      },
+      {
+        "maximum_scaled_error": 9.84611267445785e-17,
+        "passed": true,
+        "step": 1023
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 1024,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 1024,
+      "audit_solves": 0,
+      "block_visits": 2048,
+      "candidate_evaluations": 1024,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 1023,
+      "interval_selections": 1024,
+      "monotonicity_checks": 1023,
+      "periodic_stat_rebuilds": 30,
+      "shrink_updates": 1023,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 482
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 1,
+      "N": 1025,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "binary"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 591208,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.001715416,
+        "cpu_seconds": 0.00172,
+        "cpu_wall_ratio": 1.0027932456044715,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.001640833,
+        "initialization_seconds": 6.2917e-05,
+        "output_seconds": 9.25e-06,
+        "repetition": 1,
+        "seconds": 0.001714667
+      },
+      {
+        "allocated_bytes": 591208,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.001715875,
+        "cpu_seconds": 0.00172,
+        "cpu_wall_ratio": 1.0028908913017873,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.001651875,
+        "initialization_seconds": 5.4084e-05,
+        "output_seconds": 7.583e-06,
+        "repetition": 2,
+        "seconds": 0.001714
+      }
+    ],
+    "model": {
+      "A": 1,
+      "H": 1024,
+      "c": [
+        "0//1",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "47//64"
+      ],
+      "primitive_sha256": "2bec5932fd769f7fef634ac2cff9903b523b3d2b6ea51375e888d9ac65ee40d4",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 1024.0,
+      "C_leading_loop_work": 736595277132.0,
+      "FP_leading_loop_work": 714779648.0,
+      "FP_materialization_elements": 0,
+      "FP_new_comparisons": 0,
+      "FP_reference_dot_elements": 0,
+      "FP_retained_comparisons": 0,
+      "M_leading_loop_work": 4311744492.0,
+      "R_leading_loop_work": 4311744492.0,
+      "new_pairs": 1023,
+      "post_update_frontier_pairs": 1023,
+      "retained_pairs": 0,
+      "updates": 1023
+    }
+  },
+  {
+    "accepted_assignments": 4096,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59642512,
+    "generation_and_input_seconds": 0.262032042,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 746962944,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 8.400759833141849e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 3.0747027890167734e-16,
+        "passed": true,
+        "step": 2047
+      },
+      {
+        "maximum_scaled_error": 7.415971149485716e-17,
+        "passed": true,
+        "step": 4095
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 4096,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 4096,
+      "audit_solves": 0,
+      "block_visits": 20480,
+      "candidate_evaluations": 12720,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 4092,
+      "interval_selections": 4096,
+      "monotonicity_checks": 4095,
+      "periodic_stat_rebuilds": 123,
+      "shrink_updates": 4092,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 298
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 1025,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 2217496,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.006070333,
+        "cpu_seconds": 0.006074,
+        "cpu_wall_ratio": 1.0006795856586834,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.005975792,
+        "initialization_seconds": 7.6083e-05,
+        "output_seconds": 1.55e-05,
+        "repetition": 1,
+        "seconds": 0.006069125
+      },
+      {
+        "allocated_bytes": 2217496,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.006073292,
+        "cpu_seconds": 0.006078,
+        "cpu_wall_ratio": 1.0014210688909484,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.005977833,
+        "initialization_seconds": 7.7083e-05,
+        "output_seconds": 1.3375e-05,
+        "repetition": 2,
+        "seconds": 0.006068667
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 1024,
+      "c": [
+        "0//1",
+        "24585//131072",
+        "12297//32768",
+        "73809//131072",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "11//32",
+        "7//16",
+        "17//32",
+        "5//8"
+      ],
+      "primitive_sha256": "47917142b9c032dd4f79a814add7f09736f94f1b5e7b8daaf559ada771abc353",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 16384.0,
+      "C_leading_loop_work": 2948576570380.0,
+      "FP_leading_loop_work": 5040989480.0,
+      "FP_materialization_elements": 1579408,
+      "FP_new_comparisons": 3071,
+      "FP_reference_dot_elements": 5048444,
+      "FP_retained_comparisons": 6897,
+      "M_leading_loop_work": 17277318828.0,
+      "R_leading_loop_work": 17294980780.0,
+      "new_pairs": 4095,
+      "post_update_frontier_pairs": 12719,
+      "retained_pairs": 8624,
+      "updates": 4095
+    }
+  },
+  {
+    "accepted_assignments": 4096,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59642648,
+    "generation_and_input_seconds": 0.258561375,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 753041408,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 1.5565474872801677e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 1.3683301300430558e-16,
+        "passed": true,
+        "step": 2047
+      },
+      {
+        "maximum_scaled_error": 7.289462042394447e-17,
+        "passed": true,
+        "step": 4095
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 4096,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 4096,
+      "audit_solves": 0,
+      "block_visits": 20480,
+      "candidate_evaluations": 14669,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 4092,
+      "interval_selections": 4096,
+      "monotonicity_checks": 4095,
+      "periodic_stat_rebuilds": 123,
+      "shrink_updates": 4092,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 482
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 1025,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 2217496,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.006877167,
+        "cpu_seconds": 0.006881,
+        "cpu_wall_ratio": 1.0005816489748436,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.006779583,
+        "initialization_seconds": 8.0667e-05,
+        "output_seconds": 1.5459e-05,
+        "repetition": 1,
+        "seconds": 0.006876208
+      },
+      {
+        "allocated_bytes": 2217496,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.007046083,
+        "cpu_seconds": 0.007053,
+        "cpu_wall_ratio": 1.0011058578957701,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.006955083,
+        "initialization_seconds": 7.4334e-05,
+        "output_seconds": 1.4708e-05,
+        "repetition": 2,
+        "seconds": 0.007044416
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 1024,
+      "c": [
+        "0//1",
+        "6884955//33554432",
+        "3444315//8388608",
+        "20676915//33554432",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "83//256",
+        "59//128",
+        "153//256",
+        "47//64"
+      ],
+      "primitive_sha256": "8e4b788d6e825a6c363d6e1349c2761962e7ddf430e5db8bbbf70bb7e00c18d8",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 16384.0,
+      "C_leading_loop_work": 2948584561280.0,
+      "FP_leading_loop_work": 5056772186.0,
+      "FP_materialization_elements": 1584298,
+      "FP_new_comparisons": 3071,
+      "FP_reference_dot_elements": 6353585,
+      "FP_retained_comparisons": 8144,
+      "M_leading_loop_work": 17281318176.0,
+      "R_leading_loop_work": 17302971680.0,
+      "new_pairs": 4095,
+      "post_update_frontier_pairs": 14668,
+      "retained_pairs": 10573,
+      "updates": 4095
+    }
+  },
+  {
+    "accepted_assignments": 32768,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59703088,
+    "generation_and_input_seconds": 0.26181925,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 753647616,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 1.5908408126698765e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 1.9686005291188646e-16,
+        "passed": true,
+        "step": 16383
+      },
+      {
+        "maximum_scaled_error": 4.2471050028656024e-17,
+        "passed": true,
+        "step": 32767
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 32768,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 32768,
+      "audit_solves": 0,
+      "block_visits": 557056,
+      "candidate_evaluations": 224848,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 32752,
+      "interval_selections": 32768,
+      "monotonicity_checks": 32767,
+      "periodic_stat_rebuilds": 1007,
+      "shrink_updates": 32752,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1306
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 16,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "gears"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 17072584,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.063867417,
+        "cpu_seconds": 0.063877,
+        "cpu_wall_ratio": 1.0001526604010664,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.063513084,
+        "initialization_seconds": 0.000183333,
+        "output_seconds": 0.000169375,
+        "repetition": 1,
+        "seconds": 0.063866375
+      },
+      {
+        "allocated_bytes": 17072584,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.063557,
+        "cpu_seconds": 0.063564,
+        "cpu_wall_ratio": 1.0001652151337062,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.063190791,
+        "initialization_seconds": 0.000185209,
+        "output_seconds": 0.000176042,
+        "repetition": 2,
+        "seconds": 0.063552542
+      }
+    ],
+    "model": {
+      "A": 16,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "98313//2097152",
+        "49161//524288",
+        "294993//2097152",
+        "24585//131072",
+        "491745//2097152",
+        "147537//524288",
+        "688569//2097152",
+        "12297//32768",
+        "885465//2097152",
+        "245985//524288",
+        "1082433//2097152",
+        "73809//131072",
+        "1279473//2097152",
+        "344505//524288",
+        "1476585//2097152",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "35//128",
+        "19//64",
+        "41//128",
+        "11//32",
+        "47//128",
+        "25//64",
+        "53//128",
+        "7//16",
+        "59//128",
+        "31//64",
+        "65//128",
+        "17//32",
+        "71//128",
+        "37//64",
+        "77//128",
+        "5//8"
+      ],
+      "primitive_sha256": "4a3c763dfcfd7ef471554cf81029b26519a9801880ccae7baaac190fb4eb634e",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 524288.0,
+      "C_leading_loop_work": 188196376762678.66,
+      "FP_leading_loop_work": 178644616728.0,
+      "FP_materialization_elements": 31557453,
+      "FP_new_comparisons": 30719,
+      "FP_reference_dot_elements": 239841858,
+      "FP_retained_comparisons": 183841,
+      "M_leading_loop_work": 551869356332.0,
+      "R_leading_loop_work": 552656116012.0,
+      "new_pairs": 32767,
+      "post_update_frontier_pairs": 224847,
+      "retained_pairs": 192080,
+      "updates": 32767
+    }
+  },
+  {
+    "accepted_assignments": 32768,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59703032,
+    "generation_and_input_seconds": 0.259809458,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 763052032,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 1.5897161676869801e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 2.231568594336387e-16,
+        "passed": true,
+        "step": 16383
+      },
+      {
+        "maximum_scaled_error": 1.226872117260738e-16,
+        "passed": true,
+        "step": 32767
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 32768,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 32768,
+      "audit_solves": 0,
+      "block_visits": 557056,
+      "candidate_evaluations": 358413,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 32752,
+      "interval_selections": 32768,
+      "monotonicity_checks": 32767,
+      "periodic_stat_rebuilds": 1007,
+      "shrink_updates": 32752,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1490
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 16,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "gears"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 17072584,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.079983917,
+        "cpu_seconds": 0.079988,
+        "cpu_wall_ratio": 1.0000541735602095,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.079658709,
+        "initialization_seconds": 0.000182833,
+        "output_seconds": 0.0001405,
+        "repetition": 1,
+        "seconds": 0.079982708
+      },
+      {
+        "allocated_bytes": 17072584,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.080058666,
+        "cpu_seconds": 0.080065,
+        "cpu_wall_ratio": 1.0000905596272691,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.079686125,
+        "initialization_seconds": 0.000182167,
+        "output_seconds": 0.000187875,
+        "repetition": 2,
+        "seconds": 0.080056708
+      }
+    ],
+    "model": {
+      "A": 16,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "27528795//536870912",
+        "13766235//134217728",
+        "82608435//536870912",
+        "6884955//33554432",
+        "137717475//536870912",
+        "41320755//134217728",
+        "192855915//536870912",
+        "3444315//8388608",
+        "248023755//536870912",
+        "68904675//134217728",
+        "303220995//536870912",
+        "20676915//33554432",
+        "358447635//536870912",
+        "96517995//134217728",
+        "413703675//536870912",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "227//1024",
+        "131//512",
+        "297//1024",
+        "83//256",
+        "367//1024",
+        "201//512",
+        "437//1024",
+        "59//128",
+        "507//1024",
+        "271//512",
+        "577//1024",
+        "153//256",
+        "647//1024",
+        "341//512",
+        "717//1024",
+        "47//64"
+      ],
+      "primitive_sha256": "84307f90b6e1a6ea3eba244a3c30cd72933e813e7f1908941d3481a8400f692f",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 524288.0,
+      "C_leading_loop_work": 188197471461418.66,
+      "FP_leading_loop_work": 179496312760.0,
+      "FP_materialization_elements": 31643484,
+      "FP_new_comparisons": 30719,
+      "FP_reference_dot_elements": 442015316,
+      "FP_retained_comparisons": 311108,
+      "M_leading_loop_work": 552416972832.0,
+      "R_leading_loop_work": 553750814752.0,
+      "new_pairs": 32767,
+      "post_update_frontier_pairs": 358412,
+      "retained_pairs": 325645,
+      "updates": 32767
+    }
+  },
+  {
+    "accepted_assignments": 2048,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59625520,
+    "generation_and_input_seconds": 0.263670292,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 750256128,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 7.401486830834377e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 2.3694013332628066e-16,
+        "passed": true,
+        "step": 1023
+      },
+      {
+        "maximum_scaled_error": 1.1113082866238126e-16,
+        "passed": true,
+        "step": 2047
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 2048,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 2048,
+      "audit_solves": 0,
+      "block_visits": 4096,
+      "candidate_evaluations": 2048,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 2047,
+      "interval_selections": 2048,
+      "monotonicity_checks": 2047,
+      "periodic_stat_rebuilds": 62,
+      "shrink_updates": 2047,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1306
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 1,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "binary",
+        "gears"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 1162600,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.003702625,
+        "cpu_seconds": 0.003714,
+        "cpu_wall_ratio": 1.0031060094530722,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.003636333,
+        "initialization_seconds": 5.6709e-05,
+        "output_seconds": 8.375e-06,
+        "repetition": 1,
+        "seconds": 0.003701833
+      },
+      {
+        "allocated_bytes": 1162600,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.003694792,
+        "cpu_seconds": 0.003702,
+        "cpu_wall_ratio": 1.0020978547743113,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.003626666,
+        "initialization_seconds": 5.6834e-05,
+        "output_seconds": 9.667e-06,
+        "repetition": 2,
+        "seconds": 0.003693417
+      }
+    ],
+    "model": {
+      "A": 1,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "5//8"
+      ],
+      "primitive_sha256": "35908fa7834eec8e1eb6c891ae981af8f5546db17ebdd957c4f08898e9e85fa8",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 2048.0,
+      "C_leading_loop_work": 11756790693878.666,
+      "FP_leading_loop_work": 5722429440.0,
+      "FP_materialization_elements": 0,
+      "FP_new_comparisons": 0,
+      "FP_reference_dot_elements": 0,
+      "FP_retained_comparisons": 0,
+      "M_leading_loop_work": 34426847212.0,
+      "R_leading_loop_work": 34426847212.0,
+      "new_pairs": 2047,
+      "post_update_frontier_pairs": 2047,
+      "retained_pairs": 0,
+      "updates": 2047
+    }
+  },
+  {
+    "accepted_assignments": 2048,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59627896,
+    "generation_and_input_seconds": 0.262935208,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 756645888,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 3.3657949104179e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 1.6258301796665865e-16,
+        "passed": true,
+        "step": 1023
+      },
+      {
+        "maximum_scaled_error": 8.291757699473038e-17,
+        "passed": true,
+        "step": 2047
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 2048,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 2048,
+      "audit_solves": 0,
+      "block_visits": 4096,
+      "candidate_evaluations": 2048,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 2047,
+      "interval_selections": 2048,
+      "monotonicity_checks": 2047,
+      "periodic_stat_rebuilds": 62,
+      "shrink_updates": 2047,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1490
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 1,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "binary",
+        "gears"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 1162600,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.0038105,
+        "cpu_seconds": 0.003815,
+        "cpu_wall_ratio": 1.001202755498939,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.003733083,
+        "initialization_seconds": 6.675e-05,
+        "output_seconds": 8.5e-06,
+        "repetition": 1,
+        "seconds": 0.003809833
+      },
+      {
+        "allocated_bytes": 1162600,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.003812292,
+        "cpu_seconds": 0.003817,
+        "cpu_wall_ratio": 1.0014758453314092,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.003745041,
+        "initialization_seconds": 5.5667e-05,
+        "output_seconds": 9.459e-06,
+        "repetition": 2,
+        "seconds": 0.003810625
+      }
+    ],
+    "model": {
+      "A": 1,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "47//64"
+      ],
+      "primitive_sha256": "1c1b5ddc677adcc0720e4ccd4cef6a08ba46cc7c4db93e79fe0a2d998cef0536",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 2048.0,
+      "C_leading_loop_work": 11756790693878.666,
+      "FP_leading_loop_work": 5722429440.0,
+      "FP_materialization_elements": 0,
+      "FP_new_comparisons": 0,
+      "FP_reference_dot_elements": 0,
+      "FP_retained_comparisons": 0,
+      "M_leading_loop_work": 34426847212.0,
+      "R_leading_loop_work": 34426847212.0,
+      "new_pairs": 2047,
+      "post_update_frontier_pairs": 2047,
+      "retained_pairs": 0,
+      "updates": 2047
+    }
+  },
+  {
+    "accepted_assignments": 4096,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59630800,
+    "generation_and_input_seconds": 0.26006875,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 750911488,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 5.826683175299181e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 1.4964899227939077e-16,
+        "passed": true,
+        "step": 2047
+      },
+      {
+        "maximum_scaled_error": 4.742594934127012e-17,
+        "passed": true,
+        "step": 4095
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 4096,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 4096,
+      "audit_solves": 0,
+      "block_visits": 12288,
+      "candidate_evaluations": 7910,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 4094,
+      "interval_selections": 4096,
+      "monotonicity_checks": 4095,
+      "periodic_stat_rebuilds": 125,
+      "shrink_updates": 4094,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1306
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 2,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "gears"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 2243960,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.006616083,
+        "cpu_seconds": 0.006622,
+        "cpu_wall_ratio": 1.000906892382104,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.006539292,
+        "initialization_seconds": 6.2583e-05,
+        "output_seconds": 1.2708e-05,
+        "repetition": 1,
+        "seconds": 0.00661525
+      },
+      {
+        "allocated_bytes": 2243960,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.006773792,
+        "cpu_seconds": 0.006778,
+        "cpu_wall_ratio": 1.0006828206027276,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.006689167,
+        "initialization_seconds": 6.5333e-05,
+        "output_seconds": 1.3833e-05,
+        "repetition": 2,
+        "seconds": 0.006768792
+      }
+    ],
+    "model": {
+      "A": 2,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "12297//32768",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "7//16",
+        "5//8"
+      ],
+      "primitive_sha256": "1d1dbc866afc03e2ebd3db4c207f1c0fc40ac4a61e5e48ff27ea7289d4cdf33a",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 8192.0,
+      "C_leading_loop_work": 23519356072164.0,
+      "FP_leading_loop_work": 17227490560.0,
+      "FP_materialization_elements": 2103558,
+      "FP_new_comparisons": 2047,
+      "FP_reference_dot_elements": 3278556,
+      "FP_retained_comparisons": 2040,
+      "M_leading_loop_work": 68886150020.0,
+      "R_leading_loop_work": 68901772164.0,
+      "new_pairs": 4095,
+      "post_update_frontier_pairs": 7909,
+      "retained_pairs": 3814,
+      "updates": 4095
+    }
+  },
+  {
+    "accepted_assignments": 4096,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59631224,
+    "generation_and_input_seconds": 0.2584845,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 770097152,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 6.045570743541242e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 8.193278782162079e-16,
+        "passed": true,
+        "step": 2047
+      },
+      {
+        "maximum_scaled_error": 6.246529545143738e-17,
+        "passed": true,
+        "step": 4095
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 4096,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 4096,
+      "audit_solves": 0,
+      "block_visits": 12288,
+      "candidate_evaluations": 8058,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 4094,
+      "interval_selections": 4096,
+      "monotonicity_checks": 4095,
+      "periodic_stat_rebuilds": 125,
+      "shrink_updates": 4094,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1490
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 2,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "gears"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 2243960,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.006904291,
+        "cpu_seconds": 0.006909,
+        "cpu_wall_ratio": 1.000718274992863,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.006828666,
+        "initialization_seconds": 6.0625e-05,
+        "output_seconds": 1.3375e-05,
+        "repetition": 1,
+        "seconds": 0.006903334
+      },
+      {
+        "allocated_bytes": 2243960,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.006848959,
+        "cpu_seconds": 0.00686,
+        "cpu_wall_ratio": 1.001727907628421,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.0067605,
+        "initialization_seconds": 7.2375e-05,
+        "output_seconds": 1.4125e-05,
+        "repetition": 2,
+        "seconds": 0.006847375
+      }
+    ],
+    "model": {
+      "A": 2,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "3444315//8388608",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "59//128",
+        "47//64"
+      ],
+      "primitive_sha256": "046727543f198764d36c50c96ad85c710bdaf9594bc697879a47e24237f7bff2",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 8192.0,
+      "C_leading_loop_work": 23519357285172.0,
+      "FP_leading_loop_work": 17261773766.0,
+      "FP_materialization_elements": 2109558,
+      "FP_new_comparisons": 2047,
+      "FP_reference_dot_elements": 3278501,
+      "FP_retained_comparisons": 2035,
+      "M_leading_loop_work": 68886756820.0,
+      "R_leading_loop_work": 68902985172.0,
+      "new_pairs": 4095,
+      "post_update_frontier_pairs": 8057,
+      "retained_pairs": 3962,
+      "updates": 4095
+    }
+  },
+  {
+    "accepted_assignments": 8192,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59642768,
+    "generation_and_input_seconds": 0.261585,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 747569152,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 8.400759833141849e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 1.7118912301094793e-16,
+        "passed": true,
+        "step": 4095
+      },
+      {
+        "maximum_scaled_error": 2.4174211020063893e-17,
+        "passed": true,
+        "step": 8191
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 8192,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 8192,
+      "audit_solves": 0,
+      "block_visits": 40960,
+      "candidate_evaluations": 29090,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 8188,
+      "interval_selections": 8192,
+      "monotonicity_checks": 8191,
+      "periodic_stat_rebuilds": 251,
+      "shrink_updates": 8188,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1306
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states",
+        "gears"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 4357656,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.01339675,
+        "cpu_seconds": 0.013401,
+        "cpu_wall_ratio": 1.0003389701711476,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.013290875,
+        "initialization_seconds": 8.15e-05,
+        "output_seconds": 2.3334e-05,
+        "repetition": 1,
+        "seconds": 0.013395875
+      },
+      {
+        "allocated_bytes": 4357656,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.013465375,
+        "cpu_seconds": 0.013467,
+        "cpu_wall_ratio": 1.000179433690636,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.0133595,
+        "initialization_seconds": 7.8417e-05,
+        "output_seconds": 2.5416e-05,
+        "repetition": 2,
+        "seconds": 0.01346375
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "24585//131072",
+        "12297//32768",
+        "73809//131072",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "11//32",
+        "7//16",
+        "17//32",
+        "5//8"
+      ],
+      "primitive_sha256": "212dc15a9fa7eee5e080cf36a1296ac799bedc98e44aeb1f88def30d31002f22",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 32768.0,
+      "C_leading_loop_work": 47044564330110.664,
+      "FP_leading_loop_work": 40263124652.0,
+      "FP_materialization_elements": 6313449,
+      "FP_new_comparisons": 6143,
+      "FP_reference_dot_elements": 24864934,
+      "FP_retained_comparisons": 16099,
+      "M_leading_loop_work": 137843525236.0,
+      "R_leading_loop_work": 137929123444.0,
+      "new_pairs": 8191,
+      "post_update_frontier_pairs": 29089,
+      "retained_pairs": 20898,
+      "updates": 8191
+    }
+  },
+  {
+    "accepted_assignments": 8192,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59642488,
+    "generation_and_input_seconds": 0.260979209,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 752631808,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 1.5565474872801677e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 2.8927171695772863e-16,
+        "passed": true,
+        "step": 4095
+      },
+      {
+        "maximum_scaled_error": 1.1504014085229944e-16,
+        "passed": true,
+        "step": 8191
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 8192,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 8192,
+      "audit_solves": 0,
+      "block_visits": 40960,
+      "candidate_evaluations": 31026,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 8188,
+      "interval_selections": 8192,
+      "monotonicity_checks": 8191,
+      "periodic_stat_rebuilds": 251,
+      "shrink_updates": 8188,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1490
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states",
+        "gears"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 4357656,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.014557875,
+        "cpu_seconds": 0.014565,
+        "cpu_wall_ratio": 1.0005008343002322,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.014457166,
+        "initialization_seconds": 7.5959e-05,
+        "output_seconds": 2.3334e-05,
+        "repetition": 1,
+        "seconds": 0.014556916
+      },
+      {
+        "allocated_bytes": 4357656,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.014483417,
+        "cpu_seconds": 0.014491,
+        "cpu_wall_ratio": 1.0005667415509385,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.014375625,
+        "initialization_seconds": 8.2417e-05,
+        "output_seconds": 2.3708e-05,
+        "repetition": 2,
+        "seconds": 0.014482125
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "6884955//33554432",
+        "3444315//8388608",
+        "20676915//33554432",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "83//256",
+        "59//128",
+        "153//256",
+        "47//64"
+      ],
+      "primitive_sha256": "fa6ea73f51217006e46e99456dd23457630db1a3db0ee605b03b7f67dbf52fd8",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 32768.0,
+      "C_leading_loop_work": 47044580197566.664,
+      "FP_leading_loop_work": 40364782734.0,
+      "FP_materialization_elements": 6330525,
+      "FP_new_comparisons": 6143,
+      "FP_reference_dot_elements": 27502713,
+      "FP_retained_comparisons": 17333,
+      "M_leading_loop_work": 137851462836.0,
+      "R_leading_loop_work": 137944990900.0,
+      "new_pairs": 8191,
+      "post_update_frontier_pairs": 31025,
+      "retained_pairs": 22834,
+      "updates": 8191
+    }
+  },
+  {
+    "accepted_assignments": 16384,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59663024,
+    "generation_and_input_seconds": 0.262655042,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 745406464,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 7.714550208139566e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 2.5781677731247667e-16,
+        "passed": true,
+        "step": 8191
+      },
+      {
+        "maximum_scaled_error": 1.2374021650926643e-16,
+        "passed": true,
+        "step": 16383
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 16384,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 16384,
+      "audit_solves": 0,
+      "block_visits": 147456,
+      "candidate_evaluations": 94048,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 16376,
+      "interval_selections": 16384,
+      "monotonicity_checks": 16383,
+      "periodic_stat_rebuilds": 503,
+      "shrink_updates": 16376,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1306
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 8,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "gears"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 8585000,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.029638,
+        "cpu_seconds": 0.029642,
+        "cpu_wall_ratio": 1.0001588876662175,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.029456875,
+        "initialization_seconds": 0.000126708,
+        "output_seconds": 5.2333e-05,
+        "repetition": 1,
+        "seconds": 0.029636458
+      },
+      {
+        "allocated_bytes": 8585000,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.029596958,
+        "cpu_seconds": 0.029603,
+        "cpu_wall_ratio": 1.0002308744912813,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.029395625,
+        "initialization_seconds": 0.000117167,
+        "output_seconds": 8.2208e-05,
+        "repetition": 2,
+        "seconds": 0.029595333
+      }
+    ],
+    "model": {
+      "A": 8,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "49161//524288",
+        "24585//131072",
+        "147537//524288",
+        "12297//32768",
+        "245985//524288",
+        "73809//131072",
+        "344505//524288",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "19//64",
+        "11//32",
+        "25//64",
+        "7//16",
+        "31//64",
+        "17//32",
+        "37//64",
+        "5//8"
+      ],
+      "primitive_sha256": "0f862dfae82e1a17e21355cefdf4af60fb77e2b3ed780fe93514cdeb18010d3a",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 131072.0,
+      "C_leading_loop_work": 94095166059212.0,
+      "FP_leading_loop_work": 86394251990.0,
+      "FP_materialization_elements": 14730626,
+      "FP_new_comparisons": 14335,
+      "FP_reference_dot_elements": 98908633,
+      "FP_retained_comparisons": 69830,
+      "M_leading_loop_work": 275850927468.0,
+      "R_leading_loop_work": 276169039212.0,
+      "new_pairs": 16383,
+      "post_update_frontier_pairs": 94047,
+      "retained_pairs": 77664,
+      "updates": 16383
+    }
+  },
+  {
+    "accepted_assignments": 16384,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59660664,
+    "generation_and_input_seconds": 0.262235292,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 750157824,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 1.2680181094020964e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 2.1149295249260724e-16,
+        "passed": true,
+        "step": 8191
+      },
+      {
+        "maximum_scaled_error": 2.660122542122738e-17,
+        "passed": true,
+        "step": 16383
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 16384,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 16384,
+      "audit_solves": 0,
+      "block_visits": 147456,
+      "candidate_evaluations": 113350,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 16376,
+      "interval_selections": 16384,
+      "monotonicity_checks": 16383,
+      "periodic_stat_rebuilds": 503,
+      "shrink_updates": 16376,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 1490
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 8,
+      "N": 2049,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "gears"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 8585000,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.03344575,
+        "cpu_seconds": 0.033454,
+        "cpu_wall_ratio": 1.0002616216054596,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.033198958,
+        "initialization_seconds": 0.00013775,
+        "output_seconds": 0.000107125,
+        "repetition": 1,
+        "seconds": 0.033444375
+      },
+      {
+        "allocated_bytes": 8585000,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.033331666,
+        "cpu_seconds": 0.033338,
+        "cpu_wall_ratio": 1.0002125054045168,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.033162208,
+        "initialization_seconds": 0.000111292,
+        "output_seconds": 5.6292e-05,
+        "repetition": 2,
+        "seconds": 0.033330041
+      }
+    ],
+    "model": {
+      "A": 8,
+      "H": 2048,
+      "c": [
+        "0//1",
+        "13766235//134217728",
+        "6884955//33554432",
+        "41320755//134217728",
+        "3444315//8388608",
+        "68904675//134217728",
+        "20676915//33554432",
+        "96517995//134217728",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "131//512",
+        "83//256",
+        "201//512",
+        "59//128",
+        "271//512",
+        "153//256",
+        "341//512",
+        "47//64"
+      ],
+      "primitive_sha256": "387e989d4c90506e0dd542164c502fb5ac7f5ebfdfb9f783e4aa0cb51775136d",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 131072.0,
+      "C_leading_loop_work": 94095324258404.0,
+      "FP_leading_loop_work": 86676136792.0,
+      "FP_materialization_elements": 14769858,
+      "FP_new_comparisons": 14335,
+      "FP_reference_dot_elements": 132444590,
+      "FP_retained_comparisons": 85946,
+      "M_leading_loop_work": 275930065668.0,
+      "R_leading_loop_work": 276327238404.0,
+      "new_pairs": 16383,
+      "post_update_frontier_pairs": 113349,
+      "retained_pairs": 96966,
+      "updates": 16383
+    }
+  },
+  {
+    "accepted_assignments": 4096,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59628144,
+    "generation_and_input_seconds": 0.261146416,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 749682688,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 7.401486830834377e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 4.4417596296782975e-17,
+        "passed": true,
+        "step": 2047
+      },
+      {
+        "maximum_scaled_error": 3.702551301795018e-17,
+        "passed": true,
+        "step": 4095
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 4096,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 4096,
+      "audit_solves": 0,
+      "block_visits": 8192,
+      "candidate_evaluations": 4096,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 4095,
+      "interval_selections": 4096,
+      "monotonicity_checks": 4095,
+      "periodic_stat_rebuilds": 126,
+      "shrink_updates": 4095,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 3322
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 1,
+      "N": 4097,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "binary"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 2329960,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.008245458,
+        "cpu_seconds": 0.008251,
+        "cpu_wall_ratio": 1.0007328114952192,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.008150125,
+        "initialization_seconds": 7.7916e-05,
+        "output_seconds": 1.575e-05,
+        "repetition": 1,
+        "seconds": 0.008244208
+      },
+      {
+        "allocated_bytes": 2329960,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.008198416,
+        "cpu_seconds": 0.008203,
+        "cpu_wall_ratio": 1.0006251620084472,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.008113458,
+        "initialization_seconds": 6.8917e-05,
+        "output_seconds": 1.4292e-05,
+        "repetition": 2,
+        "seconds": 0.008197125
+      }
+    ],
+    "model": {
+      "A": 1,
+      "H": 4096,
+      "c": [
+        "0//1",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "5//8"
+      ],
+      "primitive_sha256": "9eddac84152039b7fbd220285c2f629a7f2521e7ca4b5305ef025eebaea8a941",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 4096.0,
+      "C_leading_loop_work": 187879183603020.0,
+      "FP_leading_loop_work": 45796208640.0,
+      "FP_materialization_elements": 0,
+      "FP_new_comparisons": 0,
+      "FP_reference_dot_elements": 0,
+      "FP_retained_comparisons": 0,
+      "M_leading_loop_work": 275146342380.0,
+      "R_leading_loop_work": 275146342380.0,
+      "new_pairs": 4095,
+      "post_update_frontier_pairs": 4095,
+      "retained_pairs": 0,
+      "updates": 4095
+    }
+  },
+  {
+    "accepted_assignments": 4096,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59627576,
+    "generation_and_input_seconds": 0.262099041,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 745619456,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 3.3657949104179e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 1.1496842207199014e-16,
+        "passed": true,
+        "step": 2047
+      },
+      {
+        "maximum_scaled_error": 7.51609912563697e-17,
+        "passed": true,
+        "step": 4095
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 4096,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 4096,
+      "audit_solves": 0,
+      "block_visits": 8192,
+      "candidate_evaluations": 4096,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 4095,
+      "interval_selections": 4096,
+      "monotonicity_checks": 4095,
+      "periodic_stat_rebuilds": 126,
+      "shrink_updates": 4095,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 3506
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 1,
+      "N": 4097,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "binary"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 2329960,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.008202375,
+        "cpu_seconds": 0.008207,
+        "cpu_wall_ratio": 1.0005842329284993,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.008125042,
+        "initialization_seconds": 6.15e-05,
+        "output_seconds": 1.3333e-05,
+        "repetition": 1,
+        "seconds": 0.0082015
+      },
+      {
+        "allocated_bytes": 2329960,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.008239375,
+        "cpu_seconds": 0.008243,
+        "cpu_wall_ratio": 1.000515854953725,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.008158708,
+        "initialization_seconds": 6.5584e-05,
+        "output_seconds": 1.3417e-05,
+        "repetition": 2,
+        "seconds": 0.008238
+      }
+    ],
+    "model": {
+      "A": 1,
+      "H": 4096,
+      "c": [
+        "0//1",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "47//64"
+      ],
+      "primitive_sha256": "058b376654cccc91510f2f9f9695f8b77c7a1d7c71e14f6016e090374f15c7a7",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 4096.0,
+      "C_leading_loop_work": 187879183603020.0,
+      "FP_leading_loop_work": 45796208640.0,
+      "FP_materialization_elements": 0,
+      "FP_new_comparisons": 0,
+      "FP_reference_dot_elements": 0,
+      "FP_retained_comparisons": 0,
+      "M_leading_loop_work": 275146342380.0,
+      "R_leading_loop_work": 275146342380.0,
+      "new_pairs": 4095,
+      "post_update_frontier_pairs": 4095,
+      "retained_pairs": 0,
+      "updates": 4095
+    }
+  },
+  {
+    "accepted_assignments": 16384,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59642768,
+    "generation_and_input_seconds": 0.25970575,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 767983616,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 8.400759833141849e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 2.3073123737922597e-16,
+        "passed": true,
+        "step": 8191
+      },
+      {
+        "maximum_scaled_error": 3.7025513017950184e-17,
+        "passed": true,
+        "step": 16383
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 16384,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 16384,
+      "audit_solves": 0,
+      "block_visits": 81920,
+      "candidate_evaluations": 61831,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 16380,
+      "interval_selections": 16384,
+      "monotonicity_checks": 16383,
+      "periodic_stat_rebuilds": 507,
+      "shrink_updates": 16380,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 3322
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 4097,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 8646168,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.029071834,
+        "cpu_seconds": 0.029077,
+        "cpu_wall_ratio": 1.0001877781435804,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.028919166,
+        "initialization_seconds": 0.000101167,
+        "output_seconds": 4.9667e-05,
+        "repetition": 1,
+        "seconds": 0.029070708
+      },
+      {
+        "allocated_bytes": 8646168,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.029198958,
+        "cpu_seconds": 0.029205,
+        "cpu_wall_ratio": 1.000238303650635,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.028994416,
+        "initialization_seconds": 0.000106375,
+        "output_seconds": 9.575e-05,
+        "repetition": 2,
+        "seconds": 0.029197083
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 4096,
+      "c": [
+        "0//1",
+        "24585//131072",
+        "12297//32768",
+        "73809//131072",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "11//32",
+        "7//16",
+        "17//32",
+        "5//8"
+      ],
+      "primitive_sha256": "545c93b4b1c4e28798d9e9610cbd78718888bf30b1ffb417ae8ad2912aba5693",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 65536.0,
+      "C_leading_loop_work": 751655119625064.0,
+      "FP_leading_loop_work": 321770545568.0,
+      "FP_materialization_elements": 25241879,
+      "FP_new_comparisons": 12287,
+      "FP_reference_dot_elements": 108806118,
+      "FP_retained_comparisons": 34504,
+      "M_leading_loop_work": 1101159425544.0,
+      "R_leading_loop_work": 1101531727368.0,
+      "new_pairs": 16383,
+      "post_update_frontier_pairs": 61830,
+      "retained_pairs": 45447,
+      "updates": 16383
+    }
+  },
+  {
+    "accepted_assignments": 16384,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59642808,
+    "generation_and_input_seconds": 0.259965792,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 762331136,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 1.5565474872801677e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 7.629671790551904e-17,
+        "passed": true,
+        "step": 8191
+      },
+      {
+        "maximum_scaled_error": 7.354761366523525e-17,
+        "passed": true,
+        "step": 16383
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 16384,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 16384,
+      "audit_solves": 0,
+      "block_visits": 81920,
+      "candidate_evaluations": 63740,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 16380,
+      "interval_selections": 16384,
+      "monotonicity_checks": 16383,
+      "periodic_stat_rebuilds": 507,
+      "shrink_updates": 16380,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 3506
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 4097,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 8646168,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.029690167,
+        "cpu_seconds": 0.029693,
+        "cpu_wall_ratio": 1.0001150908721084,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.0295135,
+        "initialization_seconds": 0.000127125,
+        "output_seconds": 4.775e-05,
+        "repetition": 1,
+        "seconds": 0.029688666
+      },
+      {
+        "allocated_bytes": 8646168,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.029540208,
+        "cpu_seconds": 0.029545,
+        "cpu_wall_ratio": 1.000189035558455,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.029356458,
+        "initialization_seconds": 0.000101792,
+        "output_seconds": 7.9958e-05,
+        "repetition": 2,
+        "seconds": 0.029538667
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 4096,
+      "c": [
+        "0//1",
+        "6884955//33554432",
+        "3444315//8388608",
+        "20676915//33554432",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "83//256",
+        "59//128",
+        "153//256",
+        "47//64"
+      ],
+      "primitive_sha256": "4c63a89fab9530fa273e00458478fbc83ff2e890077597500eb5e7abe55f3a94",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 65536.0,
+      "C_leading_loop_work": 751655150909756.0,
+      "FP_leading_loop_work": 322499931998.0,
+      "FP_materialization_elements": 25305489,
+      "FP_new_comparisons": 12287,
+      "FP_reference_dot_elements": 114174325,
+      "FP_retained_comparisons": 35711,
+      "M_leading_loop_work": 1101175071708.0,
+      "R_leading_loop_work": 1101563012060.0,
+      "new_pairs": 16383,
+      "post_update_frontier_pairs": 63739,
+      "retained_pairs": 47356,
+      "updates": 16383
+    }
+  },
+  {
+    "accepted_assignments": 20480,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59644816,
+    "generation_and_input_seconds": 0.261749417,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 761954304,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 8.400759833141849e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 1.3384254381097513e-16,
+        "passed": true,
+        "step": 10239
+      },
+      {
+        "maximum_scaled_error": 4.4426274998677623e-17,
+        "passed": true,
+        "step": 20479
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 20480,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 20480,
+      "audit_solves": 0,
+      "block_visits": 102400,
+      "candidate_evaluations": 78203,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 20476,
+      "interval_selections": 20480,
+      "monotonicity_checks": 20479,
+      "periodic_stat_rebuilds": 635,
+      "shrink_updates": 20476,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 4330
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 5121,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 10841624,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.036838292,
+        "cpu_seconds": 0.036844,
+        "cpu_wall_ratio": 1.000161734980377,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.036674333,
+        "initialization_seconds": 0.000109125,
+        "output_seconds": 5.3084e-05,
+        "repetition": 1,
+        "seconds": 0.036837
+      },
+      {
+        "allocated_bytes": 10841624,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.036998792,
+        "cpu_seconds": 0.037004,
+        "cpu_wall_ratio": 1.000159900172128,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.03676425,
+        "initialization_seconds": 0.000119292,
+        "output_seconds": 0.000113375,
+        "repetition": 2,
+        "seconds": 0.036997125
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 5120,
+      "c": [
+        "0//1",
+        "24585//131072",
+        "12297//32768",
+        "73809//131072",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "11//32",
+        "7//16",
+        "17//32",
+        "5//8"
+      ],
+      "primitive_sha256": "791a1424fc69d9f83a97b6ea90d53371684d53009eb33988afa58430761ba7aa",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 81920.0,
+      "C_leading_loop_work": 1834579720750562.5,
+      "FP_leading_loop_work": 628311369126.0,
+      "FP_materialization_elements": 39436102,
+      "FP_new_comparisons": 15359,
+      "FP_reference_dot_elements": 172934075,
+      "FP_retained_comparisons": 43708,
+      "M_leading_loop_work": 2150067563992.0,
+      "R_leading_loop_work": 2150658647512.0,
+      "new_pairs": 20479,
+      "post_update_frontier_pairs": 78202,
+      "retained_pairs": 57723,
+      "updates": 20479
+    }
+  },
+  {
+    "accepted_assignments": 20480,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59643352,
+    "generation_and_input_seconds": 0.259870166,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 759316480,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 1.5565474872801677e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 2.547650677654388e-16,
+        "passed": true,
+        "step": 10239
+      },
+      {
+        "maximum_scaled_error": 1.4027474375598878e-16,
+        "passed": true,
+        "step": 20479
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 20480,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 20480,
+      "audit_solves": 0,
+      "block_visits": 102400,
+      "candidate_evaluations": 80098,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 20476,
+      "interval_selections": 20480,
+      "monotonicity_checks": 20479,
+      "periodic_stat_rebuilds": 635,
+      "shrink_updates": 20476,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 4514
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 5121,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 10841624,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.037788875,
+        "cpu_seconds": 0.037794,
+        "cpu_wall_ratio": 1.000145546925652,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.03762925,
+        "initialization_seconds": 0.000107208,
+        "output_seconds": 5.075e-05,
+        "repetition": 1,
+        "seconds": 0.037787666
+      },
+      {
+        "allocated_bytes": 10841624,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.037787542,
+        "cpu_seconds": 0.037797,
+        "cpu_wall_ratio": 1.0002712591053742,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.037595917,
+        "initialization_seconds": 0.00011375,
+        "output_seconds": 7.5875e-05,
+        "repetition": 2,
+        "seconds": 0.03778575
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 5120,
+      "c": [
+        "0//1",
+        "6884955//33554432",
+        "3444315//8388608",
+        "20676915//33554432",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "83//256",
+        "59//128",
+        "153//256",
+        "47//64"
+      ],
+      "primitive_sha256": "4d81b2afdda0f1b88b1bdff5aa21c05309411f6208bcb6e2f892aa7150cf20f1",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 81920.0,
+      "C_leading_loop_work": 1834579759567742.5,
+      "FP_leading_loop_work": 629703543956.0,
+      "FP_materialization_elements": 39533896,
+      "FP_new_comparisons": 15359,
+      "FP_reference_dot_elements": 179690524,
+      "FP_retained_comparisons": 44901,
+      "M_leading_loop_work": 2150086976372.0,
+      "R_leading_loop_work": 2150697464692.0,
+      "new_pairs": 20479,
+      "post_update_frontier_pairs": 80097,
+      "retained_pairs": 59618,
+      "updates": 20479
+    }
+  },
+  {
+    "accepted_assignments": 2048,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59641136,
+    "generation_and_input_seconds": 0.263431583,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 774307840,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 8.400759833141849e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 2.7403222585356464e-16,
+        "passed": true,
+        "step": 1023
+      },
+      {
+        "maximum_scaled_error": 7.714417340226271e-17,
+        "passed": true,
+        "step": 2047
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 2048,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 2048,
+      "audit_solves": 0,
+      "block_visits": 10240,
+      "candidate_evaluations": 4941,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 2044,
+      "interval_selections": 2048,
+      "monotonicity_checks": 2047,
+      "periodic_stat_rebuilds": 59,
+      "shrink_updates": 2044,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 0
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 513,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 1122840,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.002732125,
+        "cpu_seconds": 0.002736,
+        "cpu_wall_ratio": 1.0017237263536818,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.002644959,
+        "initialization_seconds": 7.4041e-05,
+        "output_seconds": 1.1041e-05,
+        "repetition": 1,
+        "seconds": 0.002730542
+      },
+      {
+        "allocated_bytes": 1122840,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.002708625,
+        "cpu_seconds": 0.002714,
+        "cpu_wall_ratio": 1.0022619212482111,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.002630042,
+        "initialization_seconds": 6.7458e-05,
+        "output_seconds": 9.333e-06,
+        "repetition": 2,
+        "seconds": 0.002707209
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 512,
+      "c": [
+        "0//1",
+        "24585//131072",
+        "12297//32768",
+        "73809//131072",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "11//32",
+        "7//16",
+        "17//32",
+        "5//8"
+      ],
+      "primitive_sha256": "7517c517bc395930ced156880a96c6da5941963a8d74c9b2934182c6ea77932d",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 8192.0,
+      "C_leading_loop_work": 185327426858.66666,
+      "FP_leading_loop_work": 631680096.0,
+      "FP_materialization_elements": 395115,
+      "FP_new_comparisons": 1535,
+      "FP_reference_dot_elements": 867356,
+      "FP_retained_comparisons": 2452,
+      "M_leading_loop_work": 2170411296.0,
+      "R_leading_loop_work": 2173373728.0,
+      "new_pairs": 2047,
+      "post_update_frontier_pairs": 4940,
+      "retained_pairs": 2893,
+      "updates": 2047
+    }
+  },
+  {
+    "accepted_assignments": 2048,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59640568,
+    "generation_and_input_seconds": 0.260354291,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 753647616,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 1.5565474872801677e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 1.3516544135989204e-16,
+        "passed": true,
+        "step": 1023
+      },
+      {
+        "maximum_scaled_error": 7.06822616724707e-17,
+        "passed": true,
+        "step": 2047
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 2048,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 2048,
+      "audit_solves": 0,
+      "block_visits": 10240,
+      "candidate_evaluations": 6491,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 2044,
+      "interval_selections": 2048,
+      "monotonicity_checks": 2047,
+      "periodic_stat_rebuilds": 59,
+      "shrink_updates": 2044,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 0
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 4,
+      "N": 513,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "states"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 1122840,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.002935833,
+        "cpu_seconds": 0.00294,
+        "cpu_wall_ratio": 1.0014193586624307,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.002854833,
+        "initialization_seconds": 6.6417e-05,
+        "output_seconds": 1.0875e-05,
+        "repetition": 1,
+        "seconds": 0.00293275
+      },
+      {
+        "allocated_bytes": 1122840,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.002943875,
+        "cpu_seconds": 0.002953,
+        "cpu_wall_ratio": 1.0032131357391876,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.002861708,
+        "initialization_seconds": 7.1584e-05,
+        "output_seconds": 8.958e-06,
+        "repetition": 2,
+        "seconds": 0.002942667
+      }
+    ],
+    "model": {
+      "A": 4,
+      "H": 512,
+      "c": [
+        "0//1",
+        "6884955//33554432",
+        "3444315//8388608",
+        "20676915//33554432",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "83//256",
+        "59//128",
+        "153//256",
+        "47//64"
+      ],
+      "primitive_sha256": "08760e261d25ddfd4595902a1e8f867d87214cf7fc2e792e0524658b12ecf720",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 8192.0,
+      "C_leading_loop_work": 185330607458.66666,
+      "FP_leading_loop_work": 634296654.0,
+      "FP_materialization_elements": 396666,
+      "FP_new_comparisons": 1535,
+      "FP_reference_dot_elements": 1327203,
+      "FP_retained_comparisons": 3550,
+      "M_leading_loop_work": 2172004696.0,
+      "R_leading_loop_work": 2176554328.0,
+      "new_pairs": 2047,
+      "post_update_frontier_pairs": 6490,
+      "retained_pairs": 4443,
+      "updates": 2047
+    }
+  },
+  {
+    "accepted_assignments": 8192,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59628848,
+    "generation_and_input_seconds": 0.264476916,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 760643584,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 7.401486830834377e-17,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 7.841715903983916e-17,
+        "passed": true,
+        "step": 4095
+      },
+      {
+        "maximum_scaled_error": 1.3664283380001927e-16,
+        "passed": true,
+        "step": 8191
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 8192,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 8192,
+      "audit_solves": 0,
+      "block_visits": 16384,
+      "candidate_evaluations": 8192,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 8191,
+      "interval_selections": 8192,
+      "monotonicity_checks": 8191,
+      "periodic_stat_rebuilds": 254,
+      "shrink_updates": 8191,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 7354
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 1,
+      "N": 8193,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "binary"
+      ],
+      "profile": 1
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 4590952,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.017177917,
+        "cpu_seconds": 0.017183,
+        "cpu_wall_ratio": 1.0003177986884153,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.017061542,
+        "initialization_seconds": 8.8458e-05,
+        "output_seconds": 2.6375e-05,
+        "repetition": 1,
+        "seconds": 0.017176708
+      },
+      {
+        "allocated_bytes": 4590952,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.017184084,
+        "cpu_seconds": 0.017193,
+        "cpu_wall_ratio": 1.0005601344322637,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.017071833,
+        "initialization_seconds": 8.6917e-05,
+        "output_seconds": 2.375e-05,
+        "repetition": 2,
+        "seconds": 0.017182792
+      }
+    ],
+    "model": {
+      "A": 1,
+      "H": 8192,
+      "c": [
+        "0//1",
+        "6153//8192"
+      ],
+      "epsilon": "1//128",
+      "kappa": "2//1",
+      "p": [
+        "1//4",
+        "5//8"
+      ],
+      "primitive_sha256": "54c8da4abeada7998643188a0691b16814792d86c6c372de9bbc801c0139ea75",
+      "wR": "3//4"
+    },
+    "work": {
+      "BLOCK_order_proxy": 8192.0,
+      "C_leading_loop_work": 3004232807809014.5,
+      "FP_leading_loop_work": 366436769792.0,
+      "FP_materialization_elements": 0,
+      "FP_new_comparisons": 0,
+      "FP_reference_dot_elements": 0,
+      "FP_retained_comparisons": 0,
+      "M_leading_loop_work": 2200096997356.0,
+      "R_leading_loop_work": 2200096997356.0,
+      "new_pairs": 8191,
+      "post_update_frontier_pairs": 8191,
+      "retained_pairs": 0,
+      "updates": 8191
+    }
+  },
+  {
+    "accepted_assignments": 8192,
+    "algorithm_status": "complete",
+    "cross_method_count": 4,
+    "cross_method_validated": true,
+    "generation_allocated_bytes": 59627576,
+    "generation_and_input_seconds": 0.262304084,
+    "implementation_contract": "reference-optimized-20261003",
+    "peak_rss_bytes": 757071872,
+    "policy_family": "ordered_threshold",
+    "scope": "Constructive small-positive-curvature family; empirical path checks, not a family-wide PCL certificate",
+    "selection_contract": "positive_work_monotone_v1",
+    "status": "complete",
+    "audit": [
+      {
+        "maximum_scaled_error": 3.3657949104179e-16,
+        "passed": true,
+        "step": 0
+      },
+      {
+        "maximum_scaled_error": 6.40241364650033e-17,
+        "passed": true,
+        "step": 4095
+      },
+      {
+        "maximum_scaled_error": 2.4327089990204852e-17,
+        "passed": true,
+        "step": 8191
+      }
+    ],
+    "baseline_check": {
+      "archive": "archive://rayleigh_checked_production_20261002",
+      "complete_path_matches_if_applicable": true,
+      "original_path_complete": true,
+      "passed": true,
+      "prefix_assignments": 8192,
+      "prefix_matches": true,
+      "same_input": true
+    },
+    "clock": {
+      "continuous_clock_id": 4,
+      "continuous_resolution_seconds": 4.2e-08,
+      "continuous_scope": "suspension-inclusive monotonic diagnostic envelope",
+      "cpu_boundary": "encloses @timed metadata collection and two continuous-clock reads; not an exact kernel-only CPU time",
+      "cpu_scope": "user+system CPU of the entire Julia process, including GC/runtime threads; not other processes",
+      "flags": "diagnostics, not diagnoses of sleep or proof of uncontended execution",
+      "primary_elapsed": "Julia @timed expression elapsed seconds",
+      "process_cpu_clock_id": 12,
+      "process_cpu_resolution_seconds": 1e-06
+    },
+    "comparison_safeguard": {
+      "bound_method": "contraction",
+      "cost_included_in_timings": true,
+      "state_limit": 10000
+    },
+    "counts": {
+      "assignments": 8192,
+      "audit_solves": 0,
+      "block_visits": 16384,
+      "candidate_evaluations": 8192,
+      "comparison_refreshes": 0,
+      "exact_policy_evaluations": 0,
+      "exact_selections": 0,
+      "exact_tie_selections": 0,
+      "growth_updates": 8191,
+      "interval_selections": 8192,
+      "monotonicity_checks": 8191,
+      "periodic_stat_rebuilds": 254,
+      "shrink_updates": 8191,
+      "structural_tie_selections": 0,
+      "terminal_numerical_updates_skipped": 1,
+      "underflow_stat_rebuilds": 7538
+    },
+    "environment": {
+      "blas": "LBTConfig([ILP64] libopenblas64_.0.3.30.dylib)",
+      "blas_threads": 1,
+      "compute_threads": 1,
+      "cpu_target": "apple-m1",
+      "julia": "1.13.0",
+      "system_memory_bytes": 68719476736
+    },
+    "job": {
+      "A": 1,
+      "N": 8193,
+      "criterion": "average",
+      "method": "BLOCK",
+      "panels": [
+        "binary"
+      ],
+      "profile": 2
+    },
+    "measurements": [
+      {
+        "allocated_bytes": 4590952,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.017283875,
+        "cpu_seconds": 0.017288,
+        "cpu_wall_ratio": 1.0002458957112896,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.017156625,
+        "initialization_seconds": 9.7458e-05,
+        "output_seconds": 2.7375e-05,
+        "repetition": 1,
+        "seconds": 0.017283083
+      },
+      {
+        "allocated_bytes": 4590952,
+        "compile_seconds": 0.0,
+        "continuous_seconds": 0.017272333,
+        "cpu_seconds": 0.017277,
+        "cpu_wall_ratio": 1.0003039645664165,
+        "diagnostic_flag": false,
+        "gc_seconds": 0.0,
+        "index_loop_seconds": 0.017152375,
+        "initialization_seconds": 9.2792e-05,
+        "output_seconds": 2.5375e-05,
+        "repetition": 2,
+        "seconds": 0.017271
+      }
+    ],
+    "model": {
+      "A": 1,
+      "H": 8192,
+      "c": [
+        "0//1",
+        "1723995//2097152"
+      ],
+      "epsilon": "3//512",
+      "kappa": "3//2",
+      "p": [
+        "3//16",
+        "47//64"
+      ],
+      "primitive_sha256": "610dacc5db2f0712705d46e593be6c715db1dbf92472552aaca01f1128dea8ae",
+      "wR": "13//16"
+    },
+    "work": {
+      "BLOCK_order_proxy": 8192.0,
+      "C_leading_loop_work": 3004232807809014.5,
+      "FP_leading_loop_work": 366436769792.0,
+      "FP_materialization_elements": 0,
+      "FP_new_comparisons": 0,
+      "FP_reference_dot_elements": 0,
+      "FP_retained_comparisons": 0,
+      "M_leading_loop_work": 2200096997356.0,
+      "R_leading_loop_work": 2200096997356.0,
+      "new_pairs": 8191,
+      "post_update_frontier_pairs": 8191,
+      "retained_pairs": 0,
+      "updates": 8191
+    }
+  }
+]

@@ -1,0 +1,181 @@
+[
+  {
+    "panel": "binary",
+    "model": "bound",
+    "coefficients": [
+      -0.0006515596326086955,
+      2.148331473972487
+    ],
+    "weighted_R2": 0.9985603339702629,
+    "median_APE": 0.9521022955399385,
+    "CV_median_APE": 1.8647502218604655,
+    "CV_max_APE": 12.039017624052091,
+    "holdouts": [
+      {
+        "level": 1025,
+        "median_APE": 7.032099045940053,
+        "max_APE": 12.039017624052091,
+        "negative_predictions": 0
+      },
+      {
+        "level": 2049,
+        "median_APE": 2.305664743278374,
+        "max_APE": 3.798665386980877,
+        "negative_predictions": 0
+      },
+      {
+        "level": 4097,
+        "median_APE": 0.2134284837298918,
+        "max_APE": 0.27552279456732753,
+        "negative_predictions": 0
+      },
+      {
+        "level": 8193,
+        "median_APE": 1.955903799441164,
+        "max_APE": 2.207487622989412,
+        "negative_predictions": 0
+      }
+    ],
+    "n": 8,
+    "negative_operation_coefficients": false
+  },
+  {
+    "panel": "states",
+    "model": "bound",
+    "coefficients": [
+      -0.0010482848028673824,
+      0.46052396510407906
+    ],
+    "weighted_R2": 0.9969937685816649,
+    "median_APE": 2.943944977423742,
+    "CV_median_APE": 2.7138342924958962,
+    "CV_max_APE": 9.583952033824469,
+    "holdouts": [
+      {
+        "level": 513,
+        "median_APE": 5.7998483133716,
+        "max_APE": 9.583952033824469,
+        "negative_predictions": 0
+      },
+      {
+        "level": 1025,
+        "median_APE": 7.070861079560634,
+        "max_APE": 9.055226982607019,
+        "negative_predictions": 0
+      },
+      {
+        "level": 2049,
+        "median_APE": 4.003418262521958,
+        "max_APE": 5.781594387943243,
+        "negative_predictions": 0
+      },
+      {
+        "level": 4097,
+        "median_APE": 0.8163338233149496,
+        "max_APE": 1.1334123484408771,
+        "negative_predictions": 0
+      },
+      {
+        "level": 5121,
+        "median_APE": 2.025000433645845,
+        "max_APE": 3.2024264478911197,
+        "negative_predictions": 0
+      }
+    ],
+    "n": 10,
+    "negative_operation_coefficients": false
+  },
+  {
+    "panel": "gears",
+    "model": "bound",
+    "coefficients": [
+      0.0032357775641045435,
+      0.2623642844735531
+    ],
+    "weighted_R2": 0.8126037718545335,
+    "median_APE": 18.251976305377127,
+    "CV_median_APE": 31.08720183221638,
+    "CV_max_APE": 168.3914045184766,
+    "holdouts": [
+      {
+        "level": 1,
+        "median_APE": 54.253100328201995,
+        "max_APE": 56.50419735846926,
+        "negative_predictions": 0
+      },
+      {
+        "level": 2,
+        "median_APE": 24.59637508192234,
+        "max_APE": 25.610581796100973,
+        "negative_predictions": 0
+      },
+      {
+        "level": 4,
+        "median_APE": 19.68692552541089,
+        "max_APE": 22.84601956021299,
+        "negative_predictions": 0
+      },
+      {
+        "level": 8,
+        "median_APE": 28.837826471469718,
+        "max_APE": 36.563821868331786,
+        "negative_predictions": 0
+      },
+      {
+        "level": 16,
+        "median_APE": 140.9021141193915,
+        "max_APE": 168.3914045184766,
+        "negative_predictions": 0
+      }
+    ],
+    "n": 10,
+    "negative_operation_coefficients": false
+  },
+  {
+    "panel": "gears",
+    "model": "linear_and_quadratic",
+    "coefficients": [
+      0.0008617766690385852,
+      0.13166774240743506,
+      0.060964612699022425
+    ],
+    "weighted_R2": 0.9938510783078005,
+    "median_APE": 2.89960001894919,
+    "CV_median_APE": 5.202636458264573,
+    "CV_max_APE": 30.26214944097015,
+    "holdouts": [
+      {
+        "level": 1,
+        "median_APE": 8.960477500319739,
+        "max_APE": 10.289065375052465,
+        "negative_predictions": 0
+      },
+      {
+        "level": 2,
+        "median_APE": 2.9459723248908665,
+        "max_APE": 4.33063382416212,
+        "negative_predictions": 0
+      },
+      {
+        "level": 4,
+        "median_APE": 3.8458034915192125,
+        "max_APE": 6.0746390923670255,
+        "negative_predictions": 0
+      },
+      {
+        "level": 8,
+        "median_APE": 5.759592772282798,
+        "max_APE": 9.713274333743566,
+        "negative_predictions": 0
+      },
+      {
+        "level": 16,
+        "median_APE": 16.920388141213863,
+        "max_APE": 30.26214944097015,
+        "negative_predictions": 0
+      }
+    ],
+    "n": 10,
+    "negative_operation_coefficients": false
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "timing_records": 3200,
+  "invalid_timing_records": 0,
+  "eligible_cases": 80,
+  "rejected_or_unresolved_cases": 0,
+  "worker_failures": 0,
+  "measurement_failures": 0,
+  "planned_criterion_cases": 80,
+  "reused_eligible_cases": 80,
+  "fresh_fp_path_audits": 0,
+  "completed_measurement_blocks": 160,
+  "blocked_method": "FP_blocked_down",
+  "blocksize": 32,
+  "tail": 64
+}

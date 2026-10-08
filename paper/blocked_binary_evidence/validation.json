@@ -1,0 +1,8 @@
+{
+  "status": "ready_for_review",
+  "method_cases": 400,
+  "primary_timings": 800,
+  "separate_phase_records": 2400,
+  "cpu_wall_warnings": [],
+  "scope": "Two technical executions are collapsed within each input; both criteria share primitives. Fresh data only, no pooling with old timings. Manuscript integration requires review."
+}

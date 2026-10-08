@@ -1,0 +1,183 @@
+{
+  "revision": "heterogeneity-confirmation-design-v1",
+  "design_date": "2026-09-25",
+  "artifact_scope": "Prospective scientific protocol and deterministic job/seed manifest; not a simulation launcher or repository patch",
+  "baseline_commit": "04701e7d97f7c07110316ca215b91ebe8c7e542c",
+  "baseline_preflight_sha256": "32b5e693ac2d0b7e9d41b5210f5eef23167bf91749f165dc6ce03975e9d4cba8",
+  "master_seed": 2026092502,
+  "pilot_master_seed": 2026092501,
+  "replications": 32,
+  "policies": [
+    "WHITTLE_K",
+    "WHITTLE_P",
+    "LAGRANGIAN_K",
+    "LAGRANGIAN_NI",
+    "LAGRANGIAN_FC",
+    "MYOPIC_K"
+  ],
+  "model": {
+    "criterion": "average_cost",
+    "primary_interpretation": "specified capped finite-state system; no automatic uncapped claim",
+    "primary_cap": 2048,
+    "maximum_gear": 2,
+    "fast_d": "1/8",
+    "contrasts": [
+      1,
+      4,
+      16,
+      64
+    ],
+    "load_multipliers": [
+      "1/4",
+      "1/2",
+      "4/5"
+    ],
+    "class_shares": [
+      "1/2",
+      "1/2"
+    ],
+    "base_class_counts": [
+      25,
+      25
+    ],
+    "holding_weights": [
+      "1",
+      "1"
+    ],
+    "resources": [
+      "0",
+      "33/32",
+      "105/32"
+    ],
+    "resource_units": [
+      0,
+      11,
+      35
+    ],
+    "resource_quantum": "3/32",
+    "all_high_resource_per_project": "21/32"
+  },
+  "main": {
+    "population": 100,
+    "initial": "zero",
+    "primary_window": "base"
+  },
+  "horizon": {
+    "minimum_burn": 8192,
+    "slow_sojourns_burn": 64,
+    "retained_burn_multiple": 2,
+    "rule": "burn=max(8192,64*8*R); T=2*burn, independently of L, load, policy, and observed outcomes"
+  },
+  "diagnostics": {
+    "window_and_cap_start_cells": [
+      {
+        "contrast": 16,
+        "alpha": "1/2"
+      },
+      {
+        "contrast": 64,
+        "alpha": "1/4"
+      },
+      {
+        "contrast": 64,
+        "alpha": "1/2"
+      }
+    ],
+    "extra_windows": [
+      "double_burn",
+      "double_horizon"
+    ],
+    "extra_initial": "cap",
+    "cap_contrast": 64,
+    "comparison_cap": 1024,
+    "cap_loads": [
+      "1/4",
+      "1/2",
+      "4/5"
+    ],
+    "cap_population": 100,
+    "cap_window": "base",
+    "replications": 32
+  },
+  "scaling": {
+    "contrasts": [
+      1,
+      16
+    ],
+    "alpha": "1/2",
+    "cap": 2048,
+    "populations": [
+      50,
+      100,
+      200,
+      400,
+      800,
+      1600
+    ],
+    "initial": "zero",
+    "window": "base",
+    "replications": 32,
+    "reuse_L100_confirmation_observations": true,
+    "release": "Separate computational readiness gate; no policy ranking or favorable gap is a release criterion",
+    "selection_rationale": "One homogeneous control and the R16 mechanism case at all six populations; all four contrasts including R64 remain in the primary confirmation. R64 population scaling is outside this final economical panel."
+  },
+  "statistics": {
+    "primary_estimands": [
+      "myopic_minus_whittle_cost_per_project",
+      "one_minus_ratio_of_mean_whittle_to_mean_myopic"
+    ],
+    "primary_intervals": "Paired Student-t mean intervals and paired Fieller ratio sets; Bonferroni family of 12 cells",
+    "familywise_alpha": 0.05,
+    "primary_comparisons": 12,
+    "pointwise_alpha": 0.05,
+    "relative_saving_halfwidth_target": 0.02,
+    "homogeneous_equivalence_margin": 0.01,
+    "material_saving_reference": 0.05,
+    "material_saving_is_computational_acceptance_test": false,
+    "secondary_formal_W_vs_other_policies_comparisons": 48,
+    "scaling_residual_pointwise_halfwidth_floor": 0.0001,
+    "scaling_residual_pointwise_halfwidth_bound_fraction": 0.001,
+    "diagnostic_equivalence_margin_bound_fraction": 0.005,
+    "diagnostic_equivalence_margin_saving_fraction": 0.01,
+    "extend_automatically_to_meet_precision": false,
+    "group_estimates_require_all_planned_replications": true,
+    "stationarity_inferred_from_confidence_interval": false,
+    "combine_pilot_and_confirmation": false
+  },
+  "readiness": {
+    "patterns": [
+      "all_cap",
+      "stratified",
+      "competition"
+    ],
+    "all_primary_and_cap_families_at_L100": true,
+    "all_additional_scaling_populations": true,
+    "certify_every_new_class_model_and_mixed_dual": true,
+    "all_six_policies": true,
+    "stochastic_feasibility_trajectories_added": false
+  },
+  "execution_requirements": {
+    "numerical_kernels": "reuse accepted source without score, tie, allocator, or transition changes",
+    "separate_production_manifest_integration_required": true,
+    "existing_preflight_launcher_must_not_read_this_as_its_config": true,
+    "single_fresh_trajectory_process_at_a_time": true,
+    "compute_threads": "auto,0",
+    "blas_threads": 1,
+    "heap_hint": "4G",
+    "sampled_RSS_stop_bytes": 8589934592,
+    "allocator_max_states": 200000,
+    "allocator_max_work": 20000000,
+    "allocator_seconds": 30,
+    "exact_score_bit_limit": 524288,
+    "fixed_trajectory_wall_limit_seconds": 7200,
+    "fixed_worker_wall_limit_seconds": 7500,
+    "per_operator_launch_budget_seconds": 43200,
+    "whole_family_preparation_seconds": 1200,
+    "offline_class_certificate_seconds": 600,
+    "offline_exact_certificate_max_H": 2048,
+    "offline_max_exact_policy_fallbacks": 4096,
+    "resume_only_original_missing_identities": true,
+    "automatic_retry": false,
+    "new_wall_limits_reason": "prospectively larger horizons and populations, not relaxation of numerical or memory budgets; approved before confirmation data"
+  }
+}

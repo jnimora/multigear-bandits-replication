@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the version-specific Zenodo record associated with this release."
+version: "1.0.0"
+date-released: "2026-10-08"
+abstract: >-
+  Julia algorithms and compact replication evidence accompanying Fast parametric
+  solution of structured Markov decision processes: Multi-gear bandits. Includes
+  optimized blocked fast-pivoting implementations, input generators and checksums,
+  measured timing and simulation observations, and manuscript reporting scripts.
+type: software
+title: "Multi-gear bandits: algorithms and replication material"
+authors:
+  - family-names: "Niño-Mora"
+    given-names: "José"
+    orcid: "https://orcid.org/0000-0002-2172-3983"
+    affiliation: "Universidad Carlos III de Madrid, Departamento de Estadística"
+    email: "jose.nino@uc3m.es"
+repository-code: "https://github.com/jnimora/multigear-bandits-replication"
+license: MIT
+keywords:
+  - Markov decision processes
+  - Multi-gear bandits
+  - Index policies
+  - Fast pivoting
+  - Reproducible research

@@ -1,0 +1,3 @@
+# Python 3.12; versions used to validate this release candidate.
+numpy==2.5.3
+matplotlib==3.11.2

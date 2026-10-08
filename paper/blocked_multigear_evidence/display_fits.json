@@ -1,0 +1,5781 @@
+[
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.04239058996506717,
+      0.1202708418448062
+    ],
+    "HC3_se": [
+      0.005977311329573859,
+      0.001046830283679945
+    ],
+    "predictions": [
+      0.4220691896693313,
+      0.47166002858241934,
+      1.0246576707104609,
+      1.1698812248647341,
+      2.235507552947271,
+      2.5731623733676705,
+      4.696051666521876,
+      5.417376436898795,
+      9.772533445335583,
+      11.254788764117126,
+      23.485018488206652
+    ],
+    "normalized_condition": 1.0000000000000002,
+    "weighted_R2": 0.9995146658450177,
+    "MdAPE": 1.0102214933709965,
+    "max_APE": 3.65730807205709,
+    "RMSE_seconds": 0.27332690125430326,
+    "negative_predictions": 0,
+    "n": 11,
+    "ids": [
+      "channel_N1024_B2_A2_p2_average",
+      "channel_N1024_B2_A2_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N1024_B2_A16_p2_average",
+      "channel_N1024_B2_A16_p1_average",
+      "channel_N1024_B2_A32_p2_average",
+      "channel_N1024_B2_A32_p1_average",
+      "channel_N1024_B2_A64_p1_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N1024_B2_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.39419366032455,
+        "APE": 7.070198215005508,
+        "relative_residual": 7.070198215005508
+      },
+      {
+        "id": "channel_N1024_B2_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.44429235469616607,
+        "APE": 6.6513337819043175,
+        "relative_residual": 6.6513337819043175
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.0286084991611077,
+        "APE": 1.9156459967694912,
+        "relative_residual": -1.9156459967694912
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.1742760174637725,
+        "APE": 2.144402915711075,
+        "relative_residual": -2.144402915711075
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.239152107084807,
+        "APE": 0.5226655656844895,
+        "relative_residual": 0.5226655656844895
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.577481021702153,
+        "APE": 2.125222417134563,
+        "relative_residual": -2.125222417134563
+      },
+      {
+        "id": "channel_N1024_B2_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.715602060099357,
+        "APE": 1.4307427579946894,
+        "relative_residual": -1.4307427579946894
+      },
+      {
+        "id": "channel_N1024_B2_A16_p1_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.440301580770541,
+        "APE": 1.8726996272910201,
+        "relative_residual": -1.8726996272910201
+      },
+      {
+        "id": "channel_N1024_B2_A32_p2_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 9.73938554204578,
+        "APE": 1.2848342679779607,
+        "relative_residual": 1.2848342679779607
+      },
+      {
+        "id": "channel_N1024_B2_A32_p1_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 11.2163022403809,
+        "APE": 1.0623169602678082,
+        "relative_residual": 1.0623169602678082
+      },
+      {
+        "id": "channel_N1024_B2_A64_p1_average",
+        "level": 64,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 23.324244474089106,
+        "APE": 4.316851998749067,
+        "relative_residual": 4.316851998749067
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.9156459967694912,
+    "CV_max_APE": 7.070198215005508,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "gears",
+    "method": "FP",
+    "phase": "loop",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.7948947430677236,
+      0.13174622174838915,
+      -0.24787851811868566
+    ],
+    "HC3_se": [
+      0.08457011395142583,
+      0.013892194136030614,
+      0.06345342652870385
+    ],
+    "predictions": [
+      0.7061503008906344,
+      0.7604727414748852,
+      1.4126111193384026,
+      1.5716908619861367,
+      2.8317469456848365,
+      3.2016183639203555,
+      5.712569196276845,
+      6.502717595448357,
+      11.644433785736949,
+      13.268115260985185,
+      27.407308424353754
+    ],
+    "normalized_condition": 37.462145804967776,
+    "weighted_R2": 0.9996974962970362,
+    "MdAPE": 1.234120425557798,
+    "max_APE": 2.1117211544667627,
+    "RMSE_seconds": 0.1872252513188478,
+    "negative_predictions": 0,
+    "n": 11,
+    "ids": [
+      "channel_N1024_B2_A2_p2_average",
+      "channel_N1024_B2_A2_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N1024_B2_A16_p2_average",
+      "channel_N1024_B2_A16_p1_average",
+      "channel_N1024_B2_A32_p2_average",
+      "channel_N1024_B2_A32_p1_average",
+      "channel_N1024_B2_A64_p1_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N1024_B2_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.678050169025249,
+        "APE": 5.357963968563993,
+        "relative_residual": 5.357963968563993
+      },
+      {
+        "id": "channel_N1024_B2_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.7311194580427907,
+        "APE": 4.817749103501466,
+        "relative_residual": 4.817749103501466
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.415866345079925,
+        "APE": 0.4700034886659027,
+        "relative_residual": -0.4700034886659027
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.5762665493773813,
+        "APE": 1.6927858811504444,
+        "relative_residual": -1.6927858811504444
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.836761517414027,
+        "APE": 0.5009133097991326,
+        "relative_residual": -0.5009133097991326
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.210557295699759,
+        "APE": 2.140487975757516,
+        "relative_residual": -2.140487975757516
+      },
+      {
+        "id": "channel_N1024_B2_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.72341405414171,
+        "APE": 0.32747431320534665,
+        "relative_residual": -0.32747431320534665
+      },
+      {
+        "id": "channel_N1024_B2_A16_p1_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 6.5258907436680325,
+        "APE": 1.951792578184858,
+        "relative_residual": -1.951792578184858
+      },
+      {
+        "id": "channel_N1024_B2_A32_p2_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 11.574617840920528,
+        "APE": 1.8262860323183956,
+        "relative_residual": 1.8262860323183956
+      },
+      {
+        "id": "channel_N1024_B2_A32_p1_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 13.255223494339308,
+        "APE": 0.03086603022724811,
+        "relative_residual": -0.03086603022724811
+      },
+      {
+        "id": "channel_N1024_B2_A64_p1_average",
+        "level": 64,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 27.01131311523369,
+        "APE": 3.5260628563401,
+        "relative_residual": 3.5260628563401
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.8262860323183956,
+    "CV_max_APE": 5.357963968563993,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "gears",
+    "method": "FP",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.03688862600287157,
+      0.002250431275823541,
+      0.13893494524215314
+    ],
+    "HC3_se": [
+      0.0033387259841868174,
+      0.0039294688388798685,
+      0.0034301914281535287
+    ],
+    "predictions": [
+      0.22601226608927039,
+      0.2560199946763728,
+      0.6021042643644675,
+      0.6899650873655548,
+      1.3634411591274358,
+      1.5673913419219954,
+      2.9317552501648514,
+      3.3663340793356973,
+      6.248341955365311,
+      7.136800268218621,
+      15.319316637604192
+    ],
+    "normalized_condition": 52.746957447869,
+    "weighted_R2": 0.9999913464027408,
+    "MdAPE": 0.2482764832386883,
+    "max_APE": 0.3936229167394306,
+    "RMSE_seconds": 0.006492866345911743,
+    "negative_predictions": 0,
+    "n": 11,
+    "ids": [
+      "channel_N1024_B2_A2_p2_average",
+      "channel_N1024_B2_A2_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N1024_B2_A16_p2_average",
+      "channel_N1024_B2_A16_p1_average",
+      "channel_N1024_B2_A32_p2_average",
+      "channel_N1024_B2_A32_p1_average",
+      "channel_N1024_B2_A64_p1_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N1024_B2_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.2264647735585969,
+        "APE": 0.4489872441221591,
+        "relative_residual": -0.4489872441221591
+      },
+      {
+        "id": "channel_N1024_B2_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.25644276658430926,
+        "APE": 0.10258342558843205,
+        "relative_residual": 0.10258342558843205
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.6022683815572223,
+        "APE": 0.27219964511411593,
+        "relative_residual": 0.27219964511411593
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.6901975928756543,
+        "APE": 0.42745371620221856,
+        "relative_residual": -0.42745371620221856
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.363299026172936,
+        "APE": 0.26178088254616255,
+        "relative_residual": 0.26178088254616255
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.5672162467999287,
+        "APE": 0.17351351743906068,
+        "relative_residual": -0.17351351743906068
+      },
+      {
+        "id": "channel_N1024_B2_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.9304662298104756,
+        "APE": 0.19995851347476237,
+        "relative_residual": 0.19995851347476237
+      },
+      {
+        "id": "channel_N1024_B2_A16_p1_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.3646584779201487,
+        "APE": 0.11378985528620258,
+        "relative_residual": 0.11378985528620258
+      },
+      {
+        "id": "channel_N1024_B2_A32_p2_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 6.252733916522563,
+        "APE": 0.05717600461928441,
+        "relative_residual": -0.05717600461928441
+      },
+      {
+        "id": "channel_N1024_B2_A32_p1_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 7.141213796437791,
+        "APE": 0.3319809485665079,
+        "relative_residual": -0.3319809485665079
+      },
+      {
+        "id": "channel_N1024_B2_A64_p1_average",
+        "level": 64,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 15.307520925602377,
+        "APE": 0.11646749408087563,
+        "relative_residual": 0.11646749408087563
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.19995851347476237,
+    "CV_max_APE": 0.4489872441221591,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "gears",
+    "method": "FP_BLOCKED",
+    "phase": "loop",
+    "model": "kernel_split",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.00993778908582732,
+      0.027153367480814473,
+      -0.005875418775441662,
+      0.1435866156263492
+    ],
+    "HC3_se": [
+      0.008420129201107442,
+      0.0008137192777220914,
+      0.004974012099599496,
+      0.004336714003804579
+    ],
+    "predictions": [
+      0.5201853343652648,
+      0.5495048219665944,
+      1.0047517270405126,
+      1.0905847263302644,
+      1.983492646959542,
+      2.1827150417169694,
+      3.9882033960313743,
+      4.412593395371547,
+      8.18362298710631,
+      9.050699932311192,
+      18.989986696428808
+    ],
+    "normalized_condition": 66.50657426559869,
+    "weighted_R2": 0.9999980047565302,
+    "MdAPE": 0.06557953854130119,
+    "max_APE": 0.2704815372382547,
+    "RMSE_seconds": 0.003952829856371576,
+    "negative_predictions": 0,
+    "n": 11,
+    "ids": [
+      "channel_N1024_B2_A2_p2_average",
+      "channel_N1024_B2_A2_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N1024_B2_A16_p2_average",
+      "channel_N1024_B2_A16_p1_average",
+      "channel_N1024_B2_A32_p2_average",
+      "channel_N1024_B2_A32_p1_average",
+      "channel_N1024_B2_A64_p1_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N1024_B2_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.5219076897356342,
+        "APE": 0.602481289933927,
+        "relative_residual": -0.602481289933927
+      },
+      {
+        "id": "channel_N1024_B2_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.5511080083927896,
+        "APE": 0.14229246022303266,
+        "relative_residual": -0.14229246022303266
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.0043468815152117,
+        "APE": 0.2235702311035505,
+        "relative_residual": 0.2235702311035505
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.090467441763899,
+        "APE": 0.03329614462569526,
+        "relative_residual": -0.03329614462569526
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.9828574049505445,
+        "APE": 0.08814149818914566,
+        "relative_residual": 0.08814149818914566
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.1818434083651876,
+        "APE": 0.10548679725367471,
+        "relative_residual": 0.10548679725367471
+      },
+      {
+        "id": "channel_N1024_B2_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.988802777281298,
+        "APE": 0.011582893816610304,
+        "relative_residual": -0.011582893816610304
+      },
+      {
+        "id": "channel_N1024_B2_A16_p1_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.415569660177161,
+        "APE": 0.20300673135842873,
+        "relative_residual": -0.20300673135842873
+      },
+      {
+        "id": "channel_N1024_B2_A32_p2_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.18829476682106,
+        "APE": 0.12949838147700904,
+        "relative_residual": -0.12949838147700904
+      },
+      {
+        "id": "channel_N1024_B2_A32_p1_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 9.051058746836333,
+        "APE": 0.0011909477432775067,
+        "relative_residual": 0.0011909477432775067
+      },
+      {
+        "id": "channel_N1024_B2_A64_p1_average",
+        "level": 64,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 18.9563578492336,
+        "APE": 0.22731849084766168,
+        "relative_residual": 0.22731849084766168
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.12949838147700904,
+    "CV_max_APE": 0.602481289933927,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "gears",
+    "method": "FP_BLOCKED",
+    "phase": "total",
+    "model": "kernel_split",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.00846143019451362,
+      0.47899269096181446,
+      -1.4837362977951398
+    ],
+    "HC3_se": [
+      0.004104512588310586,
+      0.013755510154655985,
+      0.058453761680568435
+    ],
+    "predictions": [
+      1.0134336800607544,
+      1.0129456583575687,
+      2.05025419873445,
+      2.0487469284841673,
+      4.165016710701643,
+      4.159588573930588,
+      8.555586932817533,
+      8.535691947448797,
+      17.95881757770971,
+      17.883982346234376,
+      38.793221142197325
+    ],
+    "normalized_condition": 142.614975741816,
+    "weighted_R2": 0.9999827039074598,
+    "MdAPE": 0.10103757781316663,
+    "max_APE": 0.6801110596939491,
+    "RMSE_seconds": 0.018754683638211797,
+    "negative_predictions": 0,
+    "n": 11,
+    "ids": [
+      "channel_N1024_B2_A2_p2_average",
+      "channel_N1024_B2_A2_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N1024_B2_A16_p2_average",
+      "channel_N1024_B2_A16_p1_average",
+      "channel_N1024_B2_A32_p2_average",
+      "channel_N1024_B2_A32_p1_average",
+      "channel_N1024_B2_A64_p1_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N1024_B2_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 1.014050708840228,
+        "APE": 0.08542987860067518,
+        "relative_residual": -0.08542987860067518
+      },
+      {
+        "id": "channel_N1024_B2_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 1.0135618209400987,
+        "APE": 0.05086641429302658,
+        "relative_residual": -0.05086641429302658
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.0500667305679423,
+        "APE": 0.13740599049885344,
+        "relative_residual": 0.13740599049885344
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.0485581159486914,
+        "APE": 0.07285585481229971,
+        "relative_residual": -0.07285585481229971
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.165204087395354,
+        "APE": 0.661482904851738,
+        "relative_residual": 0.661482904851738
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.159780529252755,
+        "APE": 0.6847572122666857,
+        "relative_residual": -0.6847572122666857
+      },
+      {
+        "id": "channel_N1024_B2_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.558088788570899,
+        "APE": 0.04032578751124308,
+        "relative_residual": -0.04032578751124308
+      },
+      {
+        "id": "channel_N1024_B2_A16_p1_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.53824755059589,
+        "APE": 0.13100802757122146,
+        "relative_residual": -0.13100802757122146
+      },
+      {
+        "id": "channel_N1024_B2_A32_p2_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 17.95310714424683,
+        "APE": 0.07323811315457109,
+        "relative_residual": -0.07323811315457109
+      },
+      {
+        "id": "channel_N1024_B2_A32_p1_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 17.878390344538317,
+        "APE": 0.2578854087358659,
+        "relative_residual": 0.2578854087358659
+      },
+      {
+        "id": "channel_N1024_B2_A64_p1_average",
+        "level": 64,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 38.837357424717126,
+        "APE": 0.15106009133360837,
+        "relative_residual": -0.15106009133360837
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.13100802757122146,
+    "CV_max_APE": 0.6847572122666857,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "gears",
+    "method": "M",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -2.3860152469795564,
+      0.4978540439442763,
+      -1.5638511159338906
+    ],
+    "HC3_se": [
+      0.056740895889507995,
+      0.011794999787894942,
+      0.049681531965986875
+    ],
+    "predictions": [
+      1.1327706760079503,
+      1.1322634374152778,
+      2.165109415159592,
+      2.163542792946811,
+      4.272527613350087,
+      4.266885732182493,
+      8.65475070411146,
+      8.634072311503534,
+      18.065783207181205,
+      17.98800117976719,
+      38.995645015646076
+    ],
+    "normalized_condition": 141.21691371899163,
+    "weighted_R2": 0.9999904023822017,
+    "MdAPE": 0.19385643745881265,
+    "max_APE": 0.44147950530135477,
+    "RMSE_seconds": 0.02250773727908945,
+    "negative_predictions": 0,
+    "n": 11,
+    "ids": [
+      "channel_N1024_B2_A2_p2_average",
+      "channel_N1024_B2_A2_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N1024_B2_A16_p2_average",
+      "channel_N1024_B2_A16_p1_average",
+      "channel_N1024_B2_A32_p2_average",
+      "channel_N1024_B2_A32_p1_average",
+      "channel_N1024_B2_A64_p1_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N1024_B2_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 1.1307001723220664,
+        "APE": 0.26087890716997303,
+        "relative_residual": 0.26087890716997303
+      },
+      {
+        "id": "channel_N1024_B2_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 1.1301954259254852,
+        "APE": 0.1778759879089904,
+        "relative_residual": 0.1778759879089904
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.164620116957207,
+        "APE": 0.2948213665297063,
+        "relative_residual": 0.2948213665297063
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.163051387901487,
+        "APE": 0.13592121016100214,
+        "relative_residual": -0.13592121016100214
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.27981759509499,
+        "APE": 0.33557025513026556,
+        "relative_residual": -0.33557025513026556
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.274289957079667,
+        "APE": 0.6157732056582532,
+        "relative_residual": -0.6157732056582532
+      },
+      {
+        "id": "channel_N1024_B2_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.642964260420019,
+        "APE": 0.3297771047752036,
+        "relative_residual": 0.3297771047752036
+      },
+      {
+        "id": "channel_N1024_B2_A16_p1_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.622009720785645,
+        "APE": 0.3918311155570966,
+        "relative_residual": 0.3918311155570966
+      },
+      {
+        "id": "channel_N1024_B2_A32_p2_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 18.064447810974244,
+        "APE": 0.22006611425124037,
+        "relative_residual": -0.22006611425124037
+      },
+      {
+        "id": "channel_N1024_B2_A32_p1_average",
+        "level": 32,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 17.98663631206405,
+        "APE": 0.2654063391064252,
+        "relative_residual": 0.2654063391064252
+      },
+      {
+        "id": "channel_N1024_B2_A64_p1_average",
+        "level": 64,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 39.07545446308255,
+        "APE": 0.2633192911234315,
+        "relative_residual": -0.2633192911234315
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.2654063391064252,
+    "CV_max_APE": 0.6157732056582532,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "gears",
+    "method": "M",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.05166053905049603,
+      0.15788223757028677,
+      -0.087941042268602
+    ],
+    "HC3_se": [
+      0.016077424639643803,
+      0.00468101881638434,
+      0.017693055570005892
+    ],
+    "predictions": [
+      0.12177649282275706,
+      0.1455210258500264,
+      0.9736925692393675,
+      1.164330793152128,
+      3.571804155251959,
+      4.216000728132366,
+      8.8806044095556,
+      10.40847858821542,
+      31.48820781390924,
+      36.64750203787452,
+      76.5121737586288,
+      88.74477759717264,
+      264.6716466013653,
+      305.9676715641541
+    ],
+    "normalized_condition": 4.002950321015453,
+    "weighted_R2": 0.9983070764761763,
+    "MdAPE": 3.288947458708216,
+    "max_APE": 7.268835464024656,
+    "RMSE_seconds": 4.120930040379937,
+    "negative_predictions": 0,
+    "n": 14,
+    "ids": [
+      "channel_N512_B2_A4_p2_average",
+      "channel_N512_B2_A4_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1536_B2_A4_p2_average",
+      "channel_N1536_B2_A4_p1_average",
+      "channel_N2048_B2_A4_p2_average",
+      "channel_N2048_B2_A4_p1_average",
+      "channel_N3072_B2_A4_p2_average",
+      "channel_N3072_B2_A4_p1_average",
+      "channel_N4096_B2_A4_p2_average",
+      "channel_N4096_B2_A4_p1_average",
+      "channel_N6144_B2_A4_p2_average",
+      "channel_N6144_B2_A4_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      1536,
+      2048,
+      3072,
+      4096,
+      6144
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A4_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.1690188312413403,
+        "APE": 34.55772788664768,
+        "relative_residual": -34.55772788664768
+      },
+      {
+        "id": "channel_N512_B2_A4_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.1931171586851038,
+        "APE": 37.710347234100624,
+        "relative_residual": -37.710347234100624
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.9483742879710413,
+        "APE": 6.034046691114957,
+        "relative_residual": 6.034046691114957
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.141295160610041,
+        "APE": 0.724437017040831,
+        "relative_residual": 0.724437017040831
+      },
+      {
+        "id": "channel_N1536_B2_A4_p2_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.5923255452714464,
+        "APE": 0.43016318633923706,
+        "relative_residual": 0.43016318633923706
+      },
+      {
+        "id": "channel_N1536_B2_A4_p1_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.2363032734177555,
+        "APE": 4.886129696549078,
+        "relative_residual": -4.886129696549078
+      },
+      {
+        "id": "channel_N2048_B2_A4_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.92188501063439,
+        "APE": 0.4229497016617481,
+        "relative_residual": 0.4229497016617481
+      },
+      {
+        "id": "channel_N2048_B2_A4_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 10.455382992903306,
+        "APE": 5.949928384731207,
+        "relative_residual": -5.949928384731207
+      },
+      {
+        "id": "channel_N3072_B2_A4_p2_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 31.555095424413814,
+        "APE": 2.0582631725296263,
+        "relative_residual": 2.0582631725296263
+      },
+      {
+        "id": "channel_N3072_B2_A4_p1_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 36.733614397074064,
+        "APE": 4.116918943837059,
+        "relative_residual": -4.116918943837059
+      },
+      {
+        "id": "channel_N4096_B2_A4_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 74.95160338600658,
+        "APE": 4.303170969079671,
+        "relative_residual": 4.303170969079671
+      },
+      {
+        "id": "channel_N4096_B2_A4_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 86.81244604143969,
+        "APE": 9.287966733315693,
+        "relative_residual": 9.287966733315693
+      },
+      {
+        "id": "channel_N6144_B2_A4_p2_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 267.6320940999076,
+        "APE": 0.06513530780271755,
+        "relative_residual": 0.06513530780271755
+      },
+      {
+        "id": "channel_N6144_B2_A4_p1_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 309.54622448749444,
+        "APE": 5.721195697321021,
+        "relative_residual": -5.721195697321021
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 4.594650332814375,
+    "CV_max_APE": 37.710347234100624,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states4",
+    "method": "FP",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.04704651063908055,
+      0.06807751135738682,
+      -0.07122979670216037
+    ],
+    "HC3_se": [
+      0.010645498455221785,
+      0.0008088786214035273,
+      0.011674990490475955
+    ],
+    "predictions": [
+      0.1824771694121237,
+      0.19271561511517596,
+      1.4252807526899698,
+      1.5074823736784952,
+      5.031919239263957,
+      5.30969145849243,
+      12.258897298620457,
+      12.917703972196175,
+      42.599875401150214,
+      44.82452027908801,
+      102.50013414320357,
+      107.77473146057531,
+      351.18607045636384,
+      368.9925739090884
+    ],
+    "normalized_condition": 4.041556996037286,
+    "weighted_R2": 0.9997122159372324,
+    "MdAPE": 1.1800525050527813,
+    "max_APE": 2.744823008108286,
+    "RMSE_seconds": 1.671109407735406,
+    "negative_predictions": 0,
+    "n": 14,
+    "ids": [
+      "channel_N512_B2_A4_p2_average",
+      "channel_N512_B2_A4_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1536_B2_A4_p2_average",
+      "channel_N1536_B2_A4_p1_average",
+      "channel_N2048_B2_A4_p2_average",
+      "channel_N2048_B2_A4_p1_average",
+      "channel_N3072_B2_A4_p2_average",
+      "channel_N3072_B2_A4_p1_average",
+      "channel_N4096_B2_A4_p2_average",
+      "channel_N4096_B2_A4_p1_average",
+      "channel_N6144_B2_A4_p2_average",
+      "channel_N6144_B2_A4_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      1536,
+      2048,
+      3072,
+      4096,
+      6144
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A4_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.2275597286441621,
+        "APE": 26.25370408836823,
+        "relative_residual": -26.25370408836823
+      },
+      {
+        "id": "channel_N512_B2_A4_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.23790308059283918,
+        "APE": 22.04030411846793,
+        "relative_residual": -22.04030411846793
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.4061315983511702,
+        "APE": 0.22077501680387543,
+        "relative_residual": 0.22077501680387543
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.48889716343903,
+        "APE": 3.9438472506671594,
+        "relative_residual": 3.9438472506671594
+      },
+      {
+        "id": "channel_N1536_B2_A4_p2_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.047708237169529,
+        "APE": 2.8034017613456172,
+        "relative_residual": -2.8034017613456172
+      },
+      {
+        "id": "channel_N1536_B2_A4_p1_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.325135969588753,
+        "APE": 0.6451017374961965,
+        "relative_residual": 0.6451017374961965
+      },
+      {
+        "id": "channel_N2048_B2_A4_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 12.27840422688607,
+        "APE": 1.7009988973607233,
+        "relative_residual": -1.7009988973607233
+      },
+      {
+        "id": "channel_N2048_B2_A4_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 12.937667998540814,
+        "APE": 0.057884577501527444,
+        "relative_residual": -0.057884577501527444
+      },
+      {
+        "id": "channel_N3072_B2_A4_p2_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 42.56837279690295,
+        "APE": 0.6363099328662855,
+        "relative_residual": -0.6363099328662855
+      },
+      {
+        "id": "channel_N3072_B2_A4_p1_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 44.79042680049115,
+        "APE": 1.2951265439807371,
+        "relative_residual": 1.2951265439807371
+      },
+      {
+        "id": "channel_N4096_B2_A4_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 102.03321196712628,
+        "APE": 0.14778177698774161,
+        "relative_residual": -0.14778177698774161
+      },
+      {
+        "id": "channel_N4096_B2_A4_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 107.27174305673529,
+        "APE": 3.179480909160992,
+        "relative_residual": 3.179480909160992
+      },
+      {
+        "id": "channel_N6144_B2_A4_p2_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 352.9752097132645,
+        "APE": 2.076019783542559,
+        "relative_residual": -2.076019783542559
+      },
+      {
+        "id": "channel_N6144_B2_A4_p1_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 370.90278796552315,
+        "APE": 0.4328474788518829,
+        "relative_residual": -0.4328474788518829
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.4980627206707302,
+    "CV_max_APE": 26.25370408836823,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states4",
+    "method": "FP",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.015291249296495557,
+      0.07620768059085846,
+      -0.01458205801255924
+    ],
+    "HC3_se": [
+      0.0036070938581274146,
+      0.0009625334437695211,
+      0.004090639743855162
+    ],
+    "predictions": [
+      0.08224006793255399,
+      0.09407395276940156,
+      0.5933226907316265,
+      0.6869453224466813,
+      2.0139820149600958,
+      2.3282943370589306,
+      4.809861520275056,
+      5.553418813316191,
+      16.389233249839656,
+      18.893140672786522,
+      39.05583897621472,
+      44.984627783784,
+      132.54729080498214,
+      152.53427078341937
+    ],
+    "normalized_condition": 4.044004762814976,
+    "weighted_R2": 0.9997161654538508,
+    "MdAPE": 1.0251347296388154,
+    "max_APE": 3.10284108187268,
+    "RMSE_seconds": 0.8837366219079754,
+    "negative_predictions": 0,
+    "n": 14,
+    "ids": [
+      "channel_N512_B2_A4_p2_average",
+      "channel_N512_B2_A4_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1536_B2_A4_p2_average",
+      "channel_N1536_B2_A4_p1_average",
+      "channel_N2048_B2_A4_p2_average",
+      "channel_N2048_B2_A4_p1_average",
+      "channel_N3072_B2_A4_p2_average",
+      "channel_N3072_B2_A4_p1_average",
+      "channel_N4096_B2_A4_p2_average",
+      "channel_N4096_B2_A4_p1_average",
+      "channel_N6144_B2_A4_p2_average",
+      "channel_N6144_B2_A4_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      1536,
+      2048,
+      3072,
+      4096,
+      6144
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A4_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.10707044386499985,
+        "APE": 29.141378231311574,
+        "relative_residual": -29.141378231311574
+      },
+      {
+        "id": "channel_N512_B2_A4_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.11908222232840117,
+        "APE": 27.978543261229174,
+        "relative_residual": -27.978543261229174
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.5827957526056317,
+        "APE": 3.4966133980789857,
+        "relative_residual": 3.4966133980789857
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.6773502469528547,
+        "APE": 1.4419040609849871,
+        "relative_residual": 1.4419040609849871
+      },
+      {
+        "id": "channel_N1536_B2_A4_p2_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.018092304863108,
+        "APE": 0.04806211338482706,
+        "relative_residual": -0.04806211338482706
+      },
+      {
+        "id": "channel_N1536_B2_A4_p1_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.3323163194441627,
+        "APE": 1.4565585248181383,
+        "relative_residual": -1.4565585248181383
+      },
+      {
+        "id": "channel_N2048_B2_A4_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.827791147301819,
+        "APE": 0.7597550390791646,
+        "relative_residual": -0.7597550390791646
+      },
+      {
+        "id": "channel_N2048_B2_A4_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.573288968670892,
+        "APE": 3.4717434713152797,
+        "relative_residual": -3.4717434713152797
+      },
+      {
+        "id": "channel_N3072_B2_A4_p2_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.412306305926947,
+        "APE": 0.5338427724952599,
+        "relative_residual": 0.5338427724952599
+      },
+      {
+        "id": "channel_N3072_B2_A4_p1_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 18.92240315372732,
+        "APE": 1.8811290472964952,
+        "relative_residual": -1.8811290472964952
+      },
+      {
+        "id": "channel_N4096_B2_A4_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 38.84807531354584,
+        "APE": 3.0951443495789155,
+        "relative_residual": 3.0951443495789155
+      },
+      {
+        "id": "channel_N4096_B2_A4_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 44.72826120014345,
+        "APE": 0.7414500442911061,
+        "relative_residual": 0.7414500442911061
+      },
+      {
+        "id": "channel_N6144_B2_A4_p2_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 132.0586407258492,
+        "APE": 2.406913021710502,
+        "relative_residual": 2.406913021710502
+      },
+      {
+        "id": "channel_N6144_B2_A4_p1_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 151.9446353963818,
+        "APE": 0.5580730551359386,
+        "relative_residual": -0.5580730551359386
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.6688437860573169,
+    "CV_max_APE": 29.141378231311574,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states4",
+    "method": "FP_BLOCKED",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.012038028116583915,
+      0.04073311506576058
+    ],
+    "HC3_se": [
+      0.0031524503167673777,
+      0.000373045506861237
+    ],
+    "predictions": [
+      0.13961033522309133,
+      0.14593556371708244,
+      1.0235929370782975,
+      1.0736343686090992,
+      3.415739624486905,
+      3.583740013468354,
+      8.067911274744153,
+      8.465343719093642,
+      27.15944065048133,
+      28.49778277534507,
+      64.31266894879607,
+      67.4816151078566,
+      216.86160407180768,
+      227.54467366487958
+    ],
+    "normalized_condition": 1.0000000000000002,
+    "weighted_R2": 0.9991526976027948,
+    "MdAPE": 1.4862504766710583,
+    "max_APE": 7.336879269561666,
+    "RMSE_seconds": 1.74256183550972,
+    "negative_predictions": 0,
+    "n": 14,
+    "ids": [
+      "channel_N512_B2_A4_p2_average",
+      "channel_N512_B2_A4_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1536_B2_A4_p2_average",
+      "channel_N1536_B2_A4_p1_average",
+      "channel_N2048_B2_A4_p2_average",
+      "channel_N2048_B2_A4_p1_average",
+      "channel_N3072_B2_A4_p2_average",
+      "channel_N3072_B2_A4_p1_average",
+      "channel_N4096_B2_A4_p2_average",
+      "channel_N4096_B2_A4_p1_average",
+      "channel_N6144_B2_A4_p2_average",
+      "channel_N6144_B2_A4_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      1536,
+      2048,
+      3072,
+      4096,
+      6144
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A4_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.1311992311216971,
+        "APE": 4.784148757048212,
+        "relative_residual": 4.784148757048212
+      },
+      {
+        "id": "channel_N512_B2_A4_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.13753623299920764,
+        "APE": 7.172779117458347,
+        "relative_residual": 7.172779117458347
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.0237004443853863,
+        "APE": 1.6991015489697323,
+        "relative_residual": -1.6991015489697323
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.073747062592156,
+        "APE": 1.5005365745171073,
+        "relative_residual": 1.5005365745171073
+      },
+      {
+        "id": "channel_N1536_B2_A4_p2_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.424723662440215,
+        "APE": 3.078442012737897,
+        "relative_residual": -3.078442012737897
+      },
+      {
+        "id": "channel_N1536_B2_A4_p1_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.593184170452787,
+        "APE": 0.21453540849643243,
+        "relative_residual": -0.21453540849643243
+      },
+      {
+        "id": "channel_N2048_B2_A4_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.088603437221314,
+        "APE": 3.0301168725659755,
+        "relative_residual": -3.0301168725659755
+      },
+      {
+        "id": "channel_N2048_B2_A4_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.48707482300308,
+        "APE": 0.0400945365216785,
+        "relative_residual": -0.0400945365216785
+      },
+      {
+        "id": "channel_N3072_B2_A4_p2_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 27.199942689887674,
+        "APE": 2.16593747137133,
+        "relative_residual": -2.16593747137133
+      },
+      {
+        "id": "channel_N3072_B2_A4_p1_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 28.54029252958012,
+        "APE": 0.42662721668644077,
+        "relative_residual": 0.42662721668644077
+      },
+      {
+        "id": "channel_N4096_B2_A4_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 63.82177928284658,
+        "APE": 0.06751973543083262,
+        "relative_residual": -0.06751973543083262
+      },
+      {
+        "id": "channel_N4096_B2_A4_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 66.96647588421061,
+        "APE": 8.044248350716558,
+        "relative_residual": 8.044248350716558
+      },
+      {
+        "id": "channel_N6144_B2_A4_p2_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 217.00946517846847,
+        "APE": 1.5378590887435255,
+        "relative_residual": -1.5378590887435255
+      },
+      {
+        "id": "channel_N6144_B2_A4_p1_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 227.69982423624202,
+        "APE": 0.7424977523187098,
+        "relative_residual": 0.7424977523187098
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.618480318856629,
+    "CV_max_APE": 8.044248350716558,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states4",
+    "method": "FP_BLOCKED",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.00430785024759861,
+      0.1175744412450323
+    ],
+    "HC3_se": [
+      0.0023952375585119174,
+      0.0007688632550639447
+    ],
+    "predictions": [
+      0.2499282111804495,
+      0.24983520438900036,
+      2.022635489303683,
+      2.022265511930695,
+      6.828749807443416,
+      6.827917448357429,
+      16.18320654613562,
+      16.181727358550738,
+      54.59688856723429,
+      54.593555878310994,
+      129.38315905913126,
+      129.3772370087711,
+      436.55139571600773,
+      436.5380671293279
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9995767831734436,
+    "MdAPE": 0.9935939048707187,
+    "max_APE": 3.5506984894659728,
+    "RMSE_seconds": 5.8647487443325215,
+    "negative_predictions": 0,
+    "n": 14,
+    "ids": [
+      "channel_N512_B2_A4_p2_average",
+      "channel_N512_B2_A4_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1536_B2_A4_p2_average",
+      "channel_N1536_B2_A4_p1_average",
+      "channel_N2048_B2_A4_p2_average",
+      "channel_N2048_B2_A4_p1_average",
+      "channel_N3072_B2_A4_p2_average",
+      "channel_N3072_B2_A4_p1_average",
+      "channel_N4096_B2_A4_p2_average",
+      "channel_N4096_B2_A4_p1_average",
+      "channel_N6144_B2_A4_p2_average",
+      "channel_N6144_B2_A4_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      1536,
+      2048,
+      3072,
+      4096,
+      6144
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A4_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.2636952245330197,
+        "APE": 6.050150839373157,
+        "relative_residual": -6.050150839373157
+      },
+      {
+        "id": "channel_N512_B2_A4_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.26360236773186935,
+        "APE": 5.1170549569275865,
+        "relative_residual": -5.1170549569275865
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.017958469150484,
+        "APE": 1.7014596022533757,
+        "relative_residual": 1.7014596022533757
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.0175893851443516,
+        "APE": 1.4399786162536923,
+        "relative_residual": 1.4399786162536923
+      },
+      {
+        "id": "channel_N1536_B2_A4_p2_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 6.858704279300914,
+        "APE": 2.6649335056978516,
+        "relative_residual": -2.6649335056978516
+      },
+      {
+        "id": "channel_N1536_B2_A4_p1_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 6.857868137605692,
+        "APE": 2.7985087513016853,
+        "relative_residual": -2.7985087513016853
+      },
+      {
+        "id": "channel_N2048_B2_A4_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.220604505012535,
+        "APE": 2.7681163791766146,
+        "relative_residual": -2.7681163791766146
+      },
+      {
+        "id": "channel_N2048_B2_A4_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.219121841281122,
+        "APE": 0.009061221395976076,
+        "relative_residual": 0.009061221395976076
+      },
+      {
+        "id": "channel_N3072_B2_A4_p2_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 54.68125775399585,
+        "APE": 0.8681828676574914,
+        "relative_residual": -0.8681828676574914
+      },
+      {
+        "id": "channel_N3072_B2_A4_p1_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 54.677919887975676,
+        "APE": 0.8998703906818674,
+        "relative_residual": -0.8998703906818674
+      },
+      {
+        "id": "channel_N4096_B2_A4_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 129.59652392999115,
+        "APE": 0.9418282037216422,
+        "relative_residual": -0.9418282037216422
+      },
+      {
+        "id": "channel_N4096_B2_A4_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 129.59059209174626,
+        "APE": 0.9341151813407723,
+        "relative_residual": -0.9341151813407723
+      },
+      {
+        "id": "channel_N6144_B2_A4_p2_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 433.2084756181284,
+        "APE": 4.289265154490994,
+        "relative_residual": 4.289265154490994
+      },
+      {
+        "id": "channel_N6144_B2_A4_p1_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 433.1952491640467,
+        "APE": 4.032141019902677,
+        "relative_residual": 4.032141019902677
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 2.1831965539756135,
+    "CV_max_APE": 6.050150839373157,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states4",
+    "method": "M",
+    "phase": "loop",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.0006434308147860723,
+      0.09585036912509773
+    ],
+    "HC3_se": [
+      0.0017485771522837814,
+      0.000564558313063725
+    ],
+    "predictions": [
+      0.2682929163280276,
+      0.26821709427693263,
+      2.1347661944452385,
+      2.134464577296194,
+      7.195301350415628,
+      7.1946227852037365,
+      17.04513610806862,
+      17.04393022799371,
+      57.493655128013614,
+      57.49093821556142,
+      136.24222053036323,
+      136.23739268932061,
+      459.6870960824565,
+      459.6762302008954
+    ],
+    "normalized_condition": 1.0000000000000002,
+    "weighted_R2": 0.9996564033126657,
+    "MdAPE": 0.9998120560896977,
+    "max_APE": 3.0919961819423376,
+    "RMSE_seconds": 5.535306076214685,
+    "negative_predictions": 0,
+    "n": 14,
+    "ids": [
+      "channel_N512_B2_A4_p2_average",
+      "channel_N512_B2_A4_p1_average",
+      "channel_N1024_B2_A4_p2_average",
+      "channel_N1024_B2_A4_p1_average",
+      "channel_N1536_B2_A4_p2_average",
+      "channel_N1536_B2_A4_p1_average",
+      "channel_N2048_B2_A4_p2_average",
+      "channel_N2048_B2_A4_p1_average",
+      "channel_N3072_B2_A4_p2_average",
+      "channel_N3072_B2_A4_p1_average",
+      "channel_N4096_B2_A4_p2_average",
+      "channel_N4096_B2_A4_p1_average",
+      "channel_N6144_B2_A4_p2_average",
+      "channel_N6144_B2_A4_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      1536,
+      2048,
+      3072,
+      4096,
+      6144
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A4_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.2876713067921011,
+        "APE": 7.2289596480348735,
+        "relative_residual": -7.2289596480348735
+      },
+      {
+        "id": "channel_N512_B2_A4_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.28759564822381556,
+        "APE": 7.410870116455947,
+        "relative_residual": -7.410870116455947
+      },
+      {
+        "id": "channel_N1024_B2_A4_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.1295071486285626,
+        "APE": 1.9121697188494244,
+        "relative_residual": 1.9121697188494244
+      },
+      {
+        "id": "channel_N1024_B2_A4_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.129206309288622,
+        "APE": 1.4308969173627937,
+        "relative_residual": 1.4308969173627937
+      },
+      {
+        "id": "channel_N1536_B2_A4_p2_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 7.221560181699684,
+        "APE": 2.1802856306636285,
+        "relative_residual": -2.1802856306636285
+      },
+      {
+        "id": "channel_N1536_B2_A4_p1_average",
+        "level": 1536,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 7.2208790491121,
+        "APE": 2.3477988582738765,
+        "relative_residual": -2.3477988582738765
+      },
+      {
+        "id": "channel_N2048_B2_A4_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 17.091534739616268,
+        "APE": 2.59967400905085,
+        "relative_residual": -2.59967400905085
+      },
+      {
+        "id": "channel_N2048_B2_A4_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 17.090325520427047,
+        "APE": 0.6310240637605815,
+        "relative_residual": -0.6310240637605815
+      },
+      {
+        "id": "channel_N3072_B2_A4_p2_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 57.57321269427789,
+        "APE": 0.7632622480279532,
+        "relative_residual": -0.7632622480279532
+      },
+      {
+        "id": "channel_N3072_B2_A4_p1_average",
+        "level": 3072,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 57.57049200217635,
+        "APE": 0.8187714892723817,
+        "relative_residual": -0.8187714892723817
+      },
+      {
+        "id": "channel_N4096_B2_A4_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 136.4535728945271,
+        "APE": 0.9685422805750806,
+        "relative_residual": -0.9685422805750806
+      },
+      {
+        "id": "channel_N4096_B2_A4_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 136.44873754700535,
+        "APE": 0.7955062261211037,
+        "relative_residual": -0.7955062261211037
+      },
+      {
+        "id": "channel_N6144_B2_A4_p2_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 456.53037211537526,
+        "APE": 3.757474549426443,
+        "relative_residual": 3.757474549426443
+      },
+      {
+        "id": "channel_N6144_B2_A4_p1_average",
+        "level": 6144,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 456.5195809016846,
+        "APE": 3.731763173749866,
+        "relative_residual": 3.731763173749866
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 2.0462276747565262,
+    "CV_max_APE": 7.410870116455947,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states4",
+    "method": "M",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.06749709805449766,
+      0.14667014128741812,
+      -0.06660442395585416
+    ],
+    "HC3_se": [
+      0.04638251268689509,
+      0.006453751532938586,
+      0.027881840878659872
+    ],
+    "predictions": [
+      0.26602358571997964,
+      0.3172426943291118,
+      2.1854624517374823,
+      2.597232083161048,
+      19.141286885710112,
+      22.443856205985583,
+      161.20111919300652,
+      187.6537210619854
+    ],
+    "normalized_condition": 4.266370175960016,
+    "weighted_R2": 0.9987449712694003,
+    "MdAPE": 2.8742232944717427,
+    "max_APE": 4.559764519261074,
+    "RMSE_seconds": 2.6240580139388685,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "channel_N512_B2_A8_p2_average",
+      "channel_N512_B2_A8_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N2048_B2_A8_p2_average",
+      "channel_N2048_B2_A8_p1_average",
+      "channel_N4096_B2_A8_p2_average",
+      "channel_N4096_B2_A8_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A8_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.3350338976573709,
+        "APE": 22.918767761511166,
+        "relative_residual": -22.918767761511166
+      },
+      {
+        "id": "channel_N512_B2_A8_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.3870933166021868,
+        "APE": 25.484139679973445,
+        "relative_residual": -25.484139679973445
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.1143078975460896,
+        "APE": 6.069036955629722,
+        "relative_residual": 6.069036955629722
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.5340944290868155,
+        "APE": 0.4061543101512399,
+        "relative_residual": -0.4061543101512399
+      },
+      {
+        "id": "channel_N2048_B2_A8_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 19.308418016513837,
+        "APE": 0.3683140037555087,
+        "relative_residual": 0.3683140037555087
+      },
+      {
+        "id": "channel_N2048_B2_A8_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 22.650925872180014,
+        "APE": 5.524445246924871,
+        "relative_residual": -5.524445246924871
+      },
+      {
+        "id": "channel_N4096_B2_A8_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 154.3728435202233,
+        "APE": 8.253588408621805,
+        "relative_residual": 8.253588408621805
+      },
+      {
+        "id": "channel_N4096_B2_A8_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 179.1748329728875,
+        "APE": 3.460553344716273,
+        "relative_residual": 3.460553344716273
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 5.796741101277297,
+    "CV_max_APE": 25.484139679973445,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states8",
+    "method": "FP",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.08683450846652158,
+      0.07798530863393172,
+      -0.072679181217345
+    ],
+    "HC3_se": [
+      0.027662979673126014,
+      0.0013449439318627375,
+      0.015971837118459342
+    ],
+    "predictions": [
+      0.35830320041600516,
+      0.3855366779171323,
+      2.8523175707443813,
+      3.0712577143262956,
+      24.59880222101403,
+      26.354796218605753,
+      205.76184656297548,
+      219.82683827032173
+    ],
+    "normalized_condition": 4.3161698973119,
+    "weighted_R2": 0.9997538315219331,
+    "MdAPE": 1.099493504748283,
+    "max_APE": 2.291181016838113,
+    "RMSE_seconds": 1.0765222098583072,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "channel_N512_B2_A8_p2_average",
+      "channel_N512_B2_A8_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N2048_B2_A8_p2_average",
+      "channel_N2048_B2_A8_p1_average",
+      "channel_N4096_B2_A8_p2_average",
+      "channel_N4096_B2_A8_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A8_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.5658635179582847,
+        "APE": 59.72956635389803,
+        "relative_residual": -59.72956635389803
+      },
+      {
+        "id": "channel_N512_B2_A8_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.5940125555127824,
+        "APE": 52.44306143286321,
+        "relative_residual": -52.44306143286321
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.72224757052382,
+        "APE": 3.556091897909311,
+        "relative_residual": 3.556091897909311
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.9468715556607323,
+        "APE": 6.24839522402501,
+        "relative_residual": 6.24839522402501
+      },
+      {
+        "id": "channel_N2048_B2_A8_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 24.75944891908322,
+        "APE": 2.46540142616657,
+        "relative_residual": -2.46540142616657
+      },
+      {
+        "id": "channel_N2048_B2_A8_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 26.52754459305598,
+        "APE": 1.2474408033640454,
+        "relative_residual": -1.2474408033640454
+      },
+      {
+        "id": "channel_N4096_B2_A8_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 202.21702432862668,
+        "APE": 1.4878243721835982,
+        "relative_residual": 1.4878243721835982
+      },
+      {
+        "id": "channel_N4096_B2_A8_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 215.92606137757602,
+        "APE": 3.0831663874898787,
+        "relative_residual": 3.0831663874898787
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 3.3196291426995947,
+    "CV_max_APE": 59.72956635389803,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states8",
+    "method": "FP",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.008175812140628597,
+      0.07394178964393873
+    ],
+    "HC3_se": [
+      0.004114757808396714,
+      0.0011365706133001263
+    ],
+    "predictions": [
+      0.18741074173673847,
+      0.21412002900514523,
+      1.3938690253668646,
+      1.604915235625013,
+      10.898338747920379,
+      12.576636075998945,
+      86.34317061415038,
+      99.73315032303688
+    ],
+    "normalized_condition": 1.0000000000000002,
+    "weighted_R2": 0.9990535697340166,
+    "MdAPE": 2.1951822145120112,
+    "max_APE": 4.8433380577623035,
+    "RMSE_seconds": 1.7864461839639638,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "channel_N512_B2_A8_p2_average",
+      "channel_N512_B2_A8_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N2048_B2_A8_p2_average",
+      "channel_N2048_B2_A8_p1_average",
+      "channel_N4096_B2_A8_p2_average",
+      "channel_N4096_B2_A8_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A8_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.13215374126427357,
+        "APE": 30.166586490803134,
+        "relative_residual": 30.166586490803134
+      },
+      {
+        "id": "channel_N512_B2_A8_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.15923665865019437,
+        "APE": 25.26291329498454,
+        "relative_residual": 25.26291329498454
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.406215844978995,
+        "APE": 2.877990360391546,
+        "relative_residual": -2.877990360391546
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.6193522426637696,
+        "APE": 3.505948270508812,
+        "relative_residual": -3.505948270508812
+      },
+      {
+        "id": "channel_N2048_B2_A8_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 11.006304396610288,
+        "APE": 1.983636605704861,
+        "relative_residual": -1.983636605704861
+      },
+      {
+        "id": "channel_N2048_B2_A8_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 12.701562749113176,
+        "APE": 3.7093228350841785,
+        "relative_residual": -3.7093228350841785
+      },
+      {
+        "id": "channel_N4096_B2_A8_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 84.4487436136693,
+        "APE": 6.931138961722657,
+        "relative_residual": 6.931138961722657
+      },
+      {
+        "id": "channel_N4096_B2_A8_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 97.544179638111,
+        "APE": 4.5574686987997435,
+        "relative_residual": 4.5574686987997435
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 4.133395766941961,
+    "CV_max_APE": 30.166586490803134,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states8",
+    "method": "FP_BLOCKED",
+    "phase": "loop",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.01890114132788817,
+      0.04590075611729147
+    ],
+    "HC3_se": [
+      0.00629200693574873,
+      0.00045733452916531806
+    ],
+    "predictions": [
+      0.2734564411426213,
+      0.29003673338165714,
+      2.0272627988710945,
+      2.158273701814961,
+      15.97182832629674,
+      17.01366294673794,
+      127.18347729126887,
+      135.49555894350763
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.999517105965919,
+    "MdAPE": 1.3936721110347488,
+    "max_APE": 2.77513957292699,
+    "RMSE_seconds": 1.3959044388764983,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "channel_N512_B2_A8_p2_average",
+      "channel_N512_B2_A8_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N2048_B2_A8_p2_average",
+      "channel_N2048_B2_A8_p1_average",
+      "channel_N4096_B2_A8_p2_average",
+      "channel_N4096_B2_A8_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A8_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.2526398030938414,
+        "APE": 6.422323091552329,
+        "relative_residual": 6.422323091552329
+      },
+      {
+        "id": "channel_N512_B2_A8_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.2692790109716184,
+        "APE": 8.548825897126934,
+        "relative_residual": 8.548825897126934
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.030902175585143,
+        "APE": 2.3327296715739134,
+        "relative_residual": -2.3327296715739134
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.1621741295697867,
+        "APE": 1.0060340238705938,
+        "relative_residual": 1.0060340238705938
+      },
+      {
+        "id": "channel_N2048_B2_A8_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.09179306506675,
+        "APE": 3.5434259491176405,
+        "relative_residual": -3.5434259491176405
+      },
+      {
+        "id": "channel_N2048_B2_A8_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 17.141604125258063,
+        "APE": 0.7775190359297902,
+        "relative_residual": -0.7775190359297902
+      },
+      {
+        "id": "channel_N4096_B2_A8_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 125.93785862314446,
+        "APE": 1.4946696908658685,
+        "relative_residual": 1.4946696908658685
+      },
+      {
+        "id": "channel_N4096_B2_A8_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 134.16833199080114,
+        "APE": 3.727491489388984,
+        "relative_residual": 3.727491489388984
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 2.938077810345777,
+    "CV_max_APE": 8.548825897126934,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states8",
+    "method": "FP_BLOCKED",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.004189222581512997,
+      0.11764623102073504
+    ],
+    "HC3_se": [
+      0.004826052275006628,
+      0.0009523070453784677
+    ],
+    "predictions": [
+      0.516370262684537,
+      0.5160397723041082,
+      4.074316937055453,
+      4.072983722907033,
+      32.45438466736452,
+      32.44903512759411,
+      259.1593828421416,
+      259.13794845296195
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9996876585823677,
+    "MdAPE": 0.9923118320989691,
+    "max_APE": 2.8291065190443017,
+    "RMSE_seconds": 0.4121706628255272,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "channel_N512_B2_A8_p2_average",
+      "channel_N512_B2_A8_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N2048_B2_A8_p2_average",
+      "channel_N2048_B2_A8_p1_average",
+      "channel_N4096_B2_A8_p2_average",
+      "channel_N4096_B2_A8_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A8_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.6408303942262782,
+        "APE": 24.007182745622654,
+        "relative_residual": -24.007182745622654
+      },
+      {
+        "id": "channel_N512_B2_A8_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.6405036571567422,
+        "APE": 24.824691913808742,
+        "relative_residual": -24.824691913808742
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.0386311620404065,
+        "APE": 3.6801985416689678,
+        "relative_residual": 3.6801985416689678
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.037310826536892,
+        "APE": 2.2795415523174642,
+        "relative_residual": 2.2795415523174642
+      },
+      {
+        "id": "channel_N2048_B2_A8_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 32.76362232601762,
+        "APE": 2.6822609403857807,
+        "relative_residual": -2.6822609403857807
+      },
+      {
+        "id": "channel_N2048_B2_A8_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 32.75822092129692,
+        "APE": 2.7666736484955634,
+        "relative_residual": -2.7666736484955634
+      },
+      {
+        "id": "channel_N4096_B2_A8_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 259.4677884139399,
+        "APE": 0.4308442890341704,
+        "relative_residual": -0.4308442890341704
+      },
+      {
+        "id": "channel_N4096_B2_A8_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 259.4463284603581,
+        "APE": 0.21927875912408942,
+        "relative_residual": -0.21927875912408942
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 2.724467294440672,
+    "CV_max_APE": 24.824691913808742,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states8",
+    "method": "M",
+    "phase": "loop",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.01599753920425684,
+      0.10509789844722218
+    ],
+    "HC3_se": [
+      0.003989387677785302,
+      0.0007176800067969759
+    ],
+    "predictions": [
+      0.5397630118201134,
+      0.5394677720649703,
+      4.180167405390076,
+      4.178976393965713,
+      33.22417068352731,
+      33.219391734107084,
+      265.25791969119973,
+      265.23877152778016
+    ],
+    "normalized_condition": 1.0000000000000002,
+    "weighted_R2": 0.9997818022698347,
+    "MdAPE": 0.9144418077052071,
+    "max_APE": 2.0006177687550144,
+    "RMSE_seconds": 0.3454405212821897,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "channel_N512_B2_A8_p2_average",
+      "channel_N512_B2_A8_p1_average",
+      "channel_N1024_B2_A8_p2_average",
+      "channel_N1024_B2_A8_p1_average",
+      "channel_N2048_B2_A8_p2_average",
+      "channel_N2048_B2_A8_p1_average",
+      "channel_N4096_B2_A8_p2_average",
+      "channel_N4096_B2_A8_p1_average"
+    ],
+    "levels": [
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "holdouts": [
+      {
+        "id": "channel_N512_B2_A8_p2_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.647976925365982,
+        "APE": 20.048248139343023,
+        "relative_residual": -20.048248139343023
+      },
+      {
+        "id": "channel_N512_B2_A8_p1_average",
+        "level": 512,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.6476845349136091,
+        "APE": 20.54912580972608,
+        "relative_residual": -20.54912580972608
+      },
+      {
+        "id": "channel_N1024_B2_A8_p2_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.149039366325438,
+        "APE": 2.7303800731237713,
+        "relative_residual": 2.7303800731237713
+      },
+      {
+        "id": "channel_N1024_B2_A8_p1_average",
+        "level": 1024,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.147858163576436,
+        "APE": 2.3604012674926205,
+        "relative_residual": 2.3604012674926205
+      },
+      {
+        "id": "channel_N2048_B2_A8_p2_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 33.502995273003044,
+        "APE": 2.2725601681043535,
+        "relative_residual": -2.2725601681043535
+      },
+      {
+        "id": "channel_N2048_B2_A8_p1_average",
+        "level": 2048,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 33.49817550145107,
+        "APE": 2.5170122350739295,
+        "relative_residual": -2.5170122350739295
+      },
+      {
+        "id": "channel_N4096_B2_A8_p2_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 265.4523009913913,
+        "APE": 0.32127002453326897,
+        "relative_residual": -0.32127002453326897
+      },
+      {
+        "id": "channel_N4096_B2_A8_p1_average",
+        "level": 4096,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 265.43313876423105,
+        "APE": 0.07892621729148183,
+        "relative_residual": -0.07892621729148183
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 2.438706751283275,
+    "CV_max_APE": 20.54912580972608,
+    "CV_negative_predictions": 0,
+    "kind": "channel",
+    "panel": "states8",
+    "method": "M",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.0573200523771058,
+      0.07374382810228489,
+      0.18395180149083637
+    ],
+    "HC3_se": [
+      0.39318016468535044,
+      0.06593410195499533,
+      0.18211487919986435
+    ],
+    "predictions": [
+      1.1362235773739295,
+      1.1362235773739295,
+      2.7562006037137117,
+      2.7587287785637713,
+      5.998035998021734,
+      6.00553265414595,
+      12.486121029800707,
+      12.50690829418404,
+      25.524221609593834
+    ],
+    "normalized_condition": 838.7517416255388,
+    "weighted_R2": 0.9999716457576963,
+    "MdAPE": 0.12977134493188128,
+    "max_APE": 0.5930789685537575,
+    "RMSE_seconds": 0.006181034593432184,
+    "negative_predictions": 0,
+    "n": 9,
+    "ids": [
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N2049_A2_p1_average",
+      "rayleigh_N2049_A2_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N2049_A8_p1_average",
+      "rayleigh_N2049_A8_p2_average",
+      "rayleigh_N2049_A16_p2_average"
+    ],
+    "levels": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 1,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 1.1434328952454564,
+        "APE": 1.2313402195973508,
+        "relative_residual": -1.2313402195973508
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 1,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 1.1434328952454564,
+        "APE": 0.10325714130081542,
+        "relative_residual": -0.10325714130081542
+      },
+      {
+        "id": "rayleigh_N2049_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.753580552424054,
+        "APE": 0.24856110837672798,
+        "relative_residual": 0.24856110837672798
+      },
+      {
+        "id": "rayleigh_N2049_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.757264692410076,
+        "APE": 0.1961444012143962,
+        "relative_residual": 0.1961444012143962
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 6.00270356390769,
+        "APE": 0.20769056799960944,
+        "relative_residual": -0.20769056799960944
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 6.007654443387967,
+        "APE": 0.06420839649902427,
+        "relative_residual": -0.06420839649902427
+      },
+      {
+        "id": "rayleigh_N2049_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 12.490223093803879,
+        "APE": 0.1263639384937929,
+        "relative_residual": -0.1263639384937929
+      },
+      {
+        "id": "rayleigh_N2049_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 12.5073867862726,
+        "APE": 0.02184885680208436,
+        "relative_residual": 0.02184885680208436
+      },
+      {
+        "id": "rayleigh_N2049_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 25.531169229899703,
+        "APE": 0.04441708896673493,
+        "relative_residual": -0.04441708896673493
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.1263639384937929,
+    "CV_max_APE": 1.2313402195973508,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "gears",
+    "method": "FP",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -11.222631862001698,
+      0.14109323373345933
+    ],
+    "HC3_se": [
+      0.020267299325482737,
+      0.00015363735530902385
+    ],
+    "predictions": [
+      4.969895053633003,
+      4.974732182030291,
+      8.220067158774,
+      8.234410426298524,
+      14.728857090662412,
+      14.768629128916903,
+      27.86492791195076
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9999979236192392,
+    "MdAPE": 0.05840296597317187,
+    "max_APE": 0.13176827446152514,
+    "RMSE_seconds": 0.009613118916542467,
+    "negative_predictions": 0,
+    "n": 7,
+    "ids": [
+      "rayleigh_N2049_A2_p1_average",
+      "rayleigh_N2049_A2_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N2049_A8_p1_average",
+      "rayleigh_N2049_A8_p2_average",
+      "rayleigh_N2049_A16_p2_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N2049_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 4.970136434077061,
+        "APE": 0.06768847824802555,
+        "relative_residual": -0.06768847824802555
+      },
+      {
+        "id": "rayleigh_N2049_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 4.974973457428176,
+        "APE": 0.053555780696196084,
+        "relative_residual": 0.053555780696196084
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.218121458252545,
+        "APE": 0.008741609017078218,
+        "relative_residual": -0.008741609017078218
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.23246516550166,
+        "APE": 0.15536070500244067,
+        "relative_residual": 0.15536070500244067
+      },
+      {
+        "id": "rayleigh_N2049_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 14.736396302775823,
+        "APE": 0.09022726471399874,
+        "relative_residual": -0.09022726471399874
+      },
+      {
+        "id": "rayleigh_N2049_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 14.776196650127002,
+        "APE": 0.15409408281825937,
+        "relative_residual": -0.15409408281825937
+      },
+      {
+        "id": "rayleigh_N2049_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 27.844515786610952,
+        "APE": 0.12883923856072263,
+        "relative_residual": 0.12883923856072263
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.09022726471399874,
+    "CV_max_APE": 0.15536070500244067,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "gears",
+    "method": "FP",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.11517620164498932,
+      0.11677579301974891,
+      -0.10916214871294286
+    ],
+    "HC3_se": [
+      0.06279090245395527,
+      0.010408469714600969,
+      0.029173679148746343
+    ],
+    "predictions": [
+      0.3265303510413914,
+      0.3265303510413914,
+      1.2349912556665907,
+      1.2390247272908856,
+      3.054818622044563,
+      3.0668839696139067,
+      6.702167443685355,
+      6.735128802765529,
+      14.095273833013009
+    ],
+    "normalized_condition": 842.2363449154009,
+    "weighted_R2": 0.9999994084628195,
+    "MdAPE": 0.06565699108245994,
+    "max_APE": 0.08818800100308219,
+    "RMSE_seconds": 0.0019473003197577614,
+    "negative_predictions": 0,
+    "n": 9,
+    "ids": [
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N2049_A2_p1_average",
+      "rayleigh_N2049_A2_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N2049_A8_p1_average",
+      "rayleigh_N2049_A8_p2_average",
+      "rayleigh_N2049_A16_p2_average"
+    ],
+    "levels": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 1,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.32716744563162137,
+        "APE": 0.2831048549524057,
+        "relative_residual": -0.2831048549524057
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 1,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.32716744563162137,
+        "APE": 0.1249161595313915,
+        "relative_residual": -0.1249161595313915
+      },
+      {
+        "id": "rayleigh_N2049_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.2345573078816545,
+        "APE": 0.10077164196666301,
+        "relative_residual": 0.10077164196666301
+      },
+      {
+        "id": "rayleigh_N2049_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.2387965535667425,
+        "APE": 0.05167067338707404,
+        "relative_residual": 0.05167067338707404
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.056754163552407,
+        "APE": 0.1409918231802106,
+        "relative_residual": -0.1409918231802106
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.0679870210601408,
+        "APE": 0.12418623948203814,
+        "relative_residual": -0.12418623948203814
+      },
+      {
+        "id": "rayleigh_N2049_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 6.70059198664705,
+        "APE": 0.06450603061356328,
+        "relative_residual": 0.06450603061356328
+      },
+      {
+        "id": "rayleigh_N2049_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 6.733358904165156,
+        "APE": 0.07658321462045563,
+        "relative_residual": 0.07658321462045563
+      },
+      {
+        "id": "rayleigh_N2049_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 14.097016384811901,
+        "APE": 0.02012820480985398,
+        "relative_residual": -0.02012820480985398
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.10077164196666301,
+    "CV_max_APE": 0.2831048549524057,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "gears",
+    "method": "FP_BLOCKED",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -12.311670844298822,
+      0.15226697190398555,
+      -0.20668344735548227
+    ],
+    "HC3_se": [
+      10.455073527513923,
+      0.11448156155418539,
+      0.3217669787801429
+    ],
+    "predictions": [
+      3.4604276065545796,
+      3.4656869543578366,
+      5.29359004514565,
+      5.309322363392828,
+      8.969947443501585,
+      9.01292661073472,
+      16.450979945294403
+    ],
+    "normalized_condition": 727.084448574286,
+    "weighted_R2": 0.9999814745227583,
+    "MdAPE": 0.1417363657592861,
+    "max_APE": 0.5360352171791372,
+    "RMSE_seconds": 0.011398356470828392,
+    "negative_predictions": 0,
+    "n": 7,
+    "ids": [
+      "rayleigh_N2049_A2_p1_average",
+      "rayleigh_N2049_A2_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N2049_A8_p1_average",
+      "rayleigh_N2049_A8_p2_average",
+      "rayleigh_N2049_A16_p2_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N2049_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 3.4503520781440145,
+        "APE": 0.11880808300448968,
+        "relative_residual": -0.11880808300448968
+      },
+      {
+        "id": "rayleigh_N2049_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 3.4542924320107904,
+        "APE": 0.8630538961220156,
+        "relative_residual": 0.8630538961220156
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.296921086024433,
+        "APE": 0.20554713265052246,
+        "relative_residual": -0.20554713265052246
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.311259845420036,
+        "APE": 0.047574738366797,
+        "relative_residual": -0.047574738366797
+      },
+      {
+        "id": "rayleigh_N2049_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.937123233252919,
+        "APE": 0.5071530709565598,
+        "relative_residual": 0.5071530709565598
+      },
+      {
+        "id": "rayleigh_N2049_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 9.007424064212813,
+        "APE": 0.0651431263508851,
+        "relative_residual": -0.0651431263508851
+      },
+      {
+        "id": "rayleigh_N2049_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 16.436664351805604,
+        "APE": 0.10753914781848131,
+        "relative_residual": 0.10753914781848131
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.11880808300448968,
+    "CV_max_APE": 0.8630538961220156,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "gears",
+    "method": "FP_BLOCKED",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.01777063929756073,
+      0.04057761056131527,
+      0.022578435079774844
+    ],
+    "HC3_se": [
+      0.0034940079558995855,
+      0.001192138692377748,
+      0.0020979622344932114
+    ],
+    "predictions": [
+      0.9275401233262968,
+      0.9290148836331279,
+      1.6030701231008926,
+      1.6542732320819424,
+      2.952717904939032,
+      3.2897594377696917,
+      6.494692698599386
+    ],
+    "normalized_condition": 18.342090752124918,
+    "weighted_R2": 0.9999949054946253,
+    "MdAPE": 0.05098145959104098,
+    "max_APE": 0.22368282272811602,
+    "RMSE_seconds": 0.002231382830156902,
+    "negative_predictions": 0,
+    "n": 7,
+    "ids": [
+      "rayleigh_N2049_A2_p1_average",
+      "rayleigh_N2049_A2_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N2049_A8_p1_average",
+      "rayleigh_N2049_A8_p2_average",
+      "rayleigh_N2049_A16_p2_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N2049_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.9242750905545929,
+        "APE": 0.31512023202531475,
+        "relative_residual": 0.31512023202531475
+      },
+      {
+        "id": "rayleigh_N2049_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.9257362592650751,
+        "APE": 0.47405999909477425,
+        "relative_residual": 0.47405999909477425
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.6044902071200344,
+        "APE": 0.31246624415498986,
+        "relative_residual": -0.31246624415498986
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.65517338925157,
+        "APE": 0.020156406977789688,
+        "relative_residual": -0.020156406977789688
+      },
+      {
+        "id": "rayleigh_N2049_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.943630691610005,
+        "APE": 0.43153988654400793,
+        "relative_residual": 0.43153988654400793
+      },
+      {
+        "id": "rayleigh_N2049_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.2908939412934832,
+        "APE": 0.08548495237580807,
+        "relative_residual": -0.08548495237580807
+      },
+      {
+        "id": "rayleigh_N2049_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 6.4916142048863135,
+        "APE": 0.07836445350061645,
+        "relative_residual": 0.07836445350061645
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.31246624415498986,
+    "CV_max_APE": 0.47405999909477425,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "gears",
+    "method": "FP_CACHED",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -1.7461119709848774,
+      0.04045779422419369,
+      0.025850942033496804
+    ],
+    "HC3_se": [
+      0.47299328655691647,
+      0.004765287552668857,
+      0.008554950643857676
+    ],
+    "predictions": [
+      3.135123785076317,
+      3.136594190755667,
+      3.8366701377973373,
+      3.887722055791967,
+      5.2383547954819285,
+      5.574401122302107,
+      8.881915103176329
+    ],
+    "normalized_condition": 19.378158810196314,
+    "weighted_R2": 0.9999526437780665,
+    "MdAPE": 0.180433791904535,
+    "max_APE": 0.4288643453671643,
+    "RMSE_seconds": 0.008875692067919346,
+    "negative_predictions": 0,
+    "n": 7,
+    "ids": [
+      "rayleigh_N2049_A2_p1_average",
+      "rayleigh_N2049_A2_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N2049_A8_p1_average",
+      "rayleigh_N2049_A8_p2_average",
+      "rayleigh_N2049_A16_p2_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N2049_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 3.128751334352729,
+        "APE": 0.025931645069631123,
+        "relative_residual": -0.025931645069631123
+      },
+      {
+        "id": "rayleigh_N2049_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 3.1301994063575407,
+        "APE": 0.5862638189274951,
+        "relative_residual": 0.5862638189274951
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.840103666221283,
+        "APE": 0.5187405525806349,
+        "relative_residual": -0.5187405525806349
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.8904019644157404,
+        "APE": 0.11162555086687115,
+        "relative_residual": 0.11162555086687115
+      },
+      {
+        "id": "rayleigh_N2049_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.199579458074076,
+        "APE": 0.8527941208042618,
+        "relative_residual": 0.8527941208042618
+      },
+      {
+        "id": "rayleigh_N2049_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.574497678984939,
+        "APE": 0.012071898697472432,
+        "relative_residual": -0.012071898697472432
+      },
+      {
+        "id": "rayleigh_N2049_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 8.884952309285186,
+        "APE": 0.04402820323230399,
+        "relative_residual": -0.04402820323230399
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.11162555086687115,
+    "CV_max_APE": 0.8527941208042618,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "gears",
+    "method": "FP_CACHED",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.07420337863417181,
+      0.11426341382174246
+    ],
+    "HC3_se": [
+      0.007670914435889734,
+      0.00017182200670614765
+    ],
+    "predictions": [
+      3.8595257109284846,
+      3.8595257109284846,
+      7.7969632876877215,
+      7.797032622727228,
+      15.676268388054696,
+      15.677175365328248,
+      31.44546529975338,
+      31.454507900649084,
+      63.04684579022291
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9999857081358093,
+    "MdAPE": 0.13457509570029852,
+    "max_APE": 0.46309501151292176,
+    "RMSE_seconds": 0.07270884200223264,
+    "negative_predictions": 0,
+    "n": 9,
+    "ids": [
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N2049_A2_p1_average",
+      "rayleigh_N2049_A2_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N2049_A8_p1_average",
+      "rayleigh_N2049_A8_p2_average",
+      "rayleigh_N2049_A16_p2_average"
+    ],
+    "levels": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 1,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 3.874043002275135,
+        "APE": 0.4458033122408065,
+        "relative_residual": -0.4458033122408065
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 1,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 3.874043002275135,
+        "APE": 0.4314640829317736,
+        "relative_residual": -0.4314640829317736
+      },
+      {
+        "id": "rayleigh_N2049_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 7.7908885913557935,
+        "APE": 0.5406452640041516,
+        "relative_residual": 0.5406452640041516
+      },
+      {
+        "id": "rayleigh_N2049_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 7.790957889615466,
+        "APE": 0.1244960767516861,
+        "relative_residual": 0.1244960767516861
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 15.691836190306027,
+        "APE": 0.4776376911672469,
+        "relative_residual": -0.4776376911672469
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 15.69274432975606,
+        "APE": 0.23401849678050424,
+        "relative_residual": -0.23401849678050424
+      },
+      {
+        "id": "rayleigh_N2049_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 31.465083440610265,
+        "APE": 0.21849209386175597,
+        "relative_residual": -0.21849209386175597
+      },
+      {
+        "id": "rayleigh_N2049_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 31.47413269115726,
+        "APE": 0.09953653217643937,
+        "relative_residual": -0.09953653217643937
+      },
+      {
+        "id": "rayleigh_N2049_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 62.98529995556373,
+        "APE": 0.4126450073864308,
+        "relative_residual": 0.4126450073864308
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.4126450073864308,
+    "CV_max_APE": 0.5406452640041516,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "gears",
+    "method": "M",
+    "phase": "loop",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -21.253803895233695,
+      0.5504394290666724,
+      -3.5893481273143535
+    ],
+    "HC3_se": [
+      7.064907051572336,
+      0.17699191060661826,
+      1.4571021306579242
+    ],
+    "predictions": [
+      8.684035713046125,
+      8.684369719691684,
+      16.531259541303292,
+      16.53562870931544,
+      32.276706401711564,
+      32.32026718733697,
+      64.0710248488023
+    ],
+    "normalized_condition": 2936.5988464338207,
+    "weighted_R2": 0.9999956387926735,
+    "MdAPE": 0.05750006957314656,
+    "max_APE": 0.24659779261243112,
+    "RMSE_seconds": 0.015239668952670784,
+    "negative_predictions": 0,
+    "n": 7,
+    "ids": [
+      "rayleigh_N2049_A2_p1_average",
+      "rayleigh_N2049_A2_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N2049_A8_p1_average",
+      "rayleigh_N2049_A8_p2_average",
+      "rayleigh_N2049_A16_p2_average"
+    ],
+    "levels": [
+      2,
+      4,
+      8,
+      16
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N2049_A2_p1_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 8.670547218067892,
+        "APE": 0.40153995420610494,
+        "relative_residual": 0.40153995420610494
+      },
+      {
+        "id": "rayleigh_N2049_A2_p2_average",
+        "level": 2,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 8.670838295607684,
+        "APE": 0.07011376462076357,
+        "relative_residual": -0.07011376462076357
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.534373561771993,
+        "APE": 0.011718028850859317,
+        "relative_residual": 0.011718028850859317
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 4,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.538541847117763,
+        "APE": 0.08692233015309704,
+        "relative_residual": -0.08692233015309704
+      },
+      {
+        "id": "rayleigh_N2049_A8_p1_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 32.26971728756595,
+        "APE": 0.07914135884590959,
+        "relative_residual": 0.07914135884590959
+      },
+      {
+        "id": "rayleigh_N2049_A8_p2_average",
+        "level": 8,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 32.31608320023807,
+        "APE": 0.03558450991405887,
+        "relative_residual": -0.03558450991405887
+      },
+      {
+        "id": "rayleigh_N2049_A16_p2_average",
+        "level": 16,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 64.01245623610276,
+        "APE": 0.10038931561180102,
+        "relative_residual": 0.10038931561180102
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.07914135884590959,
+    "CV_max_APE": 0.40153995420610494,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "gears",
+    "method": "M",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.02887579245775518,
+      0.21738244203889215
+    ],
+    "HC3_se": [
+      0.003522752710370774,
+      0.004782309145044699
+    ],
+    "predictions": [
+      0.12650475294418456,
+      0.12650475294418456,
+      1.215079893604695,
+      1.215079893604695,
+      9.926415877828058,
+      9.926415877828058,
+      79.62804407777055,
+      79.62804407777055
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9977048767660013,
+    "MdAPE": 2.6642359873511396,
+    "max_APE": 7.5744511242911035,
+    "RMSE_seconds": 0.5477227895028055,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N1025_A1_p1_average",
+      "rayleigh_N1025_A1_p2_average",
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N4097_A1_p2_average",
+      "rayleigh_N4097_A1_p1_average",
+      "rayleigh_N8193_A1_p2_average",
+      "rayleigh_N8193_A1_p1_average"
+    ],
+    "levels": [
+      1025,
+      2049,
+      4097,
+      8193
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N1025_A1_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.013768099783431992,
+        "APE": 89.24267930317242,
+        "relative_residual": 89.24267930317242
+      },
+      {
+        "id": "rayleigh_N1025_A1_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.013768099783431992,
+        "APE": 89.18208706032478,
+        "relative_residual": 89.18208706032478
+      },
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.247027168799978,
+        "APE": 10.40283353119096,
+        "relative_residual": -10.40283353119096
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.247027168799978,
+        "APE": 9.172546862730796,
+        "relative_residual": -9.172546862730796
+      },
+      {
+        "id": "rayleigh_N4097_A1_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 9.684360302673396,
+        "APE": 6.246697996870637,
+        "relative_residual": 6.246697996870637
+      },
+      {
+        "id": "rayleigh_N4097_A1_p1_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 9.684360302673396,
+        "APE": 6.88112948715443,
+        "relative_residual": 6.88112948715443
+      },
+      {
+        "id": "rayleigh_N8193_A1_p2_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 79.05685535884918,
+        "APE": 2.1321878353346415,
+        "relative_residual": 2.1321878353346415
+      },
+      {
+        "id": "rayleigh_N8193_A1_p1_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 79.05685535884918,
+        "APE": 1.731470483480866,
+        "relative_residual": 1.731470483480866
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 8.026838174942613,
+    "CV_max_APE": 89.24267930317242,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states1",
+    "method": "FP",
+    "phase": "loop",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.01501583123222211,
+      0.04576564584247104
+    ],
+    "HC3_se": [
+      0.003145462222418552,
+      0.0005242680270052244
+    ],
+    "predictions": [
+      0.247979698667266,
+      0.247979698667266,
+      2.085294418511009,
+      2.085294418511009,
+      16.772863898322917,
+      16.772863898322917,
+      134.22964030536028,
+      134.22964030536028
+    ],
+    "normalized_condition": 1.0000000000000002,
+    "weighted_R2": 0.9994189089369424,
+    "MdAPE": 1.5108401597666827,
+    "max_APE": 3.137776343170271,
+    "RMSE_seconds": 0.40202288552978216,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N1025_A1_p1_average",
+      "rayleigh_N1025_A1_p2_average",
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N4097_A1_p2_average",
+      "rayleigh_N4097_A1_p1_average",
+      "rayleigh_N8193_A1_p2_average",
+      "rayleigh_N8193_A1_p1_average"
+    ],
+    "levels": [
+      1025,
+      2049,
+      4097,
+      8193
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N1025_A1_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.17137509949105356,
+        "APE": 31.187112037156734,
+        "relative_residual": 31.187112037156734
+      },
+      {
+        "id": "rayleigh_N1025_A1_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.17137509949105356,
+        "APE": 31.02254721148055,
+        "relative_residual": 31.02254721148055
+      },
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.108008786612203,
+        "APE": 3.532920050754566,
+        "relative_residual": -3.532920050754566
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.108008786612203,
+        "APE": 4.261219342969862,
+        "relative_residual": -4.261219342969862
+      },
+      {
+        "id": "rayleigh_N4097_A1_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.50891714837862,
+        "APE": 4.109440847739337,
+        "relative_residual": 4.109440847739337
+      },
+      {
+        "id": "rayleigh_N4097_A1_p1_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.50891714837862,
+        "APE": 4.490971121854183,
+        "relative_residual": 4.490971121854183
+      },
+      {
+        "id": "rayleigh_N8193_A1_p2_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 134.58506866665718,
+        "APE": 0.5801377888246537,
+        "relative_residual": -0.5801377888246537
+      },
+      {
+        "id": "rayleigh_N8193_A1_p1_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 134.58506866665718,
+        "APE": 0.8707471905963496,
+        "relative_residual": -0.8707471905963496
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 4.185330095354599,
+    "CV_max_APE": 31.187112037156734,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states1",
+    "method": "FP",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.005723411893148012,
+      0.04718007426212196,
+      0.014688606038668488
+    ],
+    "HC3_se": [
+      0.0002066832387650932,
+      0.00010224416049359458,
+      0.00025439980059345176
+    ],
+    "predictions": [
+      0.043499501979115854,
+      0.043499501979115854,
+      0.32626248401820346,
+      0.32626248401820346,
+      2.4029561299019484,
+      2.4029561299019484,
+      18.27484667629434,
+      18.27484667629434
+    ],
+    "normalized_condition": 4.322039673072508,
+    "weighted_R2": 0.999997467472181,
+    "MdAPE": 0.10817921496016716,
+    "max_APE": 0.25976121558932014,
+    "RMSE_seconds": 0.011555982295685626,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N1025_A1_p1_average",
+      "rayleigh_N1025_A1_p2_average",
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N4097_A1_p2_average",
+      "rayleigh_N4097_A1_p1_average",
+      "rayleigh_N8193_A1_p2_average",
+      "rayleigh_N8193_A1_p1_average"
+    ],
+    "levels": [
+      1025,
+      2049,
+      4097,
+      8193
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N1025_A1_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.046358111274576605,
+        "APE": 6.546132113431403,
+        "relative_residual": -6.546132113431403
+      },
+      {
+        "id": "rayleigh_N1025_A1_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.046358111274576605,
+        "APE": 6.610399887793735,
+        "relative_residual": -6.610399887793735
+      },
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.3244205853358109,
+        "APE": 0.5588605751192248,
+        "relative_residual": 0.5588605751192248
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.3244205853358109,
+        "APE": 0.7157211364226799,
+        "relative_residual": 0.7157211364226799
+      },
+      {
+        "id": "rayleigh_N4097_A1_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.4054820689248997,
+        "APE": 0.22227048465046645,
+        "relative_residual": -0.22227048465046645
+      },
+      {
+        "id": "rayleigh_N4097_A1_p1_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.4054820689248997,
+        "APE": 0.36515225462446416,
+        "relative_residual": -0.36515225462446416
+      },
+      {
+        "id": "rayleigh_N8193_A1_p2_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 18.205515474646422,
+        "APE": 0.4783325962717641,
+        "relative_residual": 0.4783325962717641
+      },
+      {
+        "id": "rayleigh_N8193_A1_p1_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 18.205515474646422,
+        "APE": 0.5224987034358749,
+        "relative_residual": 0.5224987034358749
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.5406796392775499,
+    "CV_max_APE": 6.610399887793735,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states1",
+    "method": "FP_BLOCKED",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.005839880877714393,
+      0.02365396470391512,
+      0.03312730490109302
+    ],
+    "HC3_se": [
+      0.0016266650684934577,
+      0.00011977338469851615,
+      0.002083937168069153
+    ],
+    "predictions": [
+      0.1648746525266967,
+      0.1648746525266967,
+      1.2188479477193874,
+      1.2188479477193874,
+      9.227546964876955,
+      9.227546964876955,
+      71.60478778686888,
+      71.60478778686888
+    ],
+    "normalized_condition": 4.324263723923965,
+    "weighted_R2": 0.9999844358454771,
+    "MdAPE": 0.2592742059279072,
+    "max_APE": 0.6695336905894703,
+    "RMSE_seconds": 0.11542048463152874,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N1025_A1_p1_average",
+      "rayleigh_N1025_A1_p2_average",
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N4097_A1_p2_average",
+      "rayleigh_N4097_A1_p1_average",
+      "rayleigh_N8193_A1_p2_average",
+      "rayleigh_N8193_A1_p1_average"
+    ],
+    "levels": [
+      1025,
+      2049,
+      4097,
+      8193
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N1025_A1_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.1360362449765662,
+        "APE": 17.565521099839263,
+        "relative_residual": 17.565521099839263
+      },
+      {
+        "id": "rayleigh_N1025_A1_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.1360362449765662,
+        "APE": 17.444175050108914,
+        "relative_residual": 17.444175050108914
+      },
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.2374266598269812,
+        "APE": 1.682292253446089,
+        "relative_residual": -1.682292253446089
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.2374266598269812,
+        "APE": 1.7693804112293023,
+        "relative_residual": -1.7693804112293023
+      },
+      {
+        "id": "rayleigh_N4097_A1_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 9.202064692014508,
+        "APE": 0.9438390997827252,
+        "relative_residual": 0.9438390997827252
+      },
+      {
+        "id": "rayleigh_N4097_A1_p1_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 9.202064692014508,
+        "APE": 0.5880094445959188,
+        "relative_residual": 0.5880094445959188
+      },
+      {
+        "id": "rayleigh_N8193_A1_p2_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 72.30435727400983,
+        "APE": 1.2568270860254522,
+        "relative_residual": -1.2568270860254522
+      },
+      {
+        "id": "rayleigh_N8193_A1_p1_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 72.30435727400983,
+        "APE": 1.3313260010905679,
+        "relative_residual": -1.3313260010905679
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.5068091272683284,
+    "CV_max_APE": 17.565521099839263,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states1",
+    "method": "FP_BLOCKED",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.01163615884495861,
+      0.1148506995978406
+    ],
+    "HC3_se": [
+      0.007657556800111354,
+      0.001441704644997862
+    ],
+    "predictions": [
+      0.4835707125483772,
+      0.4835707125483772,
+      3.942311328401209,
+      3.942311328401209,
+      31.589113755285023,
+      31.589113755285023,
+      252.6710431706001,
+      252.6710431706001
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9993582051138592,
+    "MdAPE": 1.6454472925613708,
+    "max_APE": 4.023108220496828,
+    "RMSE_seconds": 4.177040917288672,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N1025_A1_p1_average",
+      "rayleigh_N1025_A1_p2_average",
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N4097_A1_p2_average",
+      "rayleigh_N4097_A1_p1_average",
+      "rayleigh_N8193_A1_p2_average",
+      "rayleigh_N8193_A1_p1_average"
+    ],
+    "levels": [
+      1025,
+      2049,
+      4097,
+      8193
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N1025_A1_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.3437136028688864,
+        "APE": 28.777689574211774,
+        "relative_residual": 28.777689574211774
+      },
+      {
+        "id": "rayleigh_N1025_A1_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.3437136028688864,
+        "APE": 29.47371372526355,
+        "relative_residual": 29.47371372526355
+      },
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.9766606451034505,
+        "APE": 3.1064633931550834,
+        "relative_residual": -3.1064633931550834
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.9766606451034505,
+        "APE": 3.0917443389678025,
+        "relative_residual": -3.0917443389678025
+      },
+      {
+        "id": "rayleigh_N4097_A1_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 31.808018547864727,
+        "APE": 1.9748529584886994,
+        "relative_residual": -1.9748529584886994
+      },
+      {
+        "id": "rayleigh_N4097_A1_p1_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 31.808018547864727,
+        "APE": 1.9701500708245643,
+        "relative_residual": -1.9701500708245643
+      },
+      {
+        "id": "rayleigh_N8193_A1_p2_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 248.0962978201758,
+        "APE": 5.760821548889597,
+        "relative_residual": 5.760821548889597
+      },
+      {
+        "id": "rayleigh_N8193_A1_p1_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 248.0962978201758,
+        "APE": 3.791858813003163,
+        "relative_residual": 3.791858813003163
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 3.449161103079123,
+    "CV_max_APE": 29.47371372526355,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states1",
+    "method": "M",
+    "phase": "loop",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.0012241858159492969,
+      0.0642086197244697
+    ],
+    "HC3_se": [
+      0.004692135162568137,
+      0.000450601291031083
+    ],
+    "predictions": [
+      0.6017004480660934,
+      0.6017004480660934,
+      4.793162523447947,
+      4.793162523447947,
+      38.289288052516326,
+      38.289288052516326,
+      306.1160521728666,
+      306.1160521728666
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9997979991603042,
+    "MdAPE": 1.0005159483959822,
+    "max_APE": 1.882163118297744,
+    "RMSE_seconds": 2.7689362441410768,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N1025_A1_p1_average",
+      "rayleigh_N1025_A1_p2_average",
+      "rayleigh_N2049_A1_p2_average",
+      "rayleigh_N2049_A1_p1_average",
+      "rayleigh_N4097_A1_p2_average",
+      "rayleigh_N4097_A1_p1_average",
+      "rayleigh_N8193_A1_p2_average",
+      "rayleigh_N8193_A1_p1_average"
+    ],
+    "levels": [
+      1025,
+      2049,
+      4097,
+      8193
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N1025_A1_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.4989542952966165,
+        "APE": 17.297048875538785,
+        "relative_residual": 17.297048875538785
+      },
+      {
+        "id": "rayleigh_N1025_A1_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.4989542952966165,
+        "APE": 17.138693279089583,
+        "relative_residual": 17.138693279089583
+      },
+      {
+        "id": "rayleigh_N2049_A1_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.818615200103012,
+        "APE": 1.9472705189169184,
+        "relative_residual": -1.9472705189169184
+      },
+      {
+        "id": "rayleigh_N2049_A1_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 4.818615200103012,
+        "APE": 1.7983471969308686,
+        "relative_residual": -1.7983471969308686
+      },
+      {
+        "id": "rayleigh_N4097_A1_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 38.42840374536451,
+        "APE": 0.9495860217827058,
+        "relative_residual": -0.9495860217827058
+      },
+      {
+        "id": "rayleigh_N4097_A1_p1_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 38.42840374536451,
+        "APE": 1.1064174868063548,
+        "relative_residual": -1.1064174868063548
+      },
+      {
+        "id": "rayleigh_N8193_A1_p2_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 302.91790109036043,
+        "APE": 2.6879083491187163,
+        "relative_residual": 2.6879083491187163
+      },
+      {
+        "id": "rayleigh_N8193_A1_p1_average",
+        "level": 8193,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 302.91790109036043,
+        "APE": 2.907250381801249,
+        "relative_residual": 2.907250381801249
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 2.317589434017817,
+    "CV_max_APE": 17.297048875538785,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states1",
+    "method": "M",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.03785336397043092,
+      0.17472172172083214,
+      -0.06529630145763485
+    ],
+    "HC3_se": [
+      0.001922795626068504,
+      0.0015028166846703648,
+      0.0026934370965929866
+    ],
+    "predictions": [
+      0.08021063284183297,
+      0.07975346332309055,
+      0.6447511867036697,
+      0.6475087682694033,
+      5.977205671472497,
+      5.994967546586375,
+      52.003636123288864,
+      103.21392727794836
+    ],
+    "normalized_condition": 4.110276408032935,
+    "weighted_R2": 0.9999761445167693,
+    "MdAPE": 0.18404426504036647,
+    "max_APE": 0.7420698999428409,
+    "RMSE_seconds": 0.2906825576761969,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N513_A4_p2_average",
+      "rayleigh_N513_A4_p1_average",
+      "rayleigh_N1025_A4_p1_average",
+      "rayleigh_N1025_A4_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N4097_A4_p2_average",
+      "rayleigh_N5121_A4_p2_average"
+    ],
+    "levels": [
+      513,
+      1025,
+      2049,
+      4097,
+      5121
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N513_A4_p2_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.07100325871980581,
+        "APE": 11.487422656655484,
+        "relative_residual": 11.487422656655484
+      },
+      {
+        "id": "rayleigh_N513_A4_p1_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.07054854726605655,
+        "APE": 11.55660956638384,
+        "relative_residual": 11.55660956638384
+      },
+      {
+        "id": "rayleigh_N1025_A4_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.6503631474950036,
+        "APE": 1.2907098102931809,
+        "relative_residual": -1.2907098102931809
+      },
+      {
+        "id": "rayleigh_N1025_A4_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.6531090520596936,
+        "APE": 0.7134751583461352,
+        "relative_residual": -0.7134751583461352
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.9711487388727305,
+        "APE": 0.3190780970470654,
+        "relative_residual": 0.3190780970470654
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.988893614543062,
+        "APE": 0.2482742046422204,
+        "relative_residual": 0.2482742046422204
+      },
+      {
+        "id": "rayleigh_N4097_A4_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 51.83434530370542,
+        "APE": 0.9210304491103256,
+        "relative_residual": 0.9210304491103256
+      },
+      {
+        "id": "rayleigh_N5121_A4_p2_average",
+        "level": 5121,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 103.77831845634034,
+        "APE": 1.2929445449058397,
+        "relative_residual": -1.2929445449058397
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.1058701297017532,
+    "CV_max_APE": 11.55660956638384,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states4",
+    "method": "FP",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.03977336282386487,
+      0.0661654999446661,
+      -0.0575523603436203
+    ],
+    "HC3_se": [
+      0.003058300873339558,
+      0.0007037932354824247,
+      0.004278439946637799
+    ],
+    "predictions": [
+      0.12280530432470851,
+      0.12263217845650429,
+      0.9401496755159972,
+      0.9411939461489668,
+      8.191834984141854,
+      8.1985612419608,
+      69.09578867599308,
+      136.39256273628448
+    ],
+    "normalized_condition": 4.111100696159442,
+    "weighted_R2": 0.9999633302453856,
+    "MdAPE": 0.3827620232922797,
+    "max_APE": 0.9719298164775646,
+    "RMSE_seconds": 0.4827126643098246,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N513_A4_p2_average",
+      "rayleigh_N513_A4_p1_average",
+      "rayleigh_N1025_A4_p1_average",
+      "rayleigh_N1025_A4_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N4097_A4_p2_average",
+      "rayleigh_N5121_A4_p2_average"
+    ],
+    "levels": [
+      513,
+      1025,
+      2049,
+      4097,
+      5121
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N513_A4_p2_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.09773478535877794,
+        "APE": 20.514289285577195,
+        "relative_residual": 20.514289285577195
+      },
+      {
+        "id": "rayleigh_N513_A4_p1_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.09756361836213287,
+        "APE": 20.379817956109054,
+        "relative_residual": 20.379817956109054
+      },
+      {
+        "id": "rayleigh_N1025_A4_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.9558119936237587,
+        "APE": 2.127886250391666,
+        "relative_residual": -2.127886250391666
+      },
+      {
+        "id": "rayleigh_N1025_A4_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.9568467310806422,
+        "APE": 1.7208520438806176,
+        "relative_residual": -1.7208520438806176
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.171817920175913,
+        "APE": 0.5547397898175703,
+        "relative_residual": 0.5547397898175703
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 8.178527746020949,
+        "APE": 0.8095222573794915,
+        "relative_residual": 0.8095222573794915
+      },
+      {
+        "id": "rayleigh_N4097_A4_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 68.89496101872894,
+        "APE": 0.8230585673930347,
+        "relative_residual": 0.8230585673930347
+      },
+      {
+        "id": "rayleigh_N5121_A4_p2_average",
+        "level": 5121,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 137.36710123451292,
+        "APE": 1.6933843508925848,
+        "relative_residual": -1.6933843508925848
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.7071181973866012,
+    "CV_max_APE": 20.514289285577195,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states4",
+    "method": "FP",
+    "phase": "total",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.011613713791887914,
+      0.07969043508933744,
+      -0.011014600228791738
+    ],
+    "HC3_se": [
+      0.001046810987539794,
+      0.0006345820813411475,
+      0.001329286228219656
+    ],
+    "predictions": [
+      0.053568289735569,
+      0.053377549882278316,
+      0.3789641018976589,
+      0.38023466356263974,
+      3.082711561510759,
+      3.0909452268316397,
+      25.162603462211894,
+      49.33490941942586
+    ],
+    "normalized_condition": 4.157118951658039,
+    "weighted_R2": 0.9999485486832401,
+    "MdAPE": 0.5233046167493991,
+    "max_APE": 0.9913708322914555,
+    "RMSE_seconds": 0.09327990910283868,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N513_A4_p2_average",
+      "rayleigh_N513_A4_p1_average",
+      "rayleigh_N1025_A4_p1_average",
+      "rayleigh_N1025_A4_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N4097_A4_p2_average",
+      "rayleigh_N5121_A4_p2_average"
+    ],
+    "levels": [
+      513,
+      1025,
+      2049,
+      4097,
+      5121
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N513_A4_p2_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.06962600272317833,
+        "APE": 30.081579309019087,
+        "relative_residual": -30.081579309019087
+      },
+      {
+        "id": "rayleigh_N513_A4_p1_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.06943137157437103,
+        "APE": 30.068184176340615,
+        "relative_residual": -30.068184176340615
+      },
+      {
+        "id": "rayleigh_N1025_A4_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.36861756941909285,
+        "APE": 2.946094027637115,
+        "relative_residual": 2.946094027637115
+      },
+      {
+        "id": "rayleigh_N1025_A4_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.3699097414015349,
+        "APE": 3.3345965832964994,
+        "relative_residual": 3.3345965832964994
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.0985044334234635,
+        "APE": 1.5087542306464996,
+        "relative_residual": -1.5087542306464996
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.1067817915616347,
+        "APE": 1.3902590097205927,
+        "relative_residual": -1.3902590097205927
+      },
+      {
+        "id": "rayleigh_N4097_A4_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 25.07374785516992,
+        "APE": 0.9959272226113954,
+        "relative_residual": 0.9959272226113954
+      },
+      {
+        "id": "rayleigh_N5121_A4_p2_average",
+        "level": 5121,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 49.182355941280015,
+        "APE": 0.7180896874542189,
+        "relative_residual": 0.7180896874542189
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 2.227424129141807,
+    "CV_max_APE": 30.081579309019087,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states4",
+    "method": "FP_BLOCKED",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.012025801630916336,
+      0.038160876713888375
+    ],
+    "HC3_se": [
+      0.00016396995612339452,
+      4.930883175333959e-05
+    ],
+    "predictions": [
+      0.09613595978414877,
+      0.09604462134412532,
+      0.6762045462888414,
+      0.6768129724694786,
+      5.293261777513765,
+      5.297204583031909,
+      42.1585533952784,
+      82.27608703576715
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9999927696868449,
+    "MdAPE": 0.1709381421795495,
+    "max_APE": 0.41741841861114226,
+    "RMSE_seconds": 0.06547888374866541,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N513_A4_p2_average",
+      "rayleigh_N513_A4_p1_average",
+      "rayleigh_N1025_A4_p1_average",
+      "rayleigh_N1025_A4_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N4097_A4_p2_average",
+      "rayleigh_N5121_A4_p2_average"
+    ],
+    "levels": [
+      513,
+      1025,
+      2049,
+      4097,
+      5121
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N513_A4_p2_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.09365336558044196,
+        "APE": 2.6883448180075997,
+        "relative_residual": 2.6883448180075997
+      },
+      {
+        "id": "rayleigh_N513_A4_p1_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.09356190093416805,
+        "APE": 2.5307391533539887,
+        "relative_residual": 2.5307391533539887
+      },
+      {
+        "id": "rayleigh_N1025_A4_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.6768680372478081,
+        "APE": 0.3818467216644274,
+        "relative_residual": -0.3818467216644274
+      },
+      {
+        "id": "rayleigh_N1025_A4_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.6774771332749169,
+        "APE": 0.3038871787083076,
+        "relative_residual": -0.3038871787083076
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.292069906145749,
+        "APE": 0.11377398253412638,
+        "relative_residual": -0.11377398253412638
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 5.29601180625004,
+        "APE": 0.2396507755174815,
+        "relative_residual": 0.2396507755174815
+      },
+      {
+        "id": "rayleigh_N4097_A4_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 42.118834109027674,
+        "APE": 0.5112392152198988,
+        "relative_residual": 0.5112392152198988
+      },
+      {
+        "id": "rayleigh_N5121_A4_p2_average",
+        "level": 5121,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 82.28818392333119,
+        "APE": 0.07999434316559895,
+        "relative_residual": -0.07999434316559895
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 0.3428669501863675,
+    "CV_max_APE": 2.6883448180075997,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states4",
+    "method": "FP_BLOCKED",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.0005094832672639937,
+      0.04528453937940762,
+      0.012451459695166547
+    ],
+    "HC3_se": [
+      0.0014428126540040596,
+      0.0010341884294654685,
+      0.001731658757569153
+    ],
+    "predictions": [
+      0.03577955632150647,
+      0.03552124968612318,
+      0.22559107022739414,
+      0.22631454653453267,
+      1.5548389060044816,
+      1.611981482241117,
+      19.524398074046882,
+      46.20766943435646
+    ],
+    "normalized_condition": 3.3632580233435796,
+    "weighted_R2": 0.9995453344481162,
+    "MdAPE": 1.503569282408299,
+    "max_APE": 2.7917250092601567,
+    "RMSE_seconds": 0.2722724245693241,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N513_A4_p2_average",
+      "rayleigh_N513_A4_p1_average",
+      "rayleigh_N1025_A4_p1_average",
+      "rayleigh_N1025_A4_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N4097_A4_p2_average",
+      "rayleigh_N5121_A4_p2_average"
+    ],
+    "levels": [
+      513,
+      1025,
+      2049,
+      4097,
+      5121
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N513_A4_p2_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.015819847047334187,
+        "APE": 55.906271191334085,
+        "relative_residual": 55.906271191334085
+      },
+      {
+        "id": "rayleigh_N513_A4_p1_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.015570770504367223,
+        "APE": 56.14845291295828,
+        "relative_residual": 56.14845291295828
+      },
+      {
+        "id": "rayleigh_N1025_A4_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.23811482145918889,
+        "APE": 7.095722182018837,
+        "relative_residual": -7.095722182018837
+      },
+      {
+        "id": "rayleigh_N1025_A4_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.23881521942698006,
+        "APE": 6.880631617376463,
+        "relative_residual": -6.880631617376463
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.5306295532303753,
+        "APE": 4.305289798978875,
+        "relative_residual": 4.305289798978875
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.5868954217916413,
+        "APE": 4.105799839564214,
+        "relative_residual": 4.105799839564214
+      },
+      {
+        "id": "rayleigh_N4097_A4_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 19.716284841938098,
+        "APE": 2.6065329232510326,
+        "relative_residual": -2.6065329232510326
+      },
+      {
+        "id": "rayleigh_N5121_A4_p2_average",
+        "level": 5121,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 46.79455238918258,
+        "APE": 2.8338728167401652,
+        "relative_residual": -2.8338728167401652
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 5.592960708177669,
+    "CV_max_APE": 56.14845291295828,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states4",
+    "method": "FP_CACHED",
+    "phase": "loop",
+    "model": "count_quadratic",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      0.016046008958779626,
+      0.030647138114233367
+    ],
+    "HC3_se": [
+      0.0006021576815102374,
+      0.00027115820174135737
+    ],
+    "predictions": [
+      0.0787418474423682,
+      0.07856703371479357,
+      0.5080820974400111,
+      0.5085717232286601,
+      3.916516215035954,
+      3.95518849590989,
+      36.555629928152975,
+      77.05843342941392
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9996680269208064,
+    "MdAPE": 1.5531349025615986,
+    "max_APE": 2.518919151097852,
+    "RMSE_seconds": 0.4428399007903371,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N513_A4_p2_average",
+      "rayleigh_N513_A4_p1_average",
+      "rayleigh_N1025_A4_p1_average",
+      "rayleigh_N1025_A4_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N4097_A4_p2_average",
+      "rayleigh_N5121_A4_p2_average"
+    ],
+    "levels": [
+      513,
+      1025,
+      2049,
+      4097,
+      5121
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N513_A4_p2_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.09041944879625015,
+        "APE": 14.863806761377056,
+        "relative_residual": -14.863806761377056
+      },
+      {
+        "id": "rayleigh_N513_A4_p1_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.09024616524342749,
+        "APE": 15.18765190457375,
+        "relative_residual": -15.18765190457375
+      },
+      {
+        "id": "rayleigh_N1025_A4_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.5045612295279998,
+        "APE": 2.241267601704535,
+        "relative_residual": 2.241267601704535
+      },
+      {
+        "id": "rayleigh_N1025_A4_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 0.5050469929530266,
+        "APE": 2.5115588763193317,
+        "relative_residual": 2.5115588763193317
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.9596329282099574,
+        "APE": 3.647544334615992,
+        "relative_residual": -3.647544334615992
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 3.9987402608259166,
+        "APE": 2.670024370653787,
+        "relative_residual": -2.670024370653787
+      },
+      {
+        "id": "rayleigh_N4097_A4_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 36.61737413288146,
+        "APE": 0.9264574856474346,
+        "relative_residual": -0.9264574856474346
+      },
+      {
+        "id": "rayleigh_N5121_A4_p2_average",
+        "level": 5121,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 76.7839499049926,
+        "APE": 1.9051275637054608,
+        "relative_residual": 1.9051275637054608
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 2.5907916234865596,
+    "CV_max_APE": 15.18765190457375,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states4",
+    "method": "FP_CACHED",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.008911568635841804,
+      0.11455670535572525
+    ],
+    "HC3_se": [
+      0.004989070603635114,
+      0.000590638413873709
+    ],
+    "predictions": [
+      0.2399061333550818,
+      0.23972359870076798,
+      1.9703211536802783,
+      1.9707793058107292,
+      15.781988537019089,
+      15.78289784232352,
+      126.13807666608713,
+      246.29796867279356
+    ],
+    "normalized_condition": 1.0,
+    "weighted_R2": 0.9998382905380759,
+    "MdAPE": 0.9323769604465592,
+    "max_APE": 1.6137518652539804,
+    "RMSE_seconds": 1.4700868723354044,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N513_A4_p2_average",
+      "rayleigh_N513_A4_p1_average",
+      "rayleigh_N1025_A4_p1_average",
+      "rayleigh_N1025_A4_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N4097_A4_p2_average",
+      "rayleigh_N5121_A4_p2_average"
+    ],
+    "levels": [
+      513,
+      1025,
+      2049,
+      4097,
+      5121
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N513_A4_p2_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.22645396991062214,
+        "APE": 6.9416405339729605,
+        "relative_residual": 6.9416405339729605
+      },
+      {
+        "id": "rayleigh_N513_A4_p1_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.22627097687961392,
+        "APE": 4.350024390019646,
+        "relative_residual": 4.350024390019646
+      },
+      {
+        "id": "rayleigh_N1025_A4_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.9729818690297123,
+        "APE": 0.5822347430984924,
+        "relative_residual": -0.5822347430984924
+      },
+      {
+        "id": "rayleigh_N1025_A4_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 1.9734406996352936,
+        "APE": 0.36169734534129766,
+        "relative_residual": -0.36169734534129766
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 15.862464798801032,
+        "APE": 1.5702032326492803,
+        "relative_residual": -1.5702032326492803
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 15.863378818611002,
+        "APE": 1.3239094777763576,
+        "relative_residual": -1.3239094777763576
+      },
+      {
+        "id": "rayleigh_N4097_A4_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 125.92201215544755,
+        "APE": 0.9269725167597366,
+        "relative_residual": 0.9269725167597366
+      },
+      {
+        "id": "rayleigh_N5121_A4_p2_average",
+        "level": 5121,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 245.38833476521097,
+        "APE": 1.97711445336405,
+        "relative_residual": 1.97711445336405
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.447056355212819,
+    "CV_max_APE": 6.9416405339729605,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states4",
+    "method": "M",
+    "phase": "loop",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  },
+  {
+    "identifiable": true,
+    "coefficients": [
+      -0.006518636012868451,
+      0.09362082935123635
+    ],
+    "HC3_se": [
+      0.001443192845302579,
+      0.0003345003670584923
+    ],
+    "predictions": [
+      0.25615546269832673,
+      0.25600628726883845,
+      2.0828671735874065,
+      2.0832415958640307,
+      16.66243053878086,
+      16.663173663475916,
+      133.1537530500961,
+      259.9945021460095
+    ],
+    "normalized_condition": 1.0000000000000002,
+    "weighted_R2": 0.9999501026136907,
+    "MdAPE": 0.4748401825321557,
+    "max_APE": 0.9117707525715486,
+    "RMSE_seconds": 0.9052317797586553,
+    "negative_predictions": 0,
+    "n": 8,
+    "ids": [
+      "rayleigh_N513_A4_p2_average",
+      "rayleigh_N513_A4_p1_average",
+      "rayleigh_N1025_A4_p1_average",
+      "rayleigh_N1025_A4_p2_average",
+      "rayleigh_N2049_A4_p1_average",
+      "rayleigh_N2049_A4_p2_average",
+      "rayleigh_N4097_A4_p2_average",
+      "rayleigh_N5121_A4_p2_average"
+    ],
+    "levels": [
+      513,
+      1025,
+      2049,
+      4097,
+      5121
+    ],
+    "holdouts": [
+      {
+        "id": "rayleigh_N513_A4_p2_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.25277717978202774,
+        "APE": 1.5988179681972439,
+        "relative_residual": 1.5988179681972439
+      },
+      {
+        "id": "rayleigh_N513_A4_p1_average",
+        "level": 513,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 0.25262791521215616,
+        "APE": 1.064794012089366,
+        "relative_residual": 1.064794012089366
+      },
+      {
+        "id": "rayleigh_N1025_A4_p1_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.0829781375854712,
+        "APE": 0.06724724517657676,
+        "relative_residual": -0.06724724517657676
+      },
+      {
+        "id": "rayleigh_N1025_A4_p2_average",
+        "level": 1025,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 2.0833525817671665,
+        "APE": 0.030088741046758963,
+        "relative_residual": 0.030088741046758963
+      },
+      {
+        "id": "rayleigh_N2049_A4_p1_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.735613938371014,
+        "APE": 1.2052424712968512,
+        "relative_residual": -1.2052424712968512
+      },
+      {
+        "id": "rayleigh_N2049_A4_p2_average",
+        "level": 2049,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 16.73636038226175,
+        "APE": 1.284068278414032,
+        "relative_residual": -1.284068278414032
+      },
+      {
+        "id": "rayleigh_N4097_A4_p2_average",
+        "level": 4097,
+        "identifiable": true,
+        "endpoint": false,
+        "prediction": 132.95327516155044,
+        "APE": 0.8155199800764458,
+        "relative_residual": 0.8155199800764458
+      },
+      {
+        "id": "rayleigh_N5121_A4_p2_average",
+        "level": 5121,
+        "identifiable": true,
+        "endpoint": true,
+        "prediction": 259.45581202545947,
+        "APE": 1.1170745175273546,
+        "relative_residual": 1.1170745175273546
+      }
+    ],
+    "holdouts_complete": true,
+    "CV_MdAPE": 1.0909342648083604,
+    "CV_max_APE": 1.5988179681972439,
+    "CV_negative_predictions": 0,
+    "kind": "rayleigh",
+    "panel": "states4",
+    "method": "M",
+    "phase": "total",
+    "model": "count",
+    "sensitivity": "ordinary_weighted"
+  }
+]

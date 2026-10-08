@@ -1,0 +1,36 @@
+protocol = "rayleigh-checked-timing-v2"
+stage = "production"
+methods = ["R", "M", "FP", "BLOCK"]
+criteria = ["discounted", "average"]
+repetitions = 2
+warmups = 2
+beta = 0.99
+residual_bound = "contraction"
+residual_max_states = 10000
+curvature_ratio_denominator = 256
+campaign_seconds = 72000
+worker_seconds = 7200
+memory_gib = 24
+baseline_archive = "results/local/rayleigh_checked_production_20261002"
+[[profiles]]
+name = "anchor"
+wR = "3/4"
+success_max = "3/4"
+kappa = "2"
+[[profiles]]
+name = "persistent"
+wR = "13/16"
+success_max = "7/8"
+kappa = "3/2"
+[[panels]]
+name = "states"
+states = [513, 1025, 2049, 4097, 5121]
+gears = [4]
+[[panels]]
+name = "binary"
+states = [1025, 2049, 4097, 8193]
+gears = [1]
+[[panels]]
+name = "gears"
+states = [2049]
+gears = [1, 2, 4, 8, 16]

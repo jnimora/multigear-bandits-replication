@@ -1,0 +1,2642 @@
+[
+  {
+    "case": "exponential_n1000_d5_disc",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 5,
+    "seed": 21262052,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "30cd23c6112d4bac164957617380bb028bf062b3a8f5a81400dd3bbc30e86fa3",
+      "R1.f64": "63c0208c057baaacdc5cd4848e0c6e7988ded04b31d55ed0465adc1c8505f7a3",
+      "P0.f64": "d47b10cd74c85cb90ae7b12ec0be016d3f4675231f6f57d323010a68cd4ed943",
+      "P1.f64": "9ed0f1d2ea6c97c46b09384de678649b4c5629e5b3192a9126fc73c340ef934c"
+    }
+  },
+  {
+    "case": "uniform_n1000_d2_disc",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 2,
+    "seed": 21262021,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "8108f4260263b27f0353493055e301e63e8ae17f99880cc900e38f1e3e47c220",
+      "P0.f64": "af65eb7854f0a18cee559e3c056609e844635a2905a7a2d3dd7f1ce22e0548e2",
+      "P1.f64": "55d46793487a6f7026d5c5f5e3bcd264487ec33eb800a9153c240d59ef009637"
+    }
+  },
+  {
+    "case": "exponential_n1000_d1_avg",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 1,
+    "seed": 21262012,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "dbaecd1f720ea853392b6fa661d6a440986f689912deab7c747300edb0cb24fd",
+      "R1.f64": "3b306aba7c1e9bcaba7d939b7ed02e14fa532f070d6420567b3d8427591841b0",
+      "P0.f64": "a29aebbe74015ea8d7b7b61ae87f393259184ce400b0f7f28a821c94b283d182",
+      "P1.f64": "547057e9f1571236ed5d2f19eba3dbe01cef8e55b61b2750fdc4483ee4f68d50"
+    }
+  },
+  {
+    "case": "uniform_n1000_d4_avg",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 4,
+    "seed": 21262041,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "80b448de652e2b7cd39344018af4586fedb40160ec3004b0dc800d803b66e61e",
+      "P0.f64": "77cf47d9b9769f98bb8e6004847ae32eceda2f28becc3edb0135ed5b589698aa",
+      "P1.f64": "caca62dee58107c9a2d25a9a090198810172b0ee42c5e280451127240a2966f2"
+    }
+  },
+  {
+    "case": "uniform_n1000_d4_disc",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 4,
+    "seed": 21262041,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "80b448de652e2b7cd39344018af4586fedb40160ec3004b0dc800d803b66e61e",
+      "P0.f64": "77cf47d9b9769f98bb8e6004847ae32eceda2f28becc3edb0135ed5b589698aa",
+      "P1.f64": "caca62dee58107c9a2d25a9a090198810172b0ee42c5e280451127240a2966f2"
+    }
+  },
+  {
+    "case": "uniform_n1000_d2_avg",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 2,
+    "seed": 21262021,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "8108f4260263b27f0353493055e301e63e8ae17f99880cc900e38f1e3e47c220",
+      "P0.f64": "af65eb7854f0a18cee559e3c056609e844635a2905a7a2d3dd7f1ce22e0548e2",
+      "P1.f64": "55d46793487a6f7026d5c5f5e3bcd264487ec33eb800a9153c240d59ef009637"
+    }
+  },
+  {
+    "case": "uniform_n1000_d3_avg",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 3,
+    "seed": 21262031,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "58b8e671892e7bb4697d1564ba317d9bfc0c4c69b8ef9898e1ece1ad0b46747f",
+      "P0.f64": "536566cfc327d37b662907a8c259306335ee93c95c4f821f6c7b7092ef19311b",
+      "P1.f64": "712b304ed248b3aa0244b42b12a93ac8b971eb6bd17ee0b7679fb069f71ca9e0"
+    }
+  },
+  {
+    "case": "exponential_n1000_d4_disc",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 4,
+    "seed": 21262042,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_up",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "e1bda6b25ce2479efaf8530d7adca735512d21427ce2e7aa3a6817c8949b9140",
+      "R1.f64": "7c2e65ba3e96030de74b8bd3a61181a9c09895849f6abec0e5f253e093c4a0b8",
+      "P0.f64": "681ff5a76c02b02dfe98e15d1fa717829312398dc3194e8f8a9b2a694fb7f24a",
+      "P1.f64": "e7ee611aa31bb4cc7c17572ffff1307bd01ca7d89c7430df7d4bf5854d275efd"
+    }
+  },
+  {
+    "case": "exponential_n1000_d3_avg",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 3,
+    "seed": 21262032,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "e10e1ef66a05f89c96eca8cf07b8af59b3f360a8a2f7fbff887b87fc6ebe178b",
+      "R1.f64": "9cd94da5ae6ce0514845f57cb6733b92e3330bc6e61e8ddd78b4eed8938755ee",
+      "P0.f64": "45b0c24b99c7e126d8a2614efdfef61b7b3f5782792724d2bf57f4a4cccb95e1",
+      "P1.f64": "d9223f42fbea6c455e28ec07c5c02efaad5c5de37dc6150725bbfdc5a09f21ae"
+    }
+  },
+  {
+    "case": "exponential_n1000_d1_disc",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 1,
+    "seed": 21262012,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "dbaecd1f720ea853392b6fa661d6a440986f689912deab7c747300edb0cb24fd",
+      "R1.f64": "3b306aba7c1e9bcaba7d939b7ed02e14fa532f070d6420567b3d8427591841b0",
+      "P0.f64": "a29aebbe74015ea8d7b7b61ae87f393259184ce400b0f7f28a821c94b283d182",
+      "P1.f64": "547057e9f1571236ed5d2f19eba3dbe01cef8e55b61b2750fdc4483ee4f68d50"
+    }
+  },
+  {
+    "case": "exponential_n1000_d3_disc",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 3,
+    "seed": 21262032,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "e10e1ef66a05f89c96eca8cf07b8af59b3f360a8a2f7fbff887b87fc6ebe178b",
+      "R1.f64": "9cd94da5ae6ce0514845f57cb6733b92e3330bc6e61e8ddd78b4eed8938755ee",
+      "P0.f64": "45b0c24b99c7e126d8a2614efdfef61b7b3f5782792724d2bf57f4a4cccb95e1",
+      "P1.f64": "d9223f42fbea6c455e28ec07c5c02efaad5c5de37dc6150725bbfdc5a09f21ae"
+    }
+  },
+  {
+    "case": "uniform_n1000_d1_disc",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 1,
+    "seed": 21262011,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "9f0b6d5a566936591d45c423078f207d2411341c1a2e7c793ed371bf395018e7",
+      "P0.f64": "68fb6a013721d5bbeb118d49640f86da898bfa5a7168efa5d82993cf5b1470e4",
+      "P1.f64": "80c8ba1b6f997496d9429ba74e85215005d16367161393cefbe1d5160f7db71b"
+    }
+  },
+  {
+    "case": "exponential_n1000_d2_avg",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 2,
+    "seed": 21262022,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "b1d40c5cd936d50c1b09b83151099e8bf48fbedabe4d24e21a3ccf5e93909e1a",
+      "R1.f64": "7fdc9a6c2fa93219a9ad5388d722e99dbf482b89be6700262e18d37cf713df8b",
+      "P0.f64": "c12a05cb80f6c0ccc1ba294554dee12a9969166023952b3c09a0c28a150915b8",
+      "P1.f64": "aca8cffcfd0fbd56d0459c68d2ed80bd12bac9bdb63e5bbf2d7c9dcacf160977"
+    }
+  },
+  {
+    "case": "exponential_n1000_d5_avg",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 5,
+    "seed": 21262052,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "30cd23c6112d4bac164957617380bb028bf062b3a8f5a81400dd3bbc30e86fa3",
+      "R1.f64": "63c0208c057baaacdc5cd4848e0c6e7988ded04b31d55ed0465adc1c8505f7a3",
+      "P0.f64": "d47b10cd74c85cb90ae7b12ec0be016d3f4675231f6f57d323010a68cd4ed943",
+      "P1.f64": "9ed0f1d2ea6c97c46b09384de678649b4c5629e5b3192a9126fc73c340ef934c"
+    }
+  },
+  {
+    "case": "uniform_n1000_d1_avg",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 1,
+    "seed": 21262011,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "9f0b6d5a566936591d45c423078f207d2411341c1a2e7c793ed371bf395018e7",
+      "P0.f64": "68fb6a013721d5bbeb118d49640f86da898bfa5a7168efa5d82993cf5b1470e4",
+      "P1.f64": "80c8ba1b6f997496d9429ba74e85215005d16367161393cefbe1d5160f7db71b"
+    }
+  },
+  {
+    "case": "uniform_n1000_d3_disc",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 3,
+    "seed": 21262031,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "58b8e671892e7bb4697d1564ba317d9bfc0c4c69b8ef9898e1ece1ad0b46747f",
+      "P0.f64": "536566cfc327d37b662907a8c259306335ee93c95c4f821f6c7b7092ef19311b",
+      "P1.f64": "712b304ed248b3aa0244b42b12a93ac8b971eb6bd17ee0b7679fb069f71ca9e0"
+    }
+  },
+  {
+    "case": "exponential_n1000_d2_disc",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 2,
+    "seed": 21262022,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "b1d40c5cd936d50c1b09b83151099e8bf48fbedabe4d24e21a3ccf5e93909e1a",
+      "R1.f64": "7fdc9a6c2fa93219a9ad5388d722e99dbf482b89be6700262e18d37cf713df8b",
+      "P0.f64": "c12a05cb80f6c0ccc1ba294554dee12a9969166023952b3c09a0c28a150915b8",
+      "P1.f64": "aca8cffcfd0fbd56d0459c68d2ed80bd12bac9bdb63e5bbf2d7c9dcacf160977"
+    }
+  },
+  {
+    "case": "uniform_n1000_d5_avg",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 5,
+    "seed": 21262051,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "83f39f278b8263c9396097f87caef771cd890d050f4e92f70e425d1e77d18a0d",
+      "P0.f64": "5d34289ba74c355e7db032c3f2a54ff4a56962b7a06df46a98c98421f6d66401",
+      "P1.f64": "16fdec3923a1d13cbcc74c264f73e7183bac4a47fbb746293382635edd9950c1"
+    }
+  },
+  {
+    "case": "exponential_n1000_d4_avg",
+    "family": "exponential",
+    "N": 1000,
+    "draw": 4,
+    "seed": 21262042,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_up",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "e1bda6b25ce2479efaf8530d7adca735512d21427ce2e7aa3a6817c8949b9140",
+      "R1.f64": "7c2e65ba3e96030de74b8bd3a61181a9c09895849f6abec0e5f253e093c4a0b8",
+      "P0.f64": "681ff5a76c02b02dfe98e15d1fa717829312398dc3194e8f8a9b2a694fb7f24a",
+      "P1.f64": "e7ee611aa31bb4cc7c17572ffff1307bd01ca7d89c7430df7d4bf5854d275efd"
+    }
+  },
+  {
+    "case": "uniform_n1000_d5_disc",
+    "family": "uniform",
+    "N": 1000,
+    "draw": 5,
+    "seed": 21262051,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "668946bab9868b28489bb906205ee1026045c8bcd3ca62a1bdf733c65491351b",
+      "R1.f64": "83f39f278b8263c9396097f87caef771cd890d050f4e92f70e425d1e77d18a0d",
+      "P0.f64": "5d34289ba74c355e7db032c3f2a54ff4a56962b7a06df46a98c98421f6d66401",
+      "P1.f64": "16fdec3923a1d13cbcc74c264f73e7183bac4a47fbb746293382635edd9950c1"
+    }
+  },
+  {
+    "case": "exponential_n2000_d3_avg",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 3,
+    "seed": 22262032,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "9856ff234241cbe2ad2765474a7b86b5432bc2178eabd9b3ea32e2c247790a8a",
+      "R1.f64": "d1d20f11e552de332491ea00864b9855d4556078d6e56674805d49d4e759ef61",
+      "P0.f64": "35799f324694fa5b869ed8aa8a5bcd2e626b951369232660f0def4450c20eb31",
+      "P1.f64": "1e495165249a486e82217cbe387df441274b1b76ece611c8d48f3d67a7fc2a13"
+    }
+  },
+  {
+    "case": "exponential_n2000_d5_avg",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 5,
+    "seed": 22262052,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "76f2a07a8524464e43ae1e40c401342e9b630b843bffad3aee4ebea81f1cc6fb",
+      "R1.f64": "5992453daaef89149f8c273a0010bc18b4c81b5a87adb254e03bb459abd0ccf7",
+      "P0.f64": "2efd5add5f8d3dadc66c4b5e0bab11fa93d45c9e6d130f62f7eaf03f42398dba",
+      "P1.f64": "40fcb71266880cfd0ff892ec6ce11da13409d161496d335df91ef18be1527746"
+    }
+  },
+  {
+    "case": "uniform_n2000_d1_disc",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 1,
+    "seed": 22262011,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "550d65acb97c1506fb3fd7125cb5b0613641eb13076c3c373690662cfff196b3",
+      "P0.f64": "bd833a19f1c2794519fc198361bd6d7bd5e3648214c32b36732469bf3f7130a9",
+      "P1.f64": "40fbab736ec0b61c2bcc8a0ffa85776d3bfbf1630407a5113bf895034422849a"
+    }
+  },
+  {
+    "case": "exponential_n2000_d2_disc",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 2,
+    "seed": 22262022,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "9dda24b8df66b4d8be901b3d12c0bcb067e3935933e82431d74009aeb7ab6b84",
+      "R1.f64": "c457c100d47fa9c631fc9da4f2cf661aae781016c80e2d7aaf58cbb24d3cf0ff",
+      "P0.f64": "9dbfadebf8151ae31fd8556d7664e295fc33443131e3c148254d06b788db27b5",
+      "P1.f64": "5b3d802da505b19ee1221f046c233f44ec27a4c5a98134b477727285d2452713"
+    }
+  },
+  {
+    "case": "exponential_n2000_d4_disc",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 4,
+    "seed": 22262042,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "1e0015c94333c721f656891cb7c42a656005fa251f29c9896004746870b1a0a7",
+      "R1.f64": "58861de4fb4702edadfc2b0d40ff3f6c9f52a76166bef0c9257405c129fe8ec2",
+      "P0.f64": "a40cc46ad7dc6d9044983f7403d5500314a0a30a53b2beae208f66ca89302167",
+      "P1.f64": "e389a601d52761cd7459322680a210367c32dd3be97c62ea5951fa4a1d79a36e"
+    }
+  },
+  {
+    "case": "exponential_n2000_d5_disc",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 5,
+    "seed": 22262052,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "76f2a07a8524464e43ae1e40c401342e9b630b843bffad3aee4ebea81f1cc6fb",
+      "R1.f64": "5992453daaef89149f8c273a0010bc18b4c81b5a87adb254e03bb459abd0ccf7",
+      "P0.f64": "2efd5add5f8d3dadc66c4b5e0bab11fa93d45c9e6d130f62f7eaf03f42398dba",
+      "P1.f64": "40fcb71266880cfd0ff892ec6ce11da13409d161496d335df91ef18be1527746"
+    }
+  },
+  {
+    "case": "exponential_n2000_d1_disc",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 1,
+    "seed": 22262012,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "99737f6f6d76334d0c17381fe3971bfde85a18fbd842d03a76c68db2e8e33cff",
+      "R1.f64": "2b29293e8447173ceb9ec244c480478eb6b240ad241cdc160c2367d3349d8159",
+      "P0.f64": "7ec95b47dcb88464dd01889920e6ab595e242708957e34f98e2a51cd28afa1ce",
+      "P1.f64": "d9b3e8c443b92747593e1b0c52a6d015587b400cab2f3830d188ca324c74f2d4"
+    }
+  },
+  {
+    "case": "uniform_n2000_d1_avg",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 1,
+    "seed": 22262011,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "550d65acb97c1506fb3fd7125cb5b0613641eb13076c3c373690662cfff196b3",
+      "P0.f64": "bd833a19f1c2794519fc198361bd6d7bd5e3648214c32b36732469bf3f7130a9",
+      "P1.f64": "40fbab736ec0b61c2bcc8a0ffa85776d3bfbf1630407a5113bf895034422849a"
+    }
+  },
+  {
+    "case": "exponential_n2000_d1_avg",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 1,
+    "seed": 22262012,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "99737f6f6d76334d0c17381fe3971bfde85a18fbd842d03a76c68db2e8e33cff",
+      "R1.f64": "2b29293e8447173ceb9ec244c480478eb6b240ad241cdc160c2367d3349d8159",
+      "P0.f64": "7ec95b47dcb88464dd01889920e6ab595e242708957e34f98e2a51cd28afa1ce",
+      "P1.f64": "d9b3e8c443b92747593e1b0c52a6d015587b400cab2f3830d188ca324c74f2d4"
+    }
+  },
+  {
+    "case": "exponential_n2000_d4_avg",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 4,
+    "seed": 22262042,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "1e0015c94333c721f656891cb7c42a656005fa251f29c9896004746870b1a0a7",
+      "R1.f64": "58861de4fb4702edadfc2b0d40ff3f6c9f52a76166bef0c9257405c129fe8ec2",
+      "P0.f64": "a40cc46ad7dc6d9044983f7403d5500314a0a30a53b2beae208f66ca89302167",
+      "P1.f64": "e389a601d52761cd7459322680a210367c32dd3be97c62ea5951fa4a1d79a36e"
+    }
+  },
+  {
+    "case": "exponential_n2000_d2_avg",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 2,
+    "seed": 22262022,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "9dda24b8df66b4d8be901b3d12c0bcb067e3935933e82431d74009aeb7ab6b84",
+      "R1.f64": "c457c100d47fa9c631fc9da4f2cf661aae781016c80e2d7aaf58cbb24d3cf0ff",
+      "P0.f64": "9dbfadebf8151ae31fd8556d7664e295fc33443131e3c148254d06b788db27b5",
+      "P1.f64": "5b3d802da505b19ee1221f046c233f44ec27a4c5a98134b477727285d2452713"
+    }
+  },
+  {
+    "case": "uniform_n2000_d3_avg",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 3,
+    "seed": 22262031,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "047a69eefde388acd5403fc182b6b8963d44da796c1396d4ffe9c81a5347c161",
+      "P0.f64": "7952aec34f2a6a73febb35db073cc34c3fa013f05507f216a34315f741c57ed4",
+      "P1.f64": "ff1c449b8d374f39b7524e3f71a2da167fe30f3ec07d6e3d6f6a2e44b7d24553"
+    }
+  },
+  {
+    "case": "uniform_n2000_d4_disc",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 4,
+    "seed": 22262041,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "a1050e623e3b12c2a5cf5d8f85b8a4d44adfd8686dff4459f3b600d19acd1f47",
+      "P0.f64": "d09e3a2c464da117dff22602d1ac015ed7216b2663a3c7169e910a6988d259d8",
+      "P1.f64": "feac93b6f1b648c79431437a88b98c747900fbf0e8bd775cce6008c9f474c935"
+    }
+  },
+  {
+    "case": "uniform_n2000_d4_avg",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 4,
+    "seed": 22262041,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "a1050e623e3b12c2a5cf5d8f85b8a4d44adfd8686dff4459f3b600d19acd1f47",
+      "P0.f64": "d09e3a2c464da117dff22602d1ac015ed7216b2663a3c7169e910a6988d259d8",
+      "P1.f64": "feac93b6f1b648c79431437a88b98c747900fbf0e8bd775cce6008c9f474c935"
+    }
+  },
+  {
+    "case": "uniform_n2000_d2_avg",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 2,
+    "seed": 22262021,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "62938a2e27e0417ebb017e661719338d86b07b1f1e0664135d5b73ed44dc7462",
+      "P0.f64": "c5f8ed10bb1d22bb654b80f625c3a1191bbebfd5693f5662e1b9659b98321314",
+      "P1.f64": "a870a810c421a3fee557cab70b80bddbcd4b449faa6b4dfa7778665905a7ee8a"
+    }
+  },
+  {
+    "case": "uniform_n2000_d5_disc",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 5,
+    "seed": 22262051,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_up",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "4e931643dd8fd5573d26446271b8d8f76a604400a617dd18b0fd6638f5d7dc69",
+      "P0.f64": "e30f305908fee9e4d8136199fea548b6880c2990aeb42b41b99ea268bfe15a1c",
+      "P1.f64": "c6fb37a66648ea5c2344453fd7cc62a0ba403f058c610913fc0734dfee3435b6"
+    }
+  },
+  {
+    "case": "uniform_n2000_d2_disc",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 2,
+    "seed": 22262021,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "62938a2e27e0417ebb017e661719338d86b07b1f1e0664135d5b73ed44dc7462",
+      "P0.f64": "c5f8ed10bb1d22bb654b80f625c3a1191bbebfd5693f5662e1b9659b98321314",
+      "P1.f64": "a870a810c421a3fee557cab70b80bddbcd4b449faa6b4dfa7778665905a7ee8a"
+    }
+  },
+  {
+    "case": "uniform_n2000_d3_disc",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 3,
+    "seed": 22262031,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "047a69eefde388acd5403fc182b6b8963d44da796c1396d4ffe9c81a5347c161",
+      "P0.f64": "7952aec34f2a6a73febb35db073cc34c3fa013f05507f216a34315f741c57ed4",
+      "P1.f64": "ff1c449b8d374f39b7524e3f71a2da167fe30f3ec07d6e3d6f6a2e44b7d24553"
+    }
+  },
+  {
+    "case": "uniform_n2000_d5_avg",
+    "family": "uniform",
+    "N": 2000,
+    "draw": 5,
+    "seed": 22262051,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "f85f2c34eb2843d2aa5951ee6e8e76985655b2e3ae2cbdd76bdfd654ecf19997",
+      "R1.f64": "4e931643dd8fd5573d26446271b8d8f76a604400a617dd18b0fd6638f5d7dc69",
+      "P0.f64": "e30f305908fee9e4d8136199fea548b6880c2990aeb42b41b99ea268bfe15a1c",
+      "P1.f64": "c6fb37a66648ea5c2344453fd7cc62a0ba403f058c610913fc0734dfee3435b6"
+    }
+  },
+  {
+    "case": "exponential_n2000_d3_disc",
+    "family": "exponential",
+    "N": 2000,
+    "draw": 3,
+    "seed": 22262032,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "9856ff234241cbe2ad2765474a7b86b5432bc2178eabd9b3ea32e2c247790a8a",
+      "R1.f64": "d1d20f11e552de332491ea00864b9855d4556078d6e56674805d49d4e759ef61",
+      "P0.f64": "35799f324694fa5b869ed8aa8a5bcd2e626b951369232660f0def4450c20eb31",
+      "P1.f64": "1e495165249a486e82217cbe387df441274b1b76ece611c8d48f3d67a7fc2a13"
+    }
+  },
+  {
+    "case": "exponential_n4000_d4_avg",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 4,
+    "seed": 24262042,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "27c6d5f306a8c22c5dc456dc6643407067c739f7a543dd1f5e6308edf6e9ee47",
+      "R1.f64": "538325b7628d4792a66a6d1a653a17107a810ad9f274e94f265d47e38212a3db",
+      "P0.f64": "be66b350bc68f7636893e4910b166dc89a199b8a2d4d9f47d241970d5167b224",
+      "P1.f64": "aa660bf41a6d43b44f29fcd6d760ddee0b1a9b40af5fa85b94a62e3fd192c511"
+    }
+  },
+  {
+    "case": "exponential_n4000_d1_disc",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 1,
+    "seed": 24262012,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_up",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "615725929fa092b0b10e9284d96a1854d995e4c867ee4940f888ddc6779753fd",
+      "R1.f64": "0a027dc46900dae0328c44c550de33f6758d31060042747ea904d93859b5f5ed",
+      "P0.f64": "63cf79f2549fc08e1399dc4e4c9e7bc4ea28a0ea8e2296297abe43cf30e0eaa3",
+      "P1.f64": "1065cd3cdff0d63721bd579c13476369e44fe88dd68a0dcca5d16b937469c3dc"
+    }
+  },
+  {
+    "case": "exponential_n4000_d1_avg",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 1,
+    "seed": 24262012,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "615725929fa092b0b10e9284d96a1854d995e4c867ee4940f888ddc6779753fd",
+      "R1.f64": "0a027dc46900dae0328c44c550de33f6758d31060042747ea904d93859b5f5ed",
+      "P0.f64": "63cf79f2549fc08e1399dc4e4c9e7bc4ea28a0ea8e2296297abe43cf30e0eaa3",
+      "P1.f64": "1065cd3cdff0d63721bd579c13476369e44fe88dd68a0dcca5d16b937469c3dc"
+    }
+  },
+  {
+    "case": "exponential_n4000_d2_disc",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 2,
+    "seed": 24262022,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "2b371d1d9bbe751c541cf31ac45406d49a5f0625f07e2fb2390b5f11308535cf",
+      "R1.f64": "f7c8f79a619211588459c2fbe7a83c09e3dccfa6d09b2fd81832abf1a8eb5210",
+      "P0.f64": "62dd37a27472e1bea616fd32740ca9a8660d6a0984d5adf58a50fa142985c779",
+      "P1.f64": "d712c1d4fd63b4a9650b937be0c8d0194a0f57f2dbc8df5cd20bb15b98926afa"
+    }
+  },
+  {
+    "case": "exponential_n4000_d5_avg",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 5,
+    "seed": 24262052,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "a08bfbbe92d522b9a8414ec179fe92c1a9c7f14408046a5544f7bd04d8c9c1b9",
+      "R1.f64": "f4baab0189fd8cb2aab5172b977f2e37b20efa0fc3fcf281672dac083755393a",
+      "P0.f64": "ad5ad062d184268b7667820d9e7e36760585c02af62e2e6560e5811c59e94dcf",
+      "P1.f64": "5a005259cd4ff9380c6a19df71c7bfc4602863e9eb4cd055a39423f69f960776"
+    }
+  },
+  {
+    "case": "exponential_n4000_d5_disc",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 5,
+    "seed": 24262052,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "a08bfbbe92d522b9a8414ec179fe92c1a9c7f14408046a5544f7bd04d8c9c1b9",
+      "R1.f64": "f4baab0189fd8cb2aab5172b977f2e37b20efa0fc3fcf281672dac083755393a",
+      "P0.f64": "ad5ad062d184268b7667820d9e7e36760585c02af62e2e6560e5811c59e94dcf",
+      "P1.f64": "5a005259cd4ff9380c6a19df71c7bfc4602863e9eb4cd055a39423f69f960776"
+    }
+  },
+  {
+    "case": "uniform_n4000_d3_avg",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 3,
+    "seed": 24262031,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "3aa89fd1f7a85296f5b6e36a418f401a7ec65768fc89a63d290a5bfa738d3875",
+      "P0.f64": "bd1cf22f93c966aeae898b49a1d3f1659bf96ad321f56c011a95ed07a4ba5e1c",
+      "P1.f64": "dcfebc41f377aa4e33bb4db0ea346ccad3a68675563772c7cea6145ebc02ccdd"
+    }
+  },
+  {
+    "case": "uniform_n4000_d5_avg",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 5,
+    "seed": 24262051,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "f027122ab3c7890d86a55dee34cb109c464fe61dd72c1dc8520234de7c626b62",
+      "P0.f64": "3cc8f3c882d2b90be723ad5a5577eaf56bbc9a6b595f7aea91de69ce9e4e4858",
+      "P1.f64": "7c3621375b974e1faae665cae04385132ff39320da0ae619f3bee7987214f346"
+    }
+  },
+  {
+    "case": "exponential_n4000_d4_disc",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 4,
+    "seed": 24262042,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "27c6d5f306a8c22c5dc456dc6643407067c739f7a543dd1f5e6308edf6e9ee47",
+      "R1.f64": "538325b7628d4792a66a6d1a653a17107a810ad9f274e94f265d47e38212a3db",
+      "P0.f64": "be66b350bc68f7636893e4910b166dc89a199b8a2d4d9f47d241970d5167b224",
+      "P1.f64": "aa660bf41a6d43b44f29fcd6d760ddee0b1a9b40af5fa85b94a62e3fd192c511"
+    }
+  },
+  {
+    "case": "uniform_n4000_d4_disc",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 4,
+    "seed": 24262041,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "e34d3c68ee044b43a164134bb78fdd7d38e0343f3c455a7406d65e3d8e16570a",
+      "P0.f64": "99dc53e01e7b8ff63ddb24cdce109b1d93a688ea0999d250fc0efb77977a57b9",
+      "P1.f64": "5bf453e27c3b251bbb7f441f89d5d148b5cc76ef1295c21f03f148f1a261347e"
+    }
+  },
+  {
+    "case": "uniform_n4000_d4_avg",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 4,
+    "seed": 24262041,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "e34d3c68ee044b43a164134bb78fdd7d38e0343f3c455a7406d65e3d8e16570a",
+      "P0.f64": "99dc53e01e7b8ff63ddb24cdce109b1d93a688ea0999d250fc0efb77977a57b9",
+      "P1.f64": "5bf453e27c3b251bbb7f441f89d5d148b5cc76ef1295c21f03f148f1a261347e"
+    }
+  },
+  {
+    "case": "uniform_n4000_d5_disc",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 5,
+    "seed": 24262051,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "f027122ab3c7890d86a55dee34cb109c464fe61dd72c1dc8520234de7c626b62",
+      "P0.f64": "3cc8f3c882d2b90be723ad5a5577eaf56bbc9a6b595f7aea91de69ce9e4e4858",
+      "P1.f64": "7c3621375b974e1faae665cae04385132ff39320da0ae619f3bee7987214f346"
+    }
+  },
+  {
+    "case": "uniform_n4000_d3_disc",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 3,
+    "seed": 24262031,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "3aa89fd1f7a85296f5b6e36a418f401a7ec65768fc89a63d290a5bfa738d3875",
+      "P0.f64": "bd1cf22f93c966aeae898b49a1d3f1659bf96ad321f56c011a95ed07a4ba5e1c",
+      "P1.f64": "dcfebc41f377aa4e33bb4db0ea346ccad3a68675563772c7cea6145ebc02ccdd"
+    }
+  },
+  {
+    "case": "exponential_n4000_d2_avg",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 2,
+    "seed": 24262022,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_up",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "2b371d1d9bbe751c541cf31ac45406d49a5f0625f07e2fb2390b5f11308535cf",
+      "R1.f64": "f7c8f79a619211588459c2fbe7a83c09e3dccfa6d09b2fd81832abf1a8eb5210",
+      "P0.f64": "62dd37a27472e1bea616fd32740ca9a8660d6a0984d5adf58a50fa142985c779",
+      "P1.f64": "d712c1d4fd63b4a9650b937be0c8d0194a0f57f2dbc8df5cd20bb15b98926afa"
+    }
+  },
+  {
+    "case": "uniform_n4000_d2_avg",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 2,
+    "seed": 24262021,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "a0a642f9e4a486108d8c8225739d51d7a31eb9ec49ea17f8a792ce9e3ad9361f",
+      "P0.f64": "18d75db5c49ecd913535599957e261dfedf730c9d94a93e734f5181c4d6ccfc3",
+      "P1.f64": "e8db7dfcfaffb18e4c34a749604282deb8d460800b4c5a2d2237b60d2725669e"
+    }
+  },
+  {
+    "case": "uniform_n4000_d1_avg",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 1,
+    "seed": 24262011,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "a40418cf29fa239485955bc6a929eba12b5122f9baeec7acd04fd1722338b8ff",
+      "P0.f64": "1e38fb0024448d7b4df2e931ef8d1ead8260f470f4da1963c376c43a7afba8a5",
+      "P1.f64": "d385d1004bf7554495380a538e66ef76d0ade4bf5a34121b7d85a9dfaa16a4a3"
+    }
+  },
+  {
+    "case": "exponential_n4000_d3_disc",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 3,
+    "seed": 24262032,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "5142c515357962175c89568a77532ca71d5af7808f949d09f9b065002a1687ca",
+      "R1.f64": "9038faccb5999f9d1ee76dafb7dc0919e9620df8d928563facd7c70ac57569f8",
+      "P0.f64": "f907f06be662fe338c56e90aabc916c64335cfc2dcb05c05ed3d4e5c145dc000",
+      "P1.f64": "e1ac45a5d6a35b9735c179e426bd1c1251cfa1aa03a9e24347bed7a366b57b08"
+    }
+  },
+  {
+    "case": "uniform_n4000_d2_disc",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 2,
+    "seed": 24262021,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "a0a642f9e4a486108d8c8225739d51d7a31eb9ec49ea17f8a792ce9e3ad9361f",
+      "P0.f64": "18d75db5c49ecd913535599957e261dfedf730c9d94a93e734f5181c4d6ccfc3",
+      "P1.f64": "e8db7dfcfaffb18e4c34a749604282deb8d460800b4c5a2d2237b60d2725669e"
+    }
+  },
+  {
+    "case": "exponential_n4000_d3_avg",
+    "family": "exponential",
+    "N": 4000,
+    "draw": 3,
+    "seed": 24262032,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "5142c515357962175c89568a77532ca71d5af7808f949d09f9b065002a1687ca",
+      "R1.f64": "9038faccb5999f9d1ee76dafb7dc0919e9620df8d928563facd7c70ac57569f8",
+      "P0.f64": "f907f06be662fe338c56e90aabc916c64335cfc2dcb05c05ed3d4e5c145dc000",
+      "P1.f64": "e1ac45a5d6a35b9735c179e426bd1c1251cfa1aa03a9e24347bed7a366b57b08"
+    }
+  },
+  {
+    "case": "uniform_n4000_d1_disc",
+    "family": "uniform",
+    "N": 4000,
+    "draw": 1,
+    "seed": 24262011,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_up",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "0c92bddb4e96f3ea9ec9f0f64a668255a6c15527ac09f6f119cafde60c7c4a39",
+      "R1.f64": "a40418cf29fa239485955bc6a929eba12b5122f9baeec7acd04fd1722338b8ff",
+      "P0.f64": "1e38fb0024448d7b4df2e931ef8d1ead8260f470f4da1963c376c43a7afba8a5",
+      "P1.f64": "d385d1004bf7554495380a538e66ef76d0ade4bf5a34121b7d85a9dfaa16a4a3"
+    }
+  },
+  {
+    "case": "exponential_n6000_d1_avg",
+    "family": "exponential",
+    "N": 6000,
+    "draw": 1,
+    "seed": 26262012,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "a00295bf1817d28a708decf3ebcbf5d97e6d85ef384da9dc6192ca41f297859f",
+      "R1.f64": "6a01cab5a318106b71fd379e78031ca20a5b89fe43b9e586fc61176b8c5c8a96",
+      "P0.f64": "a8d826c68eefa02be985f15ba26a72fc54ddc3c32ce9b1540955f7c58c8ab7c3",
+      "P1.f64": "a1f06c01f9613d3758f055bc79972b080fc4ba0dfee5f1c3fce074a6da9898e8"
+    }
+  },
+  {
+    "case": "exponential_n6000_d2_avg",
+    "family": "exponential",
+    "N": 6000,
+    "draw": 2,
+    "seed": 26262022,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "3b17bf56aea27b8ea49c7c62767c5aaee995c25ade024af2fafda948f7595db5",
+      "R1.f64": "b7677a9eabe6d754d03ca5e7685c3a86a4b4663f3111f4cb1aad77cd047f9f92",
+      "P0.f64": "3f3b287088382321c36e2b5812a29095957392b473e77bdba380a6e0cfa3d4b3",
+      "P1.f64": "4225a6f4f5b092b477f6d5a7a6094dc474921eb722234a5a405cf7612a0e0fbf"
+    }
+  },
+  {
+    "case": "exponential_n6000_d3_disc",
+    "family": "exponential",
+    "N": 6000,
+    "draw": 3,
+    "seed": 26262032,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "3b9e4e154cd0ed8af2f2d938f6e0037ba68772e79d8778ce125de4c9302eac53",
+      "R1.f64": "8379d74646f5c1c460118b581c618f4850f5c9c102c81fa87da795fdaf016585",
+      "P0.f64": "bf5fd49db636bf7ce908ce89a367e244c134440b2e0f0d67a24b23cf7f32f116",
+      "P1.f64": "b0e9188cb1ceeca7d4cd59f46f66569f0ffcc49d0d38a2c70b6ce5e5c0f90ea6"
+    }
+  },
+  {
+    "case": "exponential_n6000_d1_disc",
+    "family": "exponential",
+    "N": 6000,
+    "draw": 1,
+    "seed": 26262012,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_up",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "a00295bf1817d28a708decf3ebcbf5d97e6d85ef384da9dc6192ca41f297859f",
+      "R1.f64": "6a01cab5a318106b71fd379e78031ca20a5b89fe43b9e586fc61176b8c5c8a96",
+      "P0.f64": "a8d826c68eefa02be985f15ba26a72fc54ddc3c32ce9b1540955f7c58c8ab7c3",
+      "P1.f64": "a1f06c01f9613d3758f055bc79972b080fc4ba0dfee5f1c3fce074a6da9898e8"
+    }
+  },
+  {
+    "case": "uniform_n6000_d2_disc",
+    "family": "uniform",
+    "N": 6000,
+    "draw": 2,
+    "seed": 26262021,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "bb918147fe10391b43adeba4bd21b9ef32e5bd6c5076c3517733a05ed6dd0569",
+      "R1.f64": "0fa59707e94c71e91f90a76711b1424ce4c81197ea4c1e177be117a132bfcbda",
+      "P0.f64": "8e7b4948388dbe6deab74fffccc9086c73146a1cc081388a352a169904c5e9e1",
+      "P1.f64": "6dd035ff02627d9e9c6b49a50b868c0adc92d933d74676f8f401001241287969"
+    }
+  },
+  {
+    "case": "uniform_n6000_d1_disc",
+    "family": "uniform",
+    "N": 6000,
+    "draw": 1,
+    "seed": 26262011,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "bb918147fe10391b43adeba4bd21b9ef32e5bd6c5076c3517733a05ed6dd0569",
+      "R1.f64": "7e10a052ad3a291071f210500f70749b23a76faa9cf16cd1d664dcbbeea4b9a5",
+      "P0.f64": "03faaeff684959a514952319a46a10dcf123ca53b7d9c5299bc80e5ee1c51dee",
+      "P1.f64": "53a26309e9ac162cbfa9db6b4af57dfb16e76cbc5632ec1b50615234243f8f0c"
+    }
+  },
+  {
+    "case": "uniform_n6000_d3_avg",
+    "family": "uniform",
+    "N": 6000,
+    "draw": 3,
+    "seed": 26262031,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "bb918147fe10391b43adeba4bd21b9ef32e5bd6c5076c3517733a05ed6dd0569",
+      "R1.f64": "e274896ab7d7dccbc95cca4b2795ddc814efbedded23cdb7a13a2f790d4e40ca",
+      "P0.f64": "09801e89251136e71537e7b19c499f57357300b203f1e3742b943d72268f8788",
+      "P1.f64": "c0cd5f5fab262721d5348773506c653a709dcf8f03da363803b7e4ef77cd14e4"
+    }
+  },
+  {
+    "case": "exponential_n6000_d2_disc",
+    "family": "exponential",
+    "N": 6000,
+    "draw": 2,
+    "seed": 26262022,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "3b17bf56aea27b8ea49c7c62767c5aaee995c25ade024af2fafda948f7595db5",
+      "R1.f64": "b7677a9eabe6d754d03ca5e7685c3a86a4b4663f3111f4cb1aad77cd047f9f92",
+      "P0.f64": "3f3b287088382321c36e2b5812a29095957392b473e77bdba380a6e0cfa3d4b3",
+      "P1.f64": "4225a6f4f5b092b477f6d5a7a6094dc474921eb722234a5a405cf7612a0e0fbf"
+    }
+  },
+  {
+    "case": "uniform_n6000_d3_disc",
+    "family": "uniform",
+    "N": 6000,
+    "draw": 3,
+    "seed": 26262031,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "bb918147fe10391b43adeba4bd21b9ef32e5bd6c5076c3517733a05ed6dd0569",
+      "R1.f64": "e274896ab7d7dccbc95cca4b2795ddc814efbedded23cdb7a13a2f790d4e40ca",
+      "P0.f64": "09801e89251136e71537e7b19c499f57357300b203f1e3742b943d72268f8788",
+      "P1.f64": "c0cd5f5fab262721d5348773506c653a709dcf8f03da363803b7e4ef77cd14e4"
+    }
+  },
+  {
+    "case": "uniform_n6000_d2_avg",
+    "family": "uniform",
+    "N": 6000,
+    "draw": 2,
+    "seed": 26262021,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP_blocked_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "bb918147fe10391b43adeba4bd21b9ef32e5bd6c5076c3517733a05ed6dd0569",
+      "R1.f64": "0fa59707e94c71e91f90a76711b1424ce4c81197ea4c1e177be117a132bfcbda",
+      "P0.f64": "8e7b4948388dbe6deab74fffccc9086c73146a1cc081388a352a169904c5e9e1",
+      "P1.f64": "6dd035ff02627d9e9c6b49a50b868c0adc92d933d74676f8f401001241287969"
+    }
+  },
+  {
+    "case": "exponential_n6000_d3_avg",
+    "family": "exponential",
+    "N": 6000,
+    "draw": 3,
+    "seed": 26262032,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "3b9e4e154cd0ed8af2f2d938f6e0037ba68772e79d8778ce125de4c9302eac53",
+      "R1.f64": "8379d74646f5c1c460118b581c618f4850f5c9c102c81fa87da795fdaf016585",
+      "P0.f64": "bf5fd49db636bf7ce908ce89a367e244c134440b2e0f0d67a24b23cf7f32f116",
+      "P1.f64": "b0e9188cb1ceeca7d4cd59f46f66569f0ffcc49d0d38a2c70b6ce5e5c0f90ea6"
+    }
+  },
+  {
+    "case": "uniform_n6000_d1_avg",
+    "family": "uniform",
+    "N": 6000,
+    "draw": 1,
+    "seed": 26262011,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "bb918147fe10391b43adeba4bd21b9ef32e5bd6c5076c3517733a05ed6dd0569",
+      "R1.f64": "7e10a052ad3a291071f210500f70749b23a76faa9cf16cd1d664dcbbeea4b9a5",
+      "P0.f64": "03faaeff684959a514952319a46a10dcf123ca53b7d9c5299bc80e5ee1c51dee",
+      "P1.f64": "53a26309e9ac162cbfa9db6b4af57dfb16e76cbc5632ec1b50615234243f8f0c"
+    }
+  },
+  {
+    "case": "uniform_n8000_d2_avg",
+    "family": "uniform",
+    "N": 8000,
+    "draw": 2,
+    "seed": 28262021,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+      "R1.f64": "ef3e4631fb120504f3aa2fe87f6ee9ef8f33cc08a92f5ca1fc95e1795db91a1f",
+      "P0.f64": "b5684a1c4ddde8749f6039f6221e5e60fed1f417c15b3ec25f494670d9369a0e",
+      "P1.f64": "486040ed719006f1178e20dbc60fbac34dbae5abec48396fd0a83727fbcbbe45"
+    }
+  },
+  {
+    "case": "exponential_n8000_d2_disc",
+    "family": "exponential",
+    "N": 8000,
+    "draw": 2,
+    "seed": 28262022,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "16014aa90394a2931af63a9fb9e7b76cc373c3ede7fd496005d18a751a6115a6",
+      "R1.f64": "9cc5cc903d4960cd0b20fed9a8ab7a2d18503defa93d16cbbb7f4aeb90f51b8e",
+      "P0.f64": "8389e0c1bb917f20e4811ccf870176d9335900112eedae9464976c5eaebe3ccd",
+      "P1.f64": "edb3c5df0ec331b1edd83e73d5b6727ef777d1524840cf011cef5efcff6a1389"
+    }
+  },
+  {
+    "case": "uniform_n8000_d1_disc",
+    "family": "uniform",
+    "N": 8000,
+    "draw": 1,
+    "seed": 28262011,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_up",
+          "FP2020_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+      "R1.f64": "c0003dbc140998f566bad2682af99981a2224570a3538417d77d48647d015410",
+      "P0.f64": "ec06a4ba8abbb9dcfc044cd76c376f5b4e42e9f7129a357c3cfd07d74542ad28",
+      "P1.f64": "4b9eb61e5c6a9ed04a9cd28d93c5daf4a331dcc78249c1299019d6fe492bedca"
+    }
+  },
+  {
+    "case": "uniform_n8000_d1_avg",
+    "family": "uniform",
+    "N": 8000,
+    "draw": 1,
+    "seed": 28262011,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+      "R1.f64": "c0003dbc140998f566bad2682af99981a2224570a3538417d77d48647d015410",
+      "P0.f64": "ec06a4ba8abbb9dcfc044cd76c376f5b4e42e9f7129a357c3cfd07d74542ad28",
+      "P1.f64": "4b9eb61e5c6a9ed04a9cd28d93c5daf4a331dcc78249c1299019d6fe492bedca"
+    }
+  },
+  {
+    "case": "exponential_n8000_d1_disc",
+    "family": "exponential",
+    "N": 8000,
+    "draw": 1,
+    "seed": 28262012,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_cubic",
+          "GGK_recompute"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP2020_down",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "42ea5276f4d093c26987180d2746f1c5e0dde0151a0b62c96252ec3ce4836325",
+      "R1.f64": "af25e9648923aa9b5b6855422b38c48dc159195c08cb1d6ed930a7d9bb86e5f5",
+      "P0.f64": "f79fa62fae91d4a5da8013ef49360831753d0d2d273b76092f8118726c20e407",
+      "P1.f64": "bd16ceb8fe206a8cd1e85e8523bdc9fd1ed6b543cd55acf0dc1ddca30391382b"
+    }
+  },
+  {
+    "case": "exponential_n8000_d2_avg",
+    "family": "exponential",
+    "N": 8000,
+    "draw": 2,
+    "seed": 28262022,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      },
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_down",
+          "FP2020_up",
+          "FP_blocked_down"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "16014aa90394a2931af63a9fb9e7b76cc373c3ede7fd496005d18a751a6115a6",
+      "R1.f64": "9cc5cc903d4960cd0b20fed9a8ab7a2d18503defa93d16cbbb7f4aeb90f51b8e",
+      "P0.f64": "8389e0c1bb917f20e4811ccf870176d9335900112eedae9464976c5eaebe3ccd",
+      "P1.f64": "edb3c5df0ec331b1edd83e73d5b6727ef777d1524840cf011cef5efcff6a1389"
+    }
+  },
+  {
+    "case": "exponential_n8000_d1_avg",
+    "family": "exponential",
+    "N": 8000,
+    "draw": 1,
+    "seed": 28262012,
+    "beta": 1.0,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP2020_up",
+          "FP_blocked_down",
+          "FP2020_down"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "42ea5276f4d093c26987180d2746f1c5e0dde0151a0b62c96252ec3ce4836325",
+      "R1.f64": "af25e9648923aa9b5b6855422b38c48dc159195c08cb1d6ed930a7d9bb86e5f5",
+      "P0.f64": "f79fa62fae91d4a5da8013ef49360831753d0d2d273b76092f8118726c20e407",
+      "P1.f64": "bd16ceb8fe206a8cd1e85e8523bdc9fd1ed6b543cd55acf0dc1ddca30391382b"
+    }
+  },
+  {
+    "case": "uniform_n8000_d2_disc",
+    "family": "uniform",
+    "N": 8000,
+    "draw": 2,
+    "seed": 28262021,
+    "beta": 0.99,
+    "repetitions": 2,
+    "phase_repetitions": 2,
+    "blocks": [
+      {
+        "language": "julia",
+        "methods": [
+          "FP_blocked_down",
+          "FP2020_down",
+          "FP2020_up"
+        ]
+      },
+      {
+        "language": "python",
+        "methods": [
+          "GGK_recompute",
+          "GGK_cubic"
+        ]
+      }
+    ],
+    "input_sha256": {
+      "R0.f64": "4f7988030a00d082fe445e00a2ac5dab502300ff1b80e8592dd569867b60ef74",
+      "R1.f64": "ef3e4631fb120504f3aa2fe87f6ee9ef8f33cc08a92f5ca1fc95e1795db91a1f",
+      "P0.f64": "b5684a1c4ddde8749f6039f6221e5e60fed1f417c15b3ec25f494670d9369a0e",
+      "P1.f64": "486040ed719006f1178e20dbc60fbac34dbae5abec48396fd0a83727fbcbbe45"
+    }
+  }
+]

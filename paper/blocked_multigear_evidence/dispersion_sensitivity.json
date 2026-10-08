@@ -1,0 +1,1146 @@
+{
+  "excluded_whole_case": "channel_N4096_B2_A4_p1_average",
+  "primary_data_unchanged": true,
+  "channel_blocked_total_speedup": {
+    "n": 39,
+    "minimum": 1.3080647525722684,
+    "median": 1.4803984376733372,
+    "maximum": 1.6179675346109816
+  },
+  "fixed_model_effects": [
+    {
+      "kind": "channel",
+      "panel": "states4",
+      "method": "FP",
+      "phase": "loop",
+      "model": "count_quadratic",
+      "primary_CV_MdAPE": 4.594650332814375,
+      "sensitivity": {
+        "identifiable": true,
+        "coefficients": [
+          0.045019455704611286,
+          0.15468203794228017,
+          -0.07827047078545894
+        ],
+        "HC3_se": [
+          0.013603419445331671,
+          0.0036705563441946708,
+          0.014103615232635877
+        ],
+        "predictions": [
+          0.12192091617393967,
+          0.14518415854476502,
+          0.9813180820768606,
+          1.1680921577317918,
+          3.5680586199884257,
+          4.199197627530127,
+          8.827085860230538,
+          10.323990738901742,
+          31.14173874959932,
+          36.19645647585086,
+          75.4845546593228,
+          260.49156127688775,
+          300.9505349933941
+        ],
+        "normalized_condition": 4.130362350304638,
+        "weighted_R2": 0.9989011776678725,
+        "MdAPE": 2.785457835669603,
+        "max_APE": 4.6184611480720426,
+        "RMSE_seconds": 3.1662277244164354,
+        "negative_predictions": 0,
+        "n": 13,
+        "ids": [
+          "channel_N512_B2_A4_p2_average",
+          "channel_N512_B2_A4_p1_average",
+          "channel_N1024_B2_A4_p2_average",
+          "channel_N1024_B2_A4_p1_average",
+          "channel_N1536_B2_A4_p2_average",
+          "channel_N1536_B2_A4_p1_average",
+          "channel_N2048_B2_A4_p2_average",
+          "channel_N2048_B2_A4_p1_average",
+          "channel_N3072_B2_A4_p2_average",
+          "channel_N3072_B2_A4_p1_average",
+          "channel_N4096_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p1_average"
+        ],
+        "levels": [
+          512,
+          1024,
+          1536,
+          2048,
+          3072,
+          4096,
+          6144
+        ],
+        "holdouts": [
+          {
+            "id": "channel_N512_B2_A4_p2_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.14454550937579674,
+            "APE": 15.074250454692153,
+            "relative_residual": -15.074250454692153
+          },
+          {
+            "id": "channel_N512_B2_A4_p1_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.1680069263971317,
+            "APE": 19.804435449513594,
+            "relative_residual": -19.804435449513594
+          },
+          {
+            "id": "channel_N1024_B2_A4_p2_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 0.9656615920371183,
+            "APE": 4.321201849881667,
+            "relative_residual": 4.321201849881667
+          },
+          {
+            "id": "channel_N1024_B2_A4_p1_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 1.1539828843944204,
+            "APE": 0.3792046745556557,
+            "relative_residual": -0.3792046745556557
+          },
+          {
+            "id": "channel_N1536_B2_A4_p2_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 3.585125343725081,
+            "APE": 0.6297338777930666,
+            "relative_residual": 0.6297338777930666
+          },
+          {
+            "id": "channel_N1536_B2_A4_p1_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 4.216403050510205,
+            "APE": 4.393422440680764,
+            "relative_residual": -4.393422440680764
+          },
+          {
+            "id": "channel_N2048_B2_A4_p2_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 8.856744877783045,
+            "APE": 1.1499779336606317,
+            "relative_residual": 1.1499779336606317
+          },
+          {
+            "id": "channel_N2048_B2_A4_p1_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 10.359240219029349,
+            "APE": 4.975662782641905,
+            "relative_residual": -4.975662782641905
+          },
+          {
+            "id": "channel_N3072_B2_A4_p2_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 31.108633507594465,
+            "APE": 3.444006266393869,
+            "relative_residual": 3.444006266393869
+          },
+          {
+            "id": "channel_N3072_B2_A4_p1_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 36.15849511631822,
+            "APE": 2.4868139699507026,
+            "relative_residual": -2.4868139699507026
+          },
+          {
+            "id": "channel_N4096_B2_A4_p2_average",
+            "level": 4096,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 74.95160338600658,
+            "APE": 4.303170969079671,
+            "relative_residual": 4.303170969079671
+          },
+          {
+            "id": "channel_N6144_B2_A4_p2_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 260.5545100061874,
+            "APE": 2.7079327313790524,
+            "relative_residual": 2.7079327313790524
+          },
+          {
+            "id": "channel_N6144_B2_A4_p1_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 301.0298116695092,
+            "APE": 2.8125336787158863,
+            "relative_residual": -2.8125336787158863
+          }
+        ],
+        "holdouts_complete": true,
+        "CV_MdAPE": 3.444006266393869,
+        "CV_max_APE": 19.804435449513594,
+        "CV_negative_predictions": 0
+      }
+    },
+    {
+      "kind": "channel",
+      "panel": "states4",
+      "method": "FP",
+      "phase": "total",
+      "model": "count_quadratic",
+      "primary_CV_MdAPE": 1.4980627206707302,
+      "sensitivity": {
+        "identifiable": true,
+        "coefficients": [
+          0.04417590563847437,
+          0.06758732303860714,
+          -0.06700939201665629
+        ],
+        "HC3_se": [
+          0.010299303930961505,
+          0.000669612978284723,
+          0.010978831686278442
+        ],
+        "predictions": [
+          0.18248870577609616,
+          0.19265343012262365,
+          1.427976024058692,
+          1.5095857568657916,
+          5.028052814286001,
+          5.303824950161949,
+          12.230176354240532,
+          12.884239327153846,
+          42.43037749296172,
+          44.63900393968993,
+          102.00812024113357,
+          349.214295064137,
+          366.8925837831441
+        ],
+        "normalized_condition": 4.1493606182934215,
+        "weighted_R2": 0.9997776955174407,
+        "MdAPE": 1.1720102865339295,
+        "max_APE": 2.609123309236782,
+        "RMSE_seconds": 1.1807185738365198,
+        "negative_predictions": 0,
+        "n": 13,
+        "ids": [
+          "channel_N512_B2_A4_p2_average",
+          "channel_N512_B2_A4_p1_average",
+          "channel_N1024_B2_A4_p2_average",
+          "channel_N1024_B2_A4_p1_average",
+          "channel_N1536_B2_A4_p2_average",
+          "channel_N1536_B2_A4_p1_average",
+          "channel_N2048_B2_A4_p2_average",
+          "channel_N2048_B2_A4_p1_average",
+          "channel_N3072_B2_A4_p2_average",
+          "channel_N3072_B2_A4_p1_average",
+          "channel_N4096_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p1_average"
+        ],
+        "levels": [
+          512,
+          1024,
+          1536,
+          2048,
+          3072,
+          4096,
+          6144
+        ],
+        "holdouts": [
+          {
+            "id": "channel_N512_B2_A4_p2_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.21835620473542675,
+            "APE": 21.14744477321192,
+            "relative_residual": -21.14744477321192
+          },
+          {
+            "id": "channel_N512_B2_A4_p1_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.2286068383554866,
+            "APE": 17.271487224721472,
+            "relative_residual": -17.271487224721472
+          },
+          {
+            "id": "channel_N1024_B2_A4_p2_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 1.4126154388019152,
+            "APE": 0.23931888610581753,
+            "relative_residual": -0.23931888610581753
+          },
+          {
+            "id": "channel_N1024_B2_A4_p1_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 1.4946944243153344,
+            "APE": 3.5698371511544478,
+            "relative_residual": 3.5698371511544478
+          },
+          {
+            "id": "channel_N1536_B2_A4_p2_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 5.042044150127711,
+            "APE": 2.6880449720043584,
+            "relative_residual": -2.6880449720043584
+          },
+          {
+            "id": "channel_N1536_B2_A4_p1_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 5.317523174610469,
+            "APE": 0.7871391380208489,
+            "relative_residual": 0.7871391380208489
+          },
+          {
+            "id": "channel_N2048_B2_A4_p2_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 12.24389978612131,
+            "APE": 1.4152014901954726,
+            "relative_residual": -1.4152014901954726
+          },
+          {
+            "id": "channel_N2048_B2_A4_p1_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 12.898358320772568,
+            "APE": 0.24613027288399594,
+            "relative_residual": 0.24613027288399594
+          },
+          {
+            "id": "channel_N3072_B2_A4_p2_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 42.33605865520264,
+            "APE": 0.08709377942100081,
+            "relative_residual": -0.08709377942100081
+          },
+          {
+            "id": "channel_N3072_B2_A4_p1_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 44.537010395125044,
+            "APE": 1.8535814641527903,
+            "relative_residual": 1.8535814641527903
+          },
+          {
+            "id": "channel_N4096_B2_A4_p2_average",
+            "level": 4096,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 102.03321196712628,
+            "APE": 0.14778177698774161,
+            "relative_residual": -0.14778177698774161
+          },
+          {
+            "id": "channel_N6144_B2_A4_p2_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 349.72079081417434,
+            "APE": 1.1348825059492635,
+            "relative_residual": -1.1348825059492635
+          },
+          {
+            "id": "channel_N6144_B2_A4_p1_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 367.4330502471524,
+            "APE": 0.506686141189665,
+            "relative_residual": 0.506686141189665
+          }
+        ],
+        "holdouts_complete": true,
+        "CV_MdAPE": 1.1348825059492635,
+        "CV_max_APE": 21.14744477321192,
+        "CV_negative_predictions": 0
+      }
+    },
+    {
+      "kind": "channel",
+      "panel": "states4",
+      "method": "FP_BLOCKED",
+      "phase": "loop",
+      "model": "count_quadratic",
+      "primary_CV_MdAPE": 1.6688437860573169,
+      "sensitivity": {
+        "identifiable": true,
+        "coefficients": [
+          0.015216435480012697,
+          0.07617178031623471,
+          -0.014471371907577208
+        ],
+        "HC3_se": [
+          0.0038578097553505614,
+          0.0011548816926173558,
+          0.004556599571913733
+        ],
+        "predictions": [
+          0.08224172646554556,
+          0.09407003653995166,
+          0.5934093147421112,
+          0.6869878422649968,
+          2.0139428361956404,
+          2.3281070905591306,
+          4.8092664129504055,
+          5.552473427505019,
+          16.385358770801172,
+          18.88808664119613,
+          39.04433297659918,
+          132.50044778586167,
+          152.4780122032352
+        ],
+        "normalized_condition": 4.1718657861283175,
+        "weighted_R2": 0.9996876978464198,
+        "MdAPE": 1.0977625838472285,
+        "max_APE": 3.0852893778995147,
+        "RMSE_seconds": 0.9220598191286467,
+        "negative_predictions": 0,
+        "n": 13,
+        "ids": [
+          "channel_N512_B2_A4_p2_average",
+          "channel_N512_B2_A4_p1_average",
+          "channel_N1024_B2_A4_p2_average",
+          "channel_N1024_B2_A4_p1_average",
+          "channel_N1536_B2_A4_p2_average",
+          "channel_N1536_B2_A4_p1_average",
+          "channel_N2048_B2_A4_p2_average",
+          "channel_N2048_B2_A4_p1_average",
+          "channel_N3072_B2_A4_p2_average",
+          "channel_N3072_B2_A4_p1_average",
+          "channel_N4096_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p1_average"
+        ],
+        "levels": [
+          512,
+          1024,
+          1536,
+          2048,
+          3072,
+          4096,
+          6144
+        ],
+        "holdouts": [
+          {
+            "id": "channel_N512_B2_A4_p2_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.10725690525410847,
+            "APE": 29.366275783868403,
+            "relative_residual": -29.366275783868403
+          },
+          {
+            "id": "channel_N512_B2_A4_p1_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.11927370526539308,
+            "APE": 28.184331386916188,
+            "relative_residual": -28.184331386916188
+          },
+          {
+            "id": "channel_N1024_B2_A4_p2_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 0.5826834658513149,
+            "APE": 3.515206622229395,
+            "relative_residual": 3.515206622229395
+          },
+          {
+            "id": "channel_N1024_B2_A4_p1_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 0.6772682921925055,
+            "APE": 1.4538289184269007,
+            "relative_residual": 1.4538289184269007
+          },
+          {
+            "id": "channel_N1536_B2_A4_p2_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 2.018037730040037,
+            "APE": 0.0453565358077912,
+            "relative_residual": -0.0453565358077912
+          },
+          {
+            "id": "channel_N1536_B2_A4_p1_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 2.3321604281449613,
+            "APE": 1.4497771999227602,
+            "relative_residual": -1.4497771999227602
+          },
+          {
+            "id": "channel_N2048_B2_A4_p2_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 4.828412613579364,
+            "APE": 0.7727255235056713,
+            "relative_residual": -0.7727255235056713
+          },
+          {
+            "id": "channel_N2048_B2_A4_p1_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 5.574210095510082,
+            "APE": 3.488844791656832,
+            "relative_residual": -3.488844791656832
+          },
+          {
+            "id": "channel_N3072_B2_A4_p2_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 16.412454091547264,
+            "APE": 0.5329471233724341,
+            "relative_residual": 0.5329471233724341
+          },
+          {
+            "id": "channel_N3072_B2_A4_p1_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 18.92259384109471,
+            "APE": 1.8821557374122737,
+            "relative_residual": -1.8821557374122737
+          },
+          {
+            "id": "channel_N4096_B2_A4_p2_average",
+            "level": 4096,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 38.84807531354584,
+            "APE": 3.0951443495789155,
+            "relative_residual": 3.0951443495789155
+          },
+          {
+            "id": "channel_N6144_B2_A4_p2_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 131.79369039552085,
+            "APE": 2.6027148298355662,
+            "relative_residual": 2.6027148298355662
+          },
+          {
+            "id": "channel_N6144_B2_A4_p1_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 151.62559213603302,
+            "APE": 0.34692788769907273,
+            "relative_residual": -0.34692788769907273
+          }
+        ],
+        "holdouts_complete": true,
+        "CV_MdAPE": 1.8821557374122737,
+        "CV_max_APE": 29.366275783868403,
+        "CV_negative_predictions": 0
+      }
+    },
+    {
+      "kind": "channel",
+      "panel": "states4",
+      "method": "FP_BLOCKED",
+      "phase": "total",
+      "model": "count",
+      "primary_CV_MdAPE": 1.618480318856629,
+      "sensitivity": {
+        "identifiable": true,
+        "coefficients": [
+          0.013202493596716602,
+          0.04041875703467538
+        ],
+        "HC3_se": [
+          0.0029980907251380678,
+          0.00019468164273558892
+        ],
+        "predictions": [
+          0.13979026074799952,
+          0.1460666742576143,
+          1.0169507221952316,
+          1.0666059587133685,
+          3.3906360048841977,
+          3.5573398499746016,
+          8.00690449581066,
+          8.401269753167616,
+          26.95109489255561,
+          28.279108354988026,
+          63.81759295485817,
+          215.18923086374818,
+          225.7898538106993
+        ],
+        "normalized_condition": 1.0000000000000002,
+        "weighted_R2": 0.999737665749914,
+        "MdAPE": 1.3378648697275322,
+        "max_APE": 2.155620928022219,
+        "RMSE_seconds": 1.0919214539938835,
+        "negative_predictions": 0,
+        "n": 13,
+        "ids": [
+          "channel_N512_B2_A4_p2_average",
+          "channel_N512_B2_A4_p1_average",
+          "channel_N1024_B2_A4_p2_average",
+          "channel_N1024_B2_A4_p1_average",
+          "channel_N1536_B2_A4_p2_average",
+          "channel_N1536_B2_A4_p1_average",
+          "channel_N2048_B2_A4_p2_average",
+          "channel_N2048_B2_A4_p1_average",
+          "channel_N3072_B2_A4_p2_average",
+          "channel_N3072_B2_A4_p1_average",
+          "channel_N4096_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p1_average"
+        ],
+        "levels": [
+          512,
+          1024,
+          1536,
+          2048,
+          3072,
+          4096,
+          6144
+        ],
+        "holdouts": [
+          {
+            "id": "channel_N512_B2_A4_p2_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.14405799021062973,
+            "APE": 4.547900540139215,
+            "relative_residual": -4.547900540139215
+          },
+          {
+            "id": "channel_N512_B2_A4_p1_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.15032719269308217,
+            "APE": 1.4602131850850777,
+            "relative_residual": -1.4602131850850777
+          },
+          {
+            "id": "channel_N1024_B2_A4_p2_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 1.015820583403193,
+            "APE": 0.9162799856744537,
+            "relative_residual": -0.9162799856744537
+          },
+          {
+            "id": "channel_N1024_B2_A4_p1_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 1.0654163069124705,
+            "APE": 2.264752834533542,
+            "relative_residual": 2.264752834533542
+          },
+          {
+            "id": "channel_N1536_B2_A4_p2_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 3.3951637648876276,
+            "APE": 2.188738642158277,
+            "relative_residual": -2.188738642158277
+          },
+          {
+            "id": "channel_N1536_B2_A4_p1_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 3.562099625398798,
+            "APE": 0.6524179936102658,
+            "relative_residual": 0.6524179936102658
+          },
+          {
+            "id": "channel_N2048_B2_A4_p2_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 8.015905900515676,
+            "APE": 2.1041182423620706,
+            "relative_residual": -2.1041182423620706
+          },
+          {
+            "id": "channel_N2048_B2_A4_p1_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 8.410723144340965,
+            "APE": 0.8598891811519043,
+            "relative_residual": 0.8598891811519043
+          },
+          {
+            "id": "channel_N3072_B2_A4_p2_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 26.946575292746118,
+            "APE": 1.2142620230523904,
+            "relative_residual": -1.2142620230523904
+          },
+          {
+            "id": "channel_N3072_B2_A4_p1_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 28.27436470366934,
+            "APE": 1.3544148529002629,
+            "relative_residual": 1.3544148529002629
+          },
+          {
+            "id": "channel_N4096_B2_A4_p2_average",
+            "level": 4096,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 63.82177928284658,
+            "APE": 0.06751973543083262,
+            "relative_residual": -0.06751973543083262
+          },
+          {
+            "id": "channel_N6144_B2_A4_p2_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 214.9496401508231,
+            "APE": 0.5740752130839104,
+            "relative_residual": -0.5740752130839104
+          },
+          {
+            "id": "channel_N6144_B2_A4_p1_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 225.53845142003905,
+            "APE": 1.6846700525474656,
+            "relative_residual": 1.6846700525474656
+          }
+        ],
+        "holdouts_complete": true,
+        "CV_MdAPE": 1.3544148529002629,
+        "CV_max_APE": 4.547900540139215,
+        "CV_negative_predictions": 0
+      }
+    },
+    {
+      "kind": "channel",
+      "panel": "states4",
+      "method": "M",
+      "phase": "loop",
+      "model": "count",
+      "primary_CV_MdAPE": 2.1831965539756135,
+      "sensitivity": {
+        "identifiable": true,
+        "coefficients": [
+          -0.004525689199792682,
+          0.11766172588427473
+        ],
+        "HC3_se": [
+          0.002537251086771456,
+          0.0008455198184787421
+        ],
+        "predictions": [
+          0.24989911140208587,
+          0.249806035564472,
+          2.023922407816497,
+          2.0235521557805702,
+          6.83360467788502,
+          6.832771700874238,
+          16.19500595633518,
+          16.19352567063447,
+          54.63720543702524,
+          54.633870273988116,
+          129.47899558583956,
+          436.8752670812355,
+          436.86192859971055
+        ],
+        "normalized_condition": 1.0000000000000002,
+        "weighted_R2": 0.9995425630145728,
+        "MdAPE": 1.1486949657055228,
+        "max_APE": 3.4791441037463984,
+        "RMSE_seconds": 5.955063646746912,
+        "negative_predictions": 0,
+        "n": 13,
+        "ids": [
+          "channel_N512_B2_A4_p2_average",
+          "channel_N512_B2_A4_p1_average",
+          "channel_N1024_B2_A4_p2_average",
+          "channel_N1024_B2_A4_p1_average",
+          "channel_N1536_B2_A4_p2_average",
+          "channel_N1536_B2_A4_p1_average",
+          "channel_N2048_B2_A4_p2_average",
+          "channel_N2048_B2_A4_p1_average",
+          "channel_N3072_B2_A4_p2_average",
+          "channel_N3072_B2_A4_p1_average",
+          "channel_N4096_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p1_average"
+        ],
+        "levels": [
+          512,
+          1024,
+          1536,
+          2048,
+          3072,
+          4096,
+          6144
+        ],
+        "holdouts": [
+          {
+            "id": "channel_N512_B2_A4_p2_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.26171580043250625,
+            "APE": 5.2540870319747235,
+            "relative_residual": -5.2540870319747235
+          },
+          {
+            "id": "channel_N512_B2_A4_p1_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.2616228649655033,
+            "APE": 4.327686094766439,
+            "relative_residual": -4.327686094766439
+          },
+          {
+            "id": "channel_N1024_B2_A4_p2_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 2.019002767441435,
+            "APE": 1.6505898746005827,
+            "relative_residual": 1.6505898746005827
+          },
+          {
+            "id": "channel_N1024_B2_A4_p1_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 2.0186334639533485,
+            "APE": 1.3889749628350403,
+            "relative_residual": 1.3889749628350403
+          },
+          {
+            "id": "channel_N1536_B2_A4_p2_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 6.868149948002529,
+            "APE": 2.806321574009049,
+            "relative_residual": -2.806321574009049
+          },
+          {
+            "id": "channel_N1536_B2_A4_p1_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 6.867312605621213,
+            "APE": 2.940080039705587,
+            "relative_residual": -2.940080039705587
+          },
+          {
+            "id": "channel_N2048_B2_A4_p2_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 16.239617938942747,
+            "APE": 2.8885788927841674,
+            "relative_residual": -2.8885788927841674
+          },
+          {
+            "id": "channel_N2048_B2_A4_p1_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 16.2381335060962,
+            "APE": 0.10814575387721118,
+            "relative_residual": -0.10814575387721118
+          },
+          {
+            "id": "channel_N3072_B2_A4_p2_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 54.74139202610187,
+            "APE": 0.979109993414034,
+            "relative_residual": -0.979109993414034
+          },
+          {
+            "id": "channel_N3072_B2_A4_p1_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 54.73805046988455,
+            "APE": 1.0108323280333964,
+            "relative_residual": -1.0108323280333964
+          },
+          {
+            "id": "channel_N4096_B2_A4_p2_average",
+            "level": 4096,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 129.59652392999115,
+            "APE": 0.9418282037216422,
+            "relative_residual": -0.9418282037216422
+          },
+          {
+            "id": "channel_N6144_B2_A4_p2_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 433.20717889734203,
+            "APE": 4.2895516449599835,
+            "relative_residual": 4.2895516449599835
+          },
+          {
+            "id": "channel_N6144_B2_A4_p1_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 433.19395248287753,
+            "APE": 4.0324282800141935,
+            "relative_residual": 4.0324282800141935
+          }
+        ],
+        "holdouts_complete": true,
+        "CV_MdAPE": 2.806321574009049,
+        "CV_max_APE": 5.2540870319747235,
+        "CV_negative_predictions": 0
+      }
+    },
+    {
+      "kind": "channel",
+      "panel": "states4",
+      "method": "M",
+      "phase": "total",
+      "model": "count",
+      "primary_CV_MdAPE": 2.0462276747565262,
+      "sensitivity": {
+        "identifiable": true,
+        "coefficients": [
+          0.0004522340996457319,
+          0.09590969190241927
+        ],
+        "HC3_se": [
+          0.0019158507088024384,
+          0.0006215885560610404
+        ],
+        "predictions": [
+          0.26826737062679834,
+          0.2681915016486577,
+          2.1358958282145215,
+          2.1355940243915277,
+          7.1995630013375385,
+          7.198884016154673,
+          17.055493922827097,
+          17.054287296420632,
+          57.52904694638323,
+          57.52632835240603,
+          136.32635064418642,
+          459.9714095498058,
+          459.96053694323905
+        ],
+        "normalized_condition": 1.0000000000000002,
+        "weighted_R2": 0.9996278022170273,
+        "MdAPE": 1.1351851558044825,
+        "max_APE": 3.0320592143523886,
+        "RMSE_seconds": 5.629715242047354,
+        "negative_predictions": 0,
+        "n": 13,
+        "ids": [
+          "channel_N512_B2_A4_p2_average",
+          "channel_N512_B2_A4_p1_average",
+          "channel_N1024_B2_A4_p2_average",
+          "channel_N1024_B2_A4_p1_average",
+          "channel_N1536_B2_A4_p2_average",
+          "channel_N1536_B2_A4_p1_average",
+          "channel_N2048_B2_A4_p2_average",
+          "channel_N2048_B2_A4_p1_average",
+          "channel_N3072_B2_A4_p2_average",
+          "channel_N3072_B2_A4_p1_average",
+          "channel_N4096_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p2_average",
+          "channel_N6144_B2_A4_p1_average"
+        ],
+        "levels": [
+          512,
+          1024,
+          1536,
+          2048,
+          3072,
+          4096,
+          6144
+        ],
+        "holdouts": [
+          {
+            "id": "channel_N512_B2_A4_p2_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.2861915163240437,
+            "APE": 6.677370425750883,
+            "relative_residual": -6.677370425750883
+          },
+          {
+            "id": "channel_N512_B2_A4_p1_average",
+            "level": 512,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 0.2861158122215862,
+            "APE": 6.8581827805703535,
+            "relative_residual": -6.8581827805703535
+          },
+          {
+            "id": "channel_N1024_B2_A4_p2_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 2.130304455504399,
+            "APE": 1.875444741631393,
+            "relative_residual": 1.875444741631393
+          },
+          {
+            "id": "channel_N1024_B2_A4_p1_average",
+            "level": 1024,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 2.1300034864173063,
+            "APE": 1.3939925393184522,
+            "relative_residual": 1.3939925393184522
+          },
+          {
+            "id": "channel_N1536_B2_A4_p2_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 7.22984749177469,
+            "APE": 2.2975455702428715,
+            "relative_residual": -2.2975455702428715
+          },
+          {
+            "id": "channel_N1536_B2_A4_p1_average",
+            "level": 1536,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 7.229165543555749,
+            "APE": 2.465250550898897,
+            "relative_residual": -2.465250550898897
+          },
+          {
+            "id": "channel_N2048_B2_A4_p2_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 17.10984858379115,
+            "APE": 2.7096111487414114,
+            "relative_residual": -2.7096111487414114
+          },
+          {
+            "id": "channel_N2048_B2_A4_p1_average",
+            "level": 2048,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 17.108638045279665,
+            "APE": 0.7388516254363044,
+            "relative_residual": -0.7388516254363044
+          },
+          {
+            "id": "channel_N3072_B2_A4_p2_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 57.62666283447278,
+            "APE": 0.8568094072294208,
+            "relative_residual": -0.8568094072294208
+          },
+          {
+            "id": "channel_N3072_B2_A4_p1_average",
+            "level": 3072,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 57.623939602896236,
+            "APE": 0.9123701585945794,
+            "relative_residual": -0.9123701585945794
+          },
+          {
+            "id": "channel_N4096_B2_A4_p2_average",
+            "level": 4096,
+            "identifiable": true,
+            "endpoint": false,
+            "prediction": 136.4535728945271,
+            "APE": 0.9685422805750806,
+            "relative_residual": -0.9685422805750806
+          },
+          {
+            "id": "channel_N6144_B2_A4_p2_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 456.502418504094,
+            "APE": 3.763367533353679,
+            "relative_residual": 3.763367533353679
+          },
+          {
+            "id": "channel_N6144_B2_A4_p1_average",
+            "level": 6144,
+            "identifiable": true,
+            "endpoint": true,
+            "prediction": 456.4916279516043,
+            "APE": 3.737657731904432,
+            "relative_residual": 3.737657731904432
+          }
+        ],
+        "holdouts_complete": true,
+        "CV_MdAPE": 2.2975455702428715,
+        "CV_max_APE": 6.8581827805703535,
+        "CV_negative_predictions": 0
+      }
+    }
+  ]
+}

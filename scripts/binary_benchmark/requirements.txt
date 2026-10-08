@@ -1,0 +1,6 @@
+numpy==1.26.4
+scipy==1.12.0
+numba==0.61.2
+llvmlite==0.44.0
+threadpoolctl==3.6.0
+markovianbandit-pkg==0.4

@@ -1,0 +1,27 @@
+"revision" = "rayleigh-heterogeneous-timescales-v1"
+"production_enabled" = false
+"master_seed" = 2026092501
+"base_counts" = [25, 25]
+"weights" = ["1", "1"]
+"contrasts" = [1, 4, 16, 64]
+"load_multipliers" = ["1/4", "1/2", "4/5"]
+"fast_d" = "1/8"
+"resource_menu" = ["0", "33/32", "105/32"]
+"all_high_resource_per_project" = "21/32"
+"primary_cap" = 512
+"population" = 100
+"replications" = 4
+"planned_production_populations" = [50, 100, 200, 400, 800, 1600]
+"planned_production_minimum_replications" = 32
+"extra_caps" = [{"contrast" = 16, "H" = 1024, "alpha" = "1/2"}, {"contrast" = 64, "H" = 1024, "alpha" = "1/2"}, {"contrast" = 64, "H" = 2048, "alpha" = "1/2"}]
+"initial" = "zero"
+"short_burn" = 2048
+"slow_sojourns_burn" = 16
+"horizon_burn_multiple" = 2
+"window_checks" = [{"contrast" = 16, "H" = 512, "alpha" = "1/2"}, {"contrast" = 64, "H" = 2048, "alpha" = "1/2"}]
+"policies" = ["WHITTLE_K", "WHITTLE_P", "LAGRANGIAN_K", "LAGRANGIAN_NI", "LAGRANGIAN_FC", "MYOPIC_K"]
+"probes" = {"populations" = [50, 100], "patterns" = ["all_cap", "stratified", "competition"]}
+"allocator" = {"max_states" = 200000, "max_updates" = 20000000, "seconds" = 30.0}
+"resource_limits" = {"preparation_seconds" = 1200.0, "worker_seconds" = 1500.0, "trajectory_seconds" = 600.0, "stage_seconds" = 10800.0, "rss_bytes" = 8589934592, "heap_hint" = "4G", "max_concurrent_trajectories" = 1, "max_individual_rational_bits" = 262144}
+"certificate" = {"seconds_per_case" = 600.0, "maximum_exact_policy_fallbacks" = 4096, "exact_max_H" = 2048, "exact_max_A" = 8, "exact_input_bits" = 2048, "root_atol" = 1e-12, "root_rtol" = 1e-10}
+"claim_scope" = "capped finite-state pilot; exploratory selection of mechanism disclosed; no required policy ranking or stationary/asymptotic conclusion"

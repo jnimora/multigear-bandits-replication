@@ -1,0 +1,34 @@
+{
+  "replication_records": 6528,
+  "class_replication_records": 13056,
+  "groups": 204,
+  "checked_statistics": 37872,
+  "method_case_medians_verified": 296,
+  "regression_fits_verified": 282,
+  "holdout_predictions_verified": 2656,
+  "maximum_relative_prediction_difference": 9.185896487906575e-11,
+  "exact_rational_blocked_pivots_verified": 216,
+  "verified_binary_scalar_records": 3200,
+  "verified_binary_fits": 80,
+  "regenerated_binary_inputs_matching_original_sha256": 40,
+  "regenerated_multigear_inputs_matching_original_sha256": 90,
+  "checked_utc": "2026-10-08T05:30:34.702975+00:00",
+  "julia_algorithm_test_suite": "passed",
+  "illustrative_examples": [
+    "discounted/average blocked quickstart passed",
+    "six-policy exact-model allocation example passed"
+  ],
+  "fresh_case_checks": {
+    "binary_exponential_n1000_d5_disc": "fresh path audits and both Julia/Python measurement blocks complete",
+    "channel_N512_B2_A4_p1_average": "fresh reference, blocked audits, all measurement blocks accepted",
+    "BLOCK_N1025_A1_p1": "internal checks passed; complete_provisional, not a fresh full cross-method campaign"
+  },
+  "generated_figure_pdfs": 10,
+  "generated_tex_tables": 7,
+  "full_campaign_rerun": false,
+  "original_worktree_and_experimental_archives_unchanged": true,
+  "unchanged_measured_multigear_source_files": 32,
+  "validation_scope": "Prepublication validation of the numerical code and evidence; subsequent release metadata edits do not change the numerical results.",
+  "publication_repository": "https://github.com/jnimora/multigear-bandits-replication",
+  "development_history_included": false
+}
