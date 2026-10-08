@@ -5,7 +5,8 @@ doi: "10.5281/zenodo.23230777"
 date-released: "2026-10-08"
 abstract: >-
   Julia algorithms and compact replication evidence accompanying Fast parametric
-  solution of structured Markov decision processes: Multi-gear bandits. Includes
+  solution and index policies for structured Markov decision processes: Multi-gear
+  bandits. Includes
   optimized blocked fast-pivoting implementations, input generators and checksums,
   measured timing and simulation observations, and manuscript reporting scripts.
 type: software

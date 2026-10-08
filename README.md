@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23230777.svg)](https://doi.org/10.5281/zenodo.23230777)
 
-Algorithms and replication material for José Niño-Mora, *Fast parametric solution of structured Markov decision processes: Multi-gear bandits*.
+Algorithms and replication material for José Niño-Mora, *Fast parametric solution and index policies for structured Markov decision processes: Multi-gear bandits*.
 
 This repository provides explicit implementations of the adaptive-greedy downshift algorithms for finite-state, finite-action bandits, including positive-work candidate selection and in-loop MPI monotonicity checks. A supplied policy family controls the feasible active-set changes. Discounted and average criteria are supported under the conditions described in the paper. Completion of a numerical path is not a general proof of indexability outside those conditions.
 
